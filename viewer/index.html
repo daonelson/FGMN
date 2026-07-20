@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reading Room — A Field Guide to the Majjhima Nikāya</title>
+<title>Viewer — A Field Guide to the Majjhima Nikaya</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -12,9 +12,12 @@
 :root{
   --bg-deep:      #140e0e;
   --bg-mid:       #1c1212;
+  --bg-raised:    #251818;
+  --bg-card:      #2a1a1a;
   --gold:         #c9a84c;
   --gold-bright:  #e8d5a3;
   --gold-dim:     #8a7340;
+  --gold-shadow:  rgba(201,168,76,0.15);
   --text:         #f0e6d8;
   --text-soft:    #c4b8a8;
   --text-muted:   #8a7e72;
@@ -24,322 +27,410 @@
 
 *{ margin:0; padding:0; box-sizing:border-box; }
 
-html, body{ height: 100%; overflow: hidden; }
+html,body{
+  height: 100%;
+  overflow: hidden;
+}
 
 body{
   font-family: 'Inter', sans-serif;
   background: var(--bg-deep);
   color: var(--text);
-  position: relative;
 }
 
-body .atmosphere-layer{
+.atmosphere-layer{
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top:0; left:0;
+  width:100%; height:100%;
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(ellipse 60% 40% at 50% 20%, rgba(201,168,76,0.06) 0%, transparent 60%),
-    radial-gradient(ellipse 80% 30% at 50% 100%, rgba(184,115,51,0.04) 0%, transparent 50%),
-    linear-gradient(180deg, #140e0e 0%, #1a1010 50%, #140e0e 100%);
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(201,168,76,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 100% 30% at 50% 100%, rgba(184,115,51,0.06) 0%, transparent 50%),
+    linear-gradient(180deg, #140e0e 0%, #1a1010 30%, #1c1212 60%, #140e0e 100%);
 }
 
-body .texture-layer{
+.texture-layer{
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  top:0; left:0;
+  width:100%; height:100%;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.02;
+  opacity: 0.025;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 256px 256px;
 }
 
-.dust-container{
+/* ── Header ── */
+.header{
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  pointer-events: none;
-  z-index: 2;
-  overflow: hidden;
-}
-
-.dust-mote{
-  position: absolute;
-  width: 2px; height: 2px;
-  background: var(--gold-bright);
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 4px var(--gold-bright), 0 0 8px var(--gold);
-}
-
-.dust-mote:nth-child(1)  { left: 10%; animation: dustFloat1 15s ease-in-out infinite; animation-delay: 0s; }
-.dust-mote:nth-child(2)  { left: 25%; animation: dustFloat2 18s ease-in-out infinite; animation-delay: 2s; }
-.dust-mote:nth-child(3)  { left: 40%; animation: dustFloat1 20s ease-in-out infinite; animation-delay: 5s; }
-.dust-mote:nth-child(4)  { left: 55%; animation: dustFloat3 16s ease-in-out infinite; animation-delay: 1s; }
-.dust-mote:nth-child(5)  { left: 70%; animation: dustFloat2 22s ease-in-out infinite; animation-delay: 7s; }
-.dust-mote:nth-child(6)  { left: 85%; animation: dustFloat1 14s ease-in-out infinite; animation-delay: 3s; }
-.dust-mote:nth-child(7)  { left: 15%; animation: dustFloat3 19s ease-in-out infinite; animation-delay: 4s; }
-.dust-mote:nth-child(8)  { left: 35%; animation: dustFloat2 17s ease-in-out infinite; animation-delay: 6s; }
-.dust-mote:nth-child(9)  { left: 60%; animation: dustFloat1 21s ease-in-out infinite; animation-delay: 8s; }
-.dust-mote:nth-child(10) { left: 80%; animation: dustFloat3 15s ease-in-out infinite; animation-delay: 2.5s; }
-
-@keyframes dustFloat1{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.5); }
-  10%  { opacity: 0.6; }
-  50%  { transform: translateX(30px) scale(1); }
-  90%  { opacity: 0.4; }
-  100% { top: -10%; opacity: 0; transform: translateX(-20px) scale(0.5); }
-}
-
-@keyframes dustFloat2{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.3); }
-  15%  { opacity: 0.5; }
-  45%  { transform: translateX(-25px) scale(1.2); }
-  85%  { opacity: 0.3; }
-  100% { top: -10%; opacity: 0; transform: translateX(15px) scale(0.4); }
-}
-
-@keyframes dustFloat3{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.6); }
-  8%   { opacity: 0.7; }
-  55%  { transform: translateX(20px) scale(0.9); }
-  92%  { opacity: 0.2; }
-  100% { top: -10%; opacity: 0; transform: translateX(-30px) scale(0.5); }
-}
-
-.top-bar{
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 60px;
+  top:0; left:0; right:0;
+  height: 64px;
+  background: linear-gradient(180deg, rgba(20,14,14,0.98) 0%, rgba(20,14,14,0.85) 60%, transparent 100%);
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
-  z-index: 100;
-  background: linear-gradient(180deg, rgba(20,14,14,0.95) 0%, rgba(20,14,14,0.7) 70%, transparent 100%);
-  backdrop-filter: blur(10px);
+  padding: 0 28px;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(201,168,76,0.06);
 }
 
-.back-link{
+.header-left{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.back-btn{
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  color: var(--gold-dim);
+  gap: 8px;
+  padding: 8px 18px;
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 999px;
   text-decoration: none;
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  transition: color 0.3s ease;
+  color: var(--gold);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  transition: all 0.35s var(--transition-smooth);
+  background: rgba(201,168,76,0.03);
+  cursor: pointer;
 }
 
-.back-link:hover{ color: var(--gold); }
-
-.back-arrow{
-  font-size: 1.2rem;
-  transition: transform 0.3s ease;
+.back-btn:hover{
+  background: rgba(201,168,76,0.1);
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(201,168,76,0.08);
+  transform: translateX(-2px);
 }
 
-.back-link:hover .back-arrow{ transform: translateX(-4px); }
-
-.volume-title{
+.header-title{
   font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  font-weight: 500;
   color: var(--text-soft);
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 50%;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  max-width: 400px;
 }
 
-.viewer-container{
+.header-ornament{
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  opacity: 0.6;
+}
+
+/* ── Slide Counter ── */
+.slide-counter{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.slide-counter input{
+  width: 56px;
+  padding: 6px 10px;
+  background: var(--bg-raised);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 6px;
+  color: var(--text-soft);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.slide-counter input:focus{
+  border-color: var(--gold);
+}
+
+.slide-counter span.sep{
+  color: var(--gold-dim);
+}
+
+/* ── Main Content ── */
+.main{
   position: fixed;
-  top: 60px; left: 0; right: 0; bottom: 0;
+  top: 64px; left:0; right:0; bottom:0;
+  display: flex;
+  z-index: 10;
+}
+
+/* ── Sidebar ── */
+.sidebar{
+  width: 280px;
+  background: linear-gradient(180deg, rgba(28,18,18,0.95) 0%, rgba(20,14,14,0.98) 100%);
+  border-right: 1px solid rgba(201,168,76,0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: width 0.4s var(--transition-dramatic), opacity 0.3s ease;
+}
+
+.sidebar.collapsed{
+  width: 0;
+  opacity: 0;
+  border-right: none;
+}
+
+.sidebar-header{
+  padding: 20px 20px 12px;
+  border-bottom: 1px solid rgba(201,168,76,0.06);
+}
+
+.sidebar-title{
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 4px;
+}
+
+.sidebar-subtitle{
+  font-family: 'EB Garamond', serif;
+  font-size: 1.05rem;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
+.thumbnail-list{
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.thumbnail-item{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s var(--transition-smooth);
+  border: 1px solid transparent;
+}
+
+.thumbnail-item:hover{
+  background: rgba(201,168,76,0.05);
+  border-color: rgba(201,168,76,0.1);
+}
+
+.thumbnail-item.active{
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.25);
+}
+
+.thumbnail-item .thumb-num{
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  min-width: 28px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.thumbnail-item .thumb-frame{
+  width: 80px;
+  height: 45px;
+  background: var(--bg-raised);
+  border: 1px solid rgba(201,168,76,0.12);
+  border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 10;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.thumbnail-item.active .thumb-frame{
+  border-color: rgba(201,168,76,0.4);
+  box-shadow: 0 0 12px rgba(201,168,76,0.08);
+}
+
+.thumbnail-item .thumb-label{
+  font-size: 0.8rem;
+  color: var(--text-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ── Viewer Area ── */
+.viewer{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: var(--bg-deep);
+}
+
+.viewer-toolbar{
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(201,168,76,0.06);
+  background: rgba(20,14,14,0.5);
+}
+
+.toolbar-btn{
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--gold-dim);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s var(--transition-smooth);
+}
+
+.toolbar-btn:hover{
+  border-color: var(--gold);
+  color: var(--gold);
+  background: rgba(201,168,76,0.08);
+}
+
+.toolbar-btn:disabled{
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.toolbar-divider{
+  width: 1px;
+  height: 20px;
+  background: rgba(201,168,76,0.1);
+  margin: 0 4px;
+}
+
+.iframe-container{
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
 }
 
-.slide-frame{
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 1400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide-frame::before{
-  content: "";
-  position: absolute;
-  inset: -8px;
-  border: 1px solid rgba(201,168,76,0.12);
-  border-radius: 8px;
-  pointer-events: none;
-  box-shadow: 0 0 0 1px rgba(201,168,76,0.05), 0 20px 60px rgba(0,0,0,0.5), inset 0 0 40px rgba(201,168,76,0.02);
-  z-index: 5;
-}
-
-.slide-frame::after{
-  content: "";
-  position: absolute;
-  inset: -4px;
-  border: 1px solid rgba(201,168,76,0.06);
-  border-radius: 5px;
-  pointer-events: none;
-  z-index: 5;
-}
-
-.corner-ornament{
-  position: absolute;
-  width: 16px; height: 16px;
-  border-color: rgba(201,168,76,0.2);
-  border-style: solid;
-  pointer-events: none;
-  z-index: 6;
-}
-
-.corner-ornament.tl{ top: -4px; left: -4px; border-width: 2px 0 0 2px; }
-.corner-ornament.tr{ top: -4px; right: -4px; border-width: 2px 2px 0 0; }
-.corner-ornament.bl{ bottom: -4px; left: -4px; border-width: 0 0 2px 2px; }
-.corner-ornament.br{ bottom: -4px; right: -4px; border-width: 0 2px 2px 0; }
-
-.pdf-iframe{
+.iframe-container iframe{
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.6), 0 0 0 1px rgba(201,168,76,0.08);
   background: #1a1a1a;
 }
 
-.loading-state{
-  position: fixed;
+/* ── Loading State ── */
+.loading-overlay{
+  position: absolute;
   inset: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   gap: 20px;
-  z-index: 200;
+  z-index: 50;
   background: var(--bg-deep);
-  transition: opacity 0.8s var(--transition-dramatic);
+  transition: opacity 0.5s ease;
 }
 
-.loading-state.hidden{
+.loading-overlay.hidden{
   opacity: 0;
   pointer-events: none;
 }
 
-.loading-ornament{
-  font-size: 2.5rem;
-  color: var(--gold-dim);
-  animation: ornamentPulse 2s ease-in-out infinite;
+.loading-wheel{
+  width: 48px;
+  height: 48px;
+  border: 2px solid rgba(201,168,76,0.15);
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+  to { transform: rotate(360deg); }
 }
 
 .loading-text{
-  font-family: 'Cinzel', serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--gold-dim);
-}
-
-.loading-subtext{
   font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--text-muted);
   font-style: italic;
-  margin-top: 10px;
 }
 
-@keyframes ornamentPulse{
-  0%, 100% { opacity: 0.4; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(1.1); }
-}
-
-.error-state{
+/* ── Sidebar Toggle ── */
+.sidebar-toggle{
   position: fixed;
-  inset: 0;
-  display: none;
+  left: 280px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 60px;
+  background: linear-gradient(180deg, rgba(28,18,18,0.95), rgba(20,14,14,0.98));
+  border: 1px solid rgba(201,168,76,0.12);
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-  z-index: 150;
-  text-align: center;
-  padding: 40px;
-  background: var(--bg-deep);
-}
-
-.error-state.visible{ display: flex; }
-
-.error-icon{
-  font-size: 3rem;
   color: var(--gold-dim);
-  opacity: 0.5;
+  font-size: 0.7rem;
+  z-index: 101;
+  transition: left 0.4s var(--transition-dramatic), background 0.3s ease;
 }
 
-.error-state h2{
-  font-family: 'EB Garamond', serif;
-  font-size: 1.8rem;
-  color: var(--text-soft);
-}
-
-.error-state p{
-  color: var(--text-muted);
-  max-width: 400px;
-  line-height: 1.8;
-}
-
-.drive-link-box{
-  margin-top: 20px;
-  padding: 15px 25px;
-  border: 1px solid rgba(201,168,76,0.2);
-  border-radius: 8px;
-  background: rgba(201,168,76,0.05);
-  max-width: 500px;
-}
-
-.drive-link-box p{
-  font-size: 0.85rem;
-  color: var(--text-soft);
-  margin-bottom: 12px;
-}
-
-.drive-link{
-  display: inline-block;
-  padding: 10px 24px;
-  background: rgba(201,168,76,0.12);
-  border: 1px solid var(--gold);
-  border-radius: 999px;
+.sidebar-toggle:hover{
+  background: rgba(201,168,76,0.08);
   color: var(--gold);
-  text-decoration: none;
-  font-size: 0.9rem;
-  letter-spacing: 0.05em;
-  transition: all 0.3s ease;
 }
 
-.drive-link:hover{
+.sidebar-toggle.collapsed{
+  left: 0;
+}
+
+/* ── Scrollbar ── */
+.thumbnail-list::-webkit-scrollbar{ width: 6px; }
+.thumbnail-list::-webkit-scrollbar-track{ background: transparent; }
+.thumbnail-list::-webkit-scrollbar-thumb{
   background: rgba(201,168,76,0.2);
-  box-shadow: 0 0 20px rgba(201,168,76,0.1);
+  border-radius: 3px;
+}
+.thumbnail-list::-webkit-scrollbar-thumb:hover{
+  background: rgba(201,168,76,0.35);
 }
 
-@media (max-width: 768px){
-  .top-bar{ padding: 0 15px; height: 50px; }
-  .volume-title{ font-size: 0.9rem; max-width: 40%; }
-  .viewer-container{ top: 50px; padding: 10px; }
-  .slide-frame::before, .slide-frame::after, .corner-ornament{ display: none; }
-  .dust-mote:nth-child(6), .dust-mote:nth-child(7), .dust-mote:nth-child(8),
-  .dust-mote:nth-child(9), .dust-mote:nth-child(10){ display: none; }
+/* ── Responsive ── */
+@media (max-width: 900px){
+  .sidebar{ width: 220px; }
+  .sidebar-toggle{ left: 220px; }
+  .header-title{ max-width: 200px; }
+}
+
+@media (max-width: 700px){
+  .sidebar{ display: none; }
+  .sidebar-toggle{ display: none; }
+  .slide-counter{ display: none; }
+  .header-title{ max-width: 150px; font-size: 1rem; }
 }
 
 ::selection{
@@ -349,171 +440,235 @@ body .texture-layer{
 
 </style>
 </head>
-
 <body>
 
 <div class="atmosphere-layer"></div>
 <div class="texture-layer"></div>
 
-<div class="dust-container">
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-</div>
-
-<div class="loading-state" id="loadingOverlay">
-  <div class="loading-ornament">&#9784;</div>
-  <div class="loading-text">Opening the Tome</div>
-  <div class="loading-subtext">The Dhamma unfolds in its own time</div>
-</div>
-
-<div class="top-bar">
-  <a href="../index.html" class="back-link">
-    <span class="back-arrow">&#8592;</span>
-    <span>Return to Library</span>
-  </a>
-  <div class="volume-title" id="volumeTitle">Loading...</div>
-  <div style="width: 120px;"></div>
-</div>
-
-<div class="viewer-container">
-  <div class="slide-frame">
-    <div class="corner-ornament tl"></div>
-    <div class="corner-ornament tr"></div>
-    <div class="corner-ornament bl"></div>
-    <div class="corner-ornament br"></div>
-    <iframe class="pdf-iframe" id="pdfViewer" src="" allowfullscreen></iframe>
+<!-- Header -->
+<header class="header">
+  <div class="header-left">
+    <a href="../index.html" class="back-btn">
+      <span>&#8592;</span> Return to Library
+    </a>
+    <span class="header-ornament">&#10087;</span>
+    <span class="header-title" id="docTitle">Loading...</span>
   </div>
-</div>
-
-<div class="error-state" id="errorState">
-  <div class="error-icon">&#9784;</div>
-  <h2>The Tome Could Not Be Opened Here</h2>
-  <p>Google Drive prevents direct embedding of these sacred texts. But the Dhamma is never truly blocked.</p>
-  <div class="drive-link-box">
-    <p>You may open this text directly in Google Drive:</p>
-    <a href="#" class="drive-link" id="driveLink" target="_blank">Open in Google Drive</a>
+  <div class="slide-counter">
+    <span>Slide</span>
+    <input type="number" id="slideInput" value="1" min="1">
+    <span class="sep">/</span>
+    <span id="totalSlides">—</span>
   </div>
-  <a href="../index.html" class="back-link" style="margin-top:20px;">
-    <span class="back-arrow">&#8592;</span>
-    <span>Return to Library</span>
-  </a>
+</header>
+
+<!-- Sidebar Toggle -->
+<button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
+  <span id="toggleIcon">&#9664;</span>
+</button>
+
+<!-- Main -->
+<div class="main">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="sidebar-title">Contents</div>
+      <div class="sidebar-subtitle" id="sidebarSubtitle">Volume</div>
+    </div>
+    <div class="thumbnail-list" id="thumbnailList">
+      <!-- Populated by JS -->
+    </div>
+  </aside>
+
+  <!-- Viewer -->
+  <div class="viewer">
+    <div class="viewer-toolbar">
+      <button class="toolbar-btn" id="btnFirst" onclick="goToSlide(1)" title="First slide">&#171;</button>
+      <button class="toolbar-btn" id="btnPrev" onclick="prevSlide()" title="Previous slide">&#8249;</button>
+      <div class="toolbar-divider"></div>
+      <button class="toolbar-btn" id="btnNext" onclick="nextSlide()" title="Next slide">&#8250;</button>
+      <button class="toolbar-btn" id="btnLast" onclick="goToSlide(totalSlides)" title="Last slide">&#187;</button>
+      <div class="toolbar-divider"></div>
+      <button class="toolbar-btn" onclick="toggleFullscreen()" title="Fullscreen">&#9974;</button>
+    </div>
+    <div class="iframe-container" id="iframeContainer">
+      <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-wheel"></div>
+        <div class="loading-text">Opening the teachings...</div>
+      </div>
+      <iframe id="slideFrame" allowfullscreen></iframe>
+    </div>
+  </div>
+
 </div>
 
 <script>
 
-const params = new URLSearchParams(window.location.search);
-const pdfUrl = params.get("file");
-
-const loadingOverlay = document.getElementById('loadingOverlay');
-const errorState = document.getElementById('errorState');
-const pdfViewer = document.getElementById('pdfViewer');
-const volumeTitle = document.getElementById('volumeTitle');
-const driveLink = document.getElementById('driveLink');
-
-const sectionNames = {
-  '1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK': 'Mūlapariyāya Vagga',
-  '10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL': 'Sīhanāda Vagga',
-  '1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4': 'Opamma Vagga',
-  '1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p': 'Mahāyamaka Vagga',
-  '1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP': 'Cūḷayamaka Vagga',
-  '1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf': 'Gahapati Vagga',
-  '1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E': 'Bhikkhu Vagga',
-  '1iGsiAogQzLg2HaampN35C5wCMU6ocjah': 'Paribbājaka Vagga',
-  '1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg': 'Rāja Vagga',
-  '1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-': 'Brāhmaṇa Vagga',
-  '1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv': 'Devadaha Vagga',
-  '1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv': 'Anupada Vagga',
-  '1NuX7UqQbA0ZLKj0jQZqxZ6QRyap5VDPn': 'Suññata Vagga',
-  '1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL': 'Vibhaṅga Vagga',
-  '1EAMg_TwelGqYAPbEFbd6FxBcEdrvhp4O': 'Saḷāyatana Vagga',
-  '1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM': 'Selected Suttas 1–20',
-  '1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I': 'Selected Suttas 21–40',
-  '1WY2ugb-KyOMGp9KoQfvwo9z3gfTZoMKs': 'Selected Suttas 41–65',
-  '1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE': 'Mahāyāna Writings 66–80',
-  '1rvxwG6RjT4yraPQYSKykMWsDglZn65g4': 'Essay & About the Compiler'
+// ── Document Metadata ──
+const docNames = {
+  '1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK': 'Mulapannasa Pali — Root Fifty (MN 1-50)',
+  '10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL': 'Sihanada Vagga — Lion\'s Roar (MN 11-20)',
+  '1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4': 'Opamma Vagga — Similes (MN 21-30)',
+  '1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p': 'Mahayamaka Vagga — Great Pairs (MN 31-40)',
+  '1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP': 'Cullayamaka Vagga — Shorter Pairs (MN 41-50)',
+  '1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf': 'Majjhimapannasa Pali — Middle Fifty (MN 51-100)',
+  '1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E': 'Bhikkhu Vagga — On Bhikkhus (MN 61-70)',
+  '1iGsiAogQzLg2HaampN35C5wCMU6ocjah': 'Paribbajaka Vagga — On Wanderers (MN 71-80)',
+  '1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg': 'Raja Vagga — On Kings (MN 81-90)',
+  '1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-': 'Brahmana Vagga — On Brahmins (MN 91-100)',
+  '1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv': 'Uparipannasa Pali — Final Collection (MN 101-152)',
+  '1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv': 'Anupada Vagga — One by One (MN 111-120)',
+  '1NuX7UqQbA0ZLKj0jQZqxZ6QRyap5VDPn': 'Sunnata Vagga — On Voidness (MN 121-130)',
+  '1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL': 'Vibhanga Vagga — Expositions (MN 131-142)',
+  '1EAMg_TwelGqYAPbEFbd6FxBcEdrvhp4O': 'Salayatana Vagga — Sixfold Base (MN 143-152)',
+  '1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM': 'Selected Buddhist Writings — Volume IV',
+  '1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I': 'Selected Suttas 21-40',
+  '1WY2ugb-KyOMGp9KoQfvwo9z3gfTZoMKs': 'Selected Suttas 41-65',
+  '1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE': 'Selected Mahayana Sutras/Writings 66-80',
+  '1rvxwG6RjT4yraPQYSKykMWsDglZn65g4': 'Essay + About the Compiler',
 };
 
-function extractFileId(url) {
-  const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
-  return match ? match[1] : null;
+// ── Parse URL ──
+const params = new URLSearchParams(window.location.search);
+const fileId = params.get('file') || '1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK';
+const docName = docNames[fileId] || 'Buddhist Teachings';
+
+document.getElementById('docTitle').textContent = docName;
+document.getElementById('sidebarSubtitle').textContent = docName.split(' — ')[0] || docName;
+
+// ── State ──
+let currentSlide = 1;
+let totalSlides = 50; // Will be updated
+const slideInput = document.getElementById('slideInput');
+const slideFrame = document.getElementById('slideFrame');
+const loadingOverlay = document.getElementById('loadingOverlay');
+
+// ── Build Google Slides Preview URL ──
+function getSlideUrl(slideNum) {
+  return `https://docs.google.com/presentation/d/${fileId}/preview?slide=${slideNum}&rm=minimal`;
 }
 
-function convertToDirectLink(driveUrl) {
-  const fileId = extractFileId(driveUrl);
-  if (fileId) {
-    return 'https://drive.google.com/uc?export=download&id=' + fileId;
-  }
-  return driveUrl;
-}
-
-if (pdfUrl) {
-  const fileId = extractFileId(pdfUrl);
-
-  if (fileId) {
-    volumeTitle.textContent = sectionNames[fileId] || 'Sacred Text';
-    driveLink.href = pdfUrl;
-
-    // Try direct download link first
-    const directUrl = convertToDirectLink(pdfUrl);
-    const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(directUrl);
-
-    pdfViewer.src = viewerUrl;
-
-    // Set a timeout to check if PDF loaded
-    setTimeout(() => {
-      loadingOverlay.classList.add('hidden');
-    }, 3000);
-
-    // If iframe fails to load after 6 seconds, show error with Drive link
-    setTimeout(() => {
-      try {
-        const iframeDoc = pdfViewer.contentDocument || pdfViewer.contentWindow.document;
-        // If we can access the iframe and it shows an error, show our error state
-        if (iframeDoc && iframeDoc.body && iframeDoc.body.textContent.includes('error')) {
-          showError();
-        }
-      } catch (e) {
-        // Cross-origin restriction, assume it might have failed
-        // Check if the viewer URL is still the same (meaning it didn't navigate)
-        if (pdfViewer.src === viewerUrl) {
-          // Give it more time, PDF.js might still be loading
-        }
-      }
-    }, 8000);
-
-  } else {
-    showError();
-  }
-
-} else {
-  showError();
-}
-
-function showError() {
-  loadingOverlay.classList.add('hidden');
-  pdfViewer.style.display = 'none';
-  errorState.classList.add('visible');
-  volumeTitle.textContent = 'Unable to Open';
-}
-
-// Handle iframe load events
-pdfViewer.onload = function() {
+// ── Load Slide ──
+function loadSlide(num) {
+  if (num < 1) num = 1;
+  currentSlide = num;
+  slideInput.value = num;
+  updateButtons();
+  updateThumbnails();
+  
+  loadingOverlay.classList.remove('hidden');
+  slideFrame.src = getSlideUrl(num);
+  
+  // Hide loading after iframe loads
+  slideFrame.onload = () => {
+    loadingOverlay.classList.add('hidden');
+  };
+  
+  // Fallback: hide loading after 3s regardless
   setTimeout(() => {
     loadingOverlay.classList.add('hidden');
-  }, 1000);
-};
+  }, 3000);
+}
 
-pdfViewer.onerror = function() {
-  showError();
-};
+// ── Navigation ──
+function prevSlide() {
+  if (currentSlide > 1) loadSlide(currentSlide - 1);
+}
+
+function nextSlide() {
+  if (currentSlide < totalSlides) loadSlide(currentSlide + 1);
+}
+
+function goToSlide(num) {
+  loadSlide(num);
+}
+
+function updateButtons() {
+  document.getElementById('btnFirst').disabled = currentSlide <= 1;
+  document.getElementById('btnPrev').disabled = currentSlide <= 1;
+  document.getElementById('btnNext').disabled = currentSlide >= totalSlides;
+  document.getElementById('btnLast').disabled = currentSlide >= totalSlides;
+}
+
+// ── Slide Input ──
+slideInput.addEventListener('change', (e) => {
+  let val = parseInt(e.target.value);
+  if (isNaN(val) || val < 1) val = 1;
+  if (val > totalSlides) val = totalSlides;
+  loadSlide(val);
+});
+
+slideInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    let val = parseInt(e.target.value);
+    if (isNaN(val) || val < 1) val = 1;
+    if (val > totalSlides) val = totalSlides;
+    loadSlide(val);
+  }
+});
+
+// ── Keyboard Navigation ──
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'INPUT') return;
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevSlide();
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextSlide();
+  if (e.key === 'Home') goToSlide(1);
+  if (e.key === 'End') goToSlide(totalSlides);
+});
+
+// ── Sidebar ──
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const toggle = document.getElementById('sidebarToggle');
+  const icon = document.getElementById('toggleIcon');
+  
+  sidebar.classList.toggle('collapsed');
+  toggle.classList.toggle('collapsed');
+  icon.innerHTML = sidebar.classList.contains('collapsed') ? '&#9654;' : '&#9664;';
+}
+
+// ── Fullscreen ──
+function toggleFullscreen() {
+  const container = document.getElementById('iframeContainer');
+  if (!document.fullscreenElement) {
+    container.requestFullscreen().catch(() => {});
+  } else {
+    document.exitFullscreen();
+  }
+}
+
+// ── Thumbnails ──
+function buildThumbnails() {
+  const list = document.getElementById('thumbnailList');
+  list.innerHTML = '';
+  
+  for (let i = 1; i <= totalSlides; i++) {
+    const item = document.createElement('div');
+    item.className = 'thumbnail-item' + (i === 1 ? ' active' : '');
+    item.onclick = () => loadSlide(i);
+    
+    item.innerHTML = `
+      <span class="thumb-num">${i}</span>
+      <div class="thumb-frame">Slide ${i}</div>
+      <span class="thumb-label">Slide ${i}</span>
+    `;
+    list.appendChild(item);
+  }
+}
+
+function updateThumbnails() {
+  document.querySelectorAll('.thumbnail-item').forEach((item, idx) => {
+    item.classList.toggle('active', idx + 1 === currentSlide);
+    if (idx + 1 === currentSlide) {
+      item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
+}
+
+// ── Initialize ──
+buildThumbnails();
+loadSlide(1);
 
 </script>
 

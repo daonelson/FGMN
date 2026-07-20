@@ -17,7 +17,6 @@
   --gold:         #c9a84c;
   --gold-bright:  #e8d5a3;
   --gold-dim:     #8a7340;
-  --gold-shadow:  rgba(201,168,76,0.15);
   --text:         #f0e6d8;
   --text-soft:    #c4b8a8;
   --text-muted:   #8a7e72;
@@ -126,37 +125,6 @@ body{
   opacity: 0.6;
 }
 
-/* ── Slide Counter ── */
-.slide-counter{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
-
-.slide-counter input{
-  width: 56px;
-  padding: 6px 10px;
-  background: var(--bg-raised);
-  border: 1px solid rgba(201,168,76,0.15);
-  border-radius: 6px;
-  color: var(--text-soft);
-  font-family: 'Inter', sans-serif;
-  font-size: 0.8rem;
-  text-align: center;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.slide-counter input:focus{
-  border-color: var(--gold);
-}
-
-.slide-counter span.sep{
-  color: var(--gold-dim);
-}
-
 /* ── Main Content ── */
 .main{
   position: fixed;
@@ -167,7 +135,7 @@ body{
 
 /* ── Sidebar ── */
 .sidebar{
-  width: 280px;
+  width: 300px;
   background: linear-gradient(180deg, rgba(28,18,18,0.95) 0%, rgba(20,14,14,0.98) 100%);
   border-right: 1px solid rgba(201,168,76,0.08);
   display: flex;
@@ -203,68 +171,40 @@ body{
   font-style: italic;
 }
 
-.thumbnail-list{
-  flex: 1;
-  overflow-y: auto;
-  padding: 12px;
+.doc-info{
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(201,168,76,0.06);
 }
 
-.thumbnail-item{
+.doc-info-row{
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 10px 12px;
-  margin-bottom: 6px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s var(--transition-smooth);
-  border: 1px solid transparent;
+  gap: 10px;
+  margin-bottom: 8px;
 }
 
-.thumbnail-item:hover{
-  background: rgba(201,168,76,0.05);
-  border-color: rgba(201,168,76,0.1);
-}
+.doc-info-row:last-child{ margin-bottom: 0; }
 
-.thumbnail-item.active{
-  background: rgba(201,168,76,0.08);
-  border-color: rgba(201,168,76,0.25);
-}
-
-.thumbnail-item .thumb-num{
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  min-width: 28px;
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-.thumbnail-item .thumb-frame{
-  width: 80px;
-  height: 45px;
-  background: var(--bg-raised);
-  border: 1px solid rgba(201,168,76,0.12);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.doc-info-label{
   font-size: 0.7rem;
   color: var(--text-muted);
-  overflow: hidden;
-  flex-shrink: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  min-width: 50px;
 }
 
-.thumbnail-item.active .thumb-frame{
-  border-color: rgba(201,168,76,0.4);
-  box-shadow: 0 0 12px rgba(201,168,76,0.08);
-}
-
-.thumbnail-item .thumb-label{
-  font-size: 0.8rem;
+.doc-info-value{
+  font-size: 0.82rem;
   color: var(--text-soft);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+}
+
+.doc-info-value a{
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.doc-info-value a:hover{
+  text-decoration: underline;
 }
 
 /* ── Viewer Area ── */
@@ -287,29 +227,25 @@ body{
 }
 
 .toolbar-btn{
-  width: 36px;
-  height: 36px;
+  padding: 8px 18px;
   border: 1px solid rgba(201,168,76,0.15);
   border-radius: 8px;
   background: transparent;
   color: var(--gold-dim);
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
   transition: all 0.3s var(--transition-smooth);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .toolbar-btn:hover{
   border-color: var(--gold);
   color: var(--gold);
   background: rgba(201,168,76,0.08);
-}
-
-.toolbar-btn:disabled{
-  opacity: 0.3;
-  cursor: not-allowed;
 }
 
 .toolbar-divider{
@@ -380,7 +316,7 @@ body{
 /* ── Sidebar Toggle ── */
 .sidebar-toggle{
   position: fixed;
-  left: 280px;
+  left: 300px;
   top: 50%;
   transform: translateY(-50%);
   width: 24px;
@@ -409,27 +345,26 @@ body{
 }
 
 /* ── Scrollbar ── */
-.thumbnail-list::-webkit-scrollbar{ width: 6px; }
-.thumbnail-list::-webkit-scrollbar-track{ background: transparent; }
-.thumbnail-list::-webkit-scrollbar-thumb{
+.sidebar::-webkit-scrollbar{ width: 6px; }
+.sidebar::-webkit-scrollbar-track{ background: transparent; }
+.sidebar::-webkit-scrollbar-thumb{
   background: rgba(201,168,76,0.2);
   border-radius: 3px;
 }
-.thumbnail-list::-webkit-scrollbar-thumb:hover{
+.sidebar::-webkit-scrollbar-thumb:hover{
   background: rgba(201,168,76,0.35);
 }
 
 /* ── Responsive ── */
 @media (max-width: 900px){
-  .sidebar{ width: 220px; }
-  .sidebar-toggle{ left: 220px; }
+  .sidebar{ width: 260px; }
+  .sidebar-toggle{ left: 260px; }
   .header-title{ max-width: 200px; }
 }
 
 @media (max-width: 700px){
   .sidebar{ display: none; }
   .sidebar-toggle{ display: none; }
-  .slide-counter{ display: none; }
   .header-title{ max-width: 150px; font-size: 1rem; }
 }
 
@@ -454,12 +389,6 @@ body{
     <span class="header-ornament">&#10087;</span>
     <span class="header-title" id="docTitle">Loading...</span>
   </div>
-  <div class="slide-counter">
-    <span>Slide</span>
-    <input type="number" id="slideInput" value="1" min="1">
-    <span class="sep">/</span>
-    <span id="totalSlides">—</span>
-  </div>
 </header>
 
 <!-- Sidebar Toggle -->
@@ -473,24 +402,37 @@ body{
   <!-- Sidebar -->
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header">
-      <div class="sidebar-title">Contents</div>
+      <div class="sidebar-title">Document</div>
       <div class="sidebar-subtitle" id="sidebarSubtitle">Volume</div>
     </div>
-    <div class="thumbnail-list" id="thumbnailList">
-      <!-- Populated by JS -->
+    <div class="doc-info">
+      <div class="doc-info-row">
+        <span class="doc-info-label">View</span>
+        <span class="doc-info-value">
+          <a id="slidesLink" href="#" target="_blank">Open in Google Slides &#8599;</a>
+        </span>
+      </div>
+      <div class="doc-info-row">
+        <span class="doc-info-label">Share</span>
+        <span class="doc-info-value" id="shareStatus">Anyone with link</span>
+      </div>
     </div>
   </aside>
 
   <!-- Viewer -->
   <div class="viewer">
     <div class="viewer-toolbar">
-      <button class="toolbar-btn" id="btnFirst" onclick="goToSlide(1)" title="First slide">&#171;</button>
-      <button class="toolbar-btn" id="btnPrev" onclick="prevSlide()" title="Previous slide">&#8249;</button>
+      <button class="toolbar-btn" onclick="openInSlides()" title="Open in Google Slides">
+        <span>&#128279;</span> Open in Slides
+      </button>
       <div class="toolbar-divider"></div>
-      <button class="toolbar-btn" id="btnNext" onclick="nextSlide()" title="Next slide">&#8250;</button>
-      <button class="toolbar-btn" id="btnLast" onclick="goToSlide(totalSlides)" title="Last slide">&#187;</button>
+      <button class="toolbar-btn" onclick="openInPresent()" title="Present mode">
+        <span>&#9654;</span> Present
+      </button>
       <div class="toolbar-divider"></div>
-      <button class="toolbar-btn" onclick="toggleFullscreen()" title="Fullscreen">&#9974;</button>
+      <button class="toolbar-btn" onclick="downloadPDF()" title="Download as PDF">
+        <span>&#128190;</span> Download PDF
+      </button>
     </div>
     <div class="iframe-container" id="iframeContainer">
       <div class="loading-overlay" id="loadingOverlay">
@@ -537,85 +479,43 @@ const docName = docNames[fileId] || 'Buddhist Teachings';
 document.getElementById('docTitle').textContent = docName;
 document.getElementById('sidebarSubtitle').textContent = docName.split(' — ')[0] || docName;
 
-// ── State ──
-let currentSlide = 1;
-let totalSlides = 50; // Will be updated
-const slideInput = document.getElementById('slideInput');
+// ── Build URLs ──
+const baseUrl = `https://docs.google.com/presentation/d/${fileId}`;
+const previewUrl = `${baseUrl}/preview`;
+const editUrl = `${baseUrl}/edit`;
+const presentUrl = `${baseUrl}/present`;
+const pdfUrl = `${baseUrl}/export?format=pdf`;
+
+// ── Set up links ──
+document.getElementById('slidesLink').href = editUrl;
+
+// ── Load Preview ──
 const slideFrame = document.getElementById('slideFrame');
 const loadingOverlay = document.getElementById('loadingOverlay');
 
-// ── Build Google Slides Preview URL ──
-function getSlideUrl(slideNum) {
-  return `https://docs.google.com/presentation/d/${fileId}/preview?slide=${slideNum}&rm=minimal`;
+slideFrame.src = previewUrl;
+
+slideFrame.onload = () => {
+  loadingOverlay.classList.add('hidden');
+};
+
+// Fallback hide loading
+setTimeout(() => {
+  loadingOverlay.classList.add('hidden');
+}, 4000);
+
+// ── Toolbar Actions ──
+function openInSlides() {
+  window.open(editUrl, '_blank');
 }
 
-// ── Load Slide ──
-function loadSlide(num) {
-  if (num < 1) num = 1;
-  currentSlide = num;
-  slideInput.value = num;
-  updateButtons();
-  updateThumbnails();
-  
-  loadingOverlay.classList.remove('hidden');
-  slideFrame.src = getSlideUrl(num);
-  
-  // Hide loading after iframe loads
-  slideFrame.onload = () => {
-    loadingOverlay.classList.add('hidden');
-  };
-  
-  // Fallback: hide loading after 3s regardless
-  setTimeout(() => {
-    loadingOverlay.classList.add('hidden');
-  }, 3000);
+function openInPresent() {
+  window.open(presentUrl, '_blank');
 }
 
-// ── Navigation ──
-function prevSlide() {
-  if (currentSlide > 1) loadSlide(currentSlide - 1);
+function downloadPDF() {
+  window.open(pdfUrl, '_blank');
 }
-
-function nextSlide() {
-  if (currentSlide < totalSlides) loadSlide(currentSlide + 1);
-}
-
-function goToSlide(num) {
-  loadSlide(num);
-}
-
-function updateButtons() {
-  document.getElementById('btnFirst').disabled = currentSlide <= 1;
-  document.getElementById('btnPrev').disabled = currentSlide <= 1;
-  document.getElementById('btnNext').disabled = currentSlide >= totalSlides;
-  document.getElementById('btnLast').disabled = currentSlide >= totalSlides;
-}
-
-// ── Slide Input ──
-slideInput.addEventListener('change', (e) => {
-  let val = parseInt(e.target.value);
-  if (isNaN(val) || val < 1) val = 1;
-  if (val > totalSlides) val = totalSlides;
-  loadSlide(val);
-});
-
-slideInput.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') {
-    let val = parseInt(e.target.value);
-    if (isNaN(val) || val < 1) val = 1;
-    if (val > totalSlides) val = totalSlides;
-    loadSlide(val);
-  }
-});
-
-// ── Keyboard Navigation ──
-document.addEventListener('keydown', (e) => {
-  if (e.target.tagName === 'INPUT') return;
-  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') prevSlide();
-  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') nextSlide();
-  if (e.key === 'Home') goToSlide(1);
-  if (e.key === 'End') goToSlide(totalSlides);
-});
 
 // ── Sidebar ──
 function toggleSidebar() {
@@ -627,48 +527,6 @@ function toggleSidebar() {
   toggle.classList.toggle('collapsed');
   icon.innerHTML = sidebar.classList.contains('collapsed') ? '&#9654;' : '&#9664;';
 }
-
-// ── Fullscreen ──
-function toggleFullscreen() {
-  const container = document.getElementById('iframeContainer');
-  if (!document.fullscreenElement) {
-    container.requestFullscreen().catch(() => {});
-  } else {
-    document.exitFullscreen();
-  }
-}
-
-// ── Thumbnails ──
-function buildThumbnails() {
-  const list = document.getElementById('thumbnailList');
-  list.innerHTML = '';
-  
-  for (let i = 1; i <= totalSlides; i++) {
-    const item = document.createElement('div');
-    item.className = 'thumbnail-item' + (i === 1 ? ' active' : '');
-    item.onclick = () => loadSlide(i);
-    
-    item.innerHTML = `
-      <span class="thumb-num">${i}</span>
-      <div class="thumb-frame">Slide ${i}</div>
-      <span class="thumb-label">Slide ${i}</span>
-    `;
-    list.appendChild(item);
-  }
-}
-
-function updateThumbnails() {
-  document.querySelectorAll('.thumbnail-item').forEach((item, idx) => {
-    item.classList.toggle('active', idx + 1 === currentSlide);
-    if (idx + 1 === currentSlide) {
-      item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
-  });
-}
-
-// ── Initialize ──
-buildThumbnails();
-loadSlide(1);
 
 </script>
 

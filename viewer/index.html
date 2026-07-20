@@ -33,7 +33,6 @@ body{
   position: relative;
 }
 
-/* Atmospheric layers */
 body .atmosphere-layer{
   position: fixed;
   top: 0; left: 0;
@@ -57,7 +56,6 @@ body .texture-layer{
   background-size: 256px 256px;
 }
 
-/* Dust motes */
 .dust-container{
   position: fixed;
   top: 0; left: 0;
@@ -111,7 +109,6 @@ body .texture-layer{
   100% { top: -10%; opacity: 0; transform: translateX(-30px) scale(0.5); }
 }
 
-/* Top Bar */
 .top-bar{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -161,7 +158,6 @@ body .texture-layer{
   white-space: nowrap;
 }
 
-/* Main Viewer */
 .viewer-container{
   position: fixed;
   top: 60px; left: 0; right: 0; bottom: 0;
@@ -182,7 +178,6 @@ body .texture-layer{
   justify-content: center;
 }
 
-/* Golden frame border */
 .slide-frame::before{
   content: "";
   position: absolute;
@@ -204,7 +199,6 @@ body .texture-layer{
   z-index: 5;
 }
 
-/* Corner ornaments */
 .corner-ornament{
   position: absolute;
   width: 16px; height: 16px;
@@ -227,7 +221,6 @@ body .texture-layer{
   background: #1a1a1a;
 }
 
-/* Loading state */
 .loading-state{
   position: fixed;
   inset: 0;
@@ -273,7 +266,6 @@ body .texture-layer{
   50% { opacity: 0.8; transform: scale(1.1); }
 }
 
-/* Error state */
 .error-state{
   position: fixed;
   inset: 0;
@@ -308,7 +300,39 @@ body .texture-layer{
   line-height: 1.8;
 }
 
-/* Responsive */
+.drive-link-box{
+  margin-top: 20px;
+  padding: 15px 25px;
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 8px;
+  background: rgba(201,168,76,0.05);
+  max-width: 500px;
+}
+
+.drive-link-box p{
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  margin-bottom: 12px;
+}
+
+.drive-link{
+  display: inline-block;
+  padding: 10px 24px;
+  background: rgba(201,168,76,0.12);
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+.drive-link:hover{
+  background: rgba(201,168,76,0.2);
+  box-shadow: 0 0 20px rgba(201,168,76,0.1);
+}
+
 @media (max-width: 768px){
   .top-bar{ padding: 0 15px; height: 50px; }
   .volume-title{ font-size: 0.9rem; max-width: 40%; }
@@ -328,7 +352,6 @@ body .texture-layer{
 
 <body>
 
-<!-- Atmospheric layers -->
 <div class="atmosphere-layer"></div>
 <div class="texture-layer"></div>
 
@@ -345,14 +368,12 @@ body .texture-layer{
   <div class="dust-mote"></div>
 </div>
 
-<!-- Loading Overlay -->
 <div class="loading-state" id="loadingOverlay">
   <div class="loading-ornament">&#9784;</div>
   <div class="loading-text">Opening the Tome</div>
   <div class="loading-subtext">The Dhamma unfolds in its own time</div>
 </div>
 
-<!-- Top Bar -->
 <div class="top-bar">
   <a href="../index.html" class="back-link">
     <span class="back-arrow">&#8592;</span>
@@ -362,7 +383,6 @@ body .texture-layer{
   <div style="width: 120px;"></div>
 </div>
 
-<!-- Main Viewer -->
 <div class="viewer-container">
   <div class="slide-frame">
     <div class="corner-ornament tl"></div>
@@ -373,11 +393,14 @@ body .texture-layer{
   </div>
 </div>
 
-<!-- Error State -->
 <div class="error-state" id="errorState">
   <div class="error-icon">&#9784;</div>
-  <h2>The Tome Could Not Be Opened</h2>
-  <p>The sacred text could not be retrieved. It may be that the Google Drive link requires different permissions, or the file has moved.</p>
+  <h2>The Tome Could Not Be Opened Here</h2>
+  <p>Google Drive prevents direct embedding of these sacred texts. But the Dhamma is never truly blocked.</p>
+  <div class="drive-link-box">
+    <p>You may open this text directly in Google Drive:</p>
+    <a href="#" class="drive-link" id="driveLink" target="_blank">Open in Google Drive</a>
+  </div>
   <a href="../index.html" class="back-link" style="margin-top:20px;">
     <span class="back-arrow">&#8592;</span>
     <span>Return to Library</span>
@@ -386,7 +409,6 @@ body .texture-layer{
 
 <script>
 
-// Get the PDF URL from query params
 const params = new URLSearchParams(window.location.search);
 const pdfUrl = params.get("file");
 
@@ -394,8 +416,8 @@ const loadingOverlay = document.getElementById('loadingOverlay');
 const errorState = document.getElementById('errorState');
 const pdfViewer = document.getElementById('pdfViewer');
 const volumeTitle = document.getElementById('volumeTitle');
+const driveLink = document.getElementById('driveLink');
 
-// Section names mapping for display
 const sectionNames = {
   '1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK': 'Mūlapariyāya Vagga',
   '10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL': 'Sīhanāda Vagga',
@@ -419,42 +441,78 @@ const sectionNames = {
   '1rvxwG6RjT4yraPQYSKykMWsDglZn65g4': 'Essay & About the Compiler'
 };
 
-// Extract file ID and set title
-if (pdfUrl) {
-  const fileIdMatch = pdfUrl.match(/\/d\/([^/]+)/);
-  if (fileIdMatch && fileIdMatch[1]) {
-    const fileId = fileIdMatch[1];
-    volumeTitle.textContent = sectionNames[fileId] || 'Sacred Text';
-  }
-
-  // Load PDF through Mozilla's PDF.js viewer
-  // Note: Google Drive direct PDF links often need special handling
-  // This uses the public PDF.js viewer with the Drive link
-  const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(pdfUrl);
-  pdfViewer.src = viewerUrl;
-
-  // Hide loading after iframe loads (approximate)
-  pdfViewer.onload = function() {
-    setTimeout(() => {
-      loadingOverlay.classList.add('hidden');
-    }, 1500);
-  };
-
-  // Fallback: hide loading after 5 seconds even if iframe doesn't fire onload
-  setTimeout(() => {
-    loadingOverlay.classList.add('hidden');
-  }, 5000);
-
-} else {
-  loadingOverlay.classList.add('hidden');
-  errorState.classList.add('visible');
-  volumeTitle.textContent = 'No Text Selected';
+function extractFileId(url) {
+  const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+  return match ? match[1] : null;
 }
 
-// Handle iframe load errors
-pdfViewer.onerror = function() {
+function convertToDirectLink(driveUrl) {
+  const fileId = extractFileId(driveUrl);
+  if (fileId) {
+    return 'https://drive.google.com/uc?export=download&id=' + fileId;
+  }
+  return driveUrl;
+}
+
+if (pdfUrl) {
+  const fileId = extractFileId(pdfUrl);
+
+  if (fileId) {
+    volumeTitle.textContent = sectionNames[fileId] || 'Sacred Text';
+    driveLink.href = pdfUrl;
+
+    // Try direct download link first
+    const directUrl = convertToDirectLink(pdfUrl);
+    const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(directUrl);
+
+    pdfViewer.src = viewerUrl;
+
+    // Set a timeout to check if PDF loaded
+    setTimeout(() => {
+      loadingOverlay.classList.add('hidden');
+    }, 3000);
+
+    // If iframe fails to load after 6 seconds, show error with Drive link
+    setTimeout(() => {
+      try {
+        const iframeDoc = pdfViewer.contentDocument || pdfViewer.contentWindow.document;
+        // If we can access the iframe and it shows an error, show our error state
+        if (iframeDoc && iframeDoc.body && iframeDoc.body.textContent.includes('error')) {
+          showError();
+        }
+      } catch (e) {
+        // Cross-origin restriction, assume it might have failed
+        // Check if the viewer URL is still the same (meaning it didn't navigate)
+        if (pdfViewer.src === viewerUrl) {
+          // Give it more time, PDF.js might still be loading
+        }
+      }
+    }, 8000);
+
+  } else {
+    showError();
+  }
+
+} else {
+  showError();
+}
+
+function showError() {
   loadingOverlay.classList.add('hidden');
+  pdfViewer.style.display = 'none';
   errorState.classList.add('visible');
+  volumeTitle.textContent = 'Unable to Open';
+}
+
+// Handle iframe load events
+pdfViewer.onload = function() {
+  setTimeout(() => {
+    loadingOverlay.classList.add('hidden');
+  }, 1000);
+};
+
+pdfViewer.onerror = function() {
+  showError();
 };
 
 </script>

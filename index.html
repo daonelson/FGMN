@@ -30,8 +30,6 @@ A Field Guide to the Majjhima Nikāya & Selected Buddhist Writings
 --text:#f4efe7;
 --text-soft:#d8d0c5;
 
---shadow:rgba(0,0,0,.45);
-
 }
 
 *{
@@ -49,9 +47,12 @@ body{
 font-family:Inter,sans-serif;
 
 background:
-radial-gradient(circle at top,
+
+radial-gradient(
+circle at top,
 rgba(184,155,94,.10),
-transparent 40%),
+transparent 40%
+),
 
 linear-gradient(
 180deg,
@@ -59,7 +60,8 @@ linear-gradient(
 #241818 18%,
 #2b1b20 40%,
 #311d25 70%,
-#241818 100%);
+#241818 100%
+);
 
 color:var(--text);
 
@@ -83,7 +85,10 @@ pointer-events:none;
 
 background-image:
 
-radial-gradient(rgba(255,255,255,.02) 1px, transparent 1px);
+radial-gradient(
+rgba(255,255,255,.02) 1px,
+transparent 1px
+);
 
 background-size:5px 5px;
 
@@ -94,11 +99,14 @@ opacity:.25;
 .container{
 
 width:min(1250px,92%);
+
 margin:auto;
 
 }
 
-/* ---------------- HERO ---------------- */
+
+/* HERO */
+
 
 .hero{
 
@@ -107,6 +115,7 @@ min-height:100vh;
 display:flex;
 
 align-items:center;
+
 justify-content:center;
 
 text-align:center;
@@ -116,6 +125,7 @@ padding:80px 0 120px;
 position:relative;
 
 }
+
 
 .hero::after{
 
@@ -130,17 +140,22 @@ left:50%;
 transform:translateX(-50%);
 
 width:180px;
+
 height:1px;
 
-background:linear-gradient(
+background:
+
+linear-gradient(
 90deg,
 transparent,
 var(--gold),
-transparent);
+transparent
+);
 
 opacity:.8;
 
 }
+
 
 .wheel{
 
@@ -151,9 +166,13 @@ margin-bottom:45px;
 opacity:.95;
 
 filter:
-drop-shadow(0 0 18px rgba(184,155,94,.25));
+
+drop-shadow(
+0 0 18px rgba(184,155,94,.25)
+);
 
 }
+
 
 h1{
 
@@ -161,7 +180,13 @@ font-family:"EB Garamond",serif;
 
 font-weight:600;
 
-font-size:clamp(3rem,7vw,5.4rem);
+font-size:
+
+clamp(
+3rem,
+7vw,
+5.4rem
+);
 
 line-height:1.08;
 
@@ -170,6 +195,7 @@ letter-spacing:.02em;
 margin-bottom:28px;
 
 }
+
 
 .subtitle{
 
@@ -187,6 +213,7 @@ font-weight:300;
 
 }
 
+
 .hero-image{
 
 margin-top:70px;
@@ -196,6 +223,7 @@ display:flex;
 justify-content:center;
 
 }
+
 
 .hero-image img{
 
@@ -213,13 +241,16 @@ box-shadow:
 
 }
 
-/* ----------- LIBRARY HEADER ---------- */
+
+/* LIBRARY */
+
 
 .library{
 
 padding:120px 0;
 
 }
+
 
 .library h2{
 
@@ -235,6 +266,7 @@ margin-bottom:18px;
 
 }
 
+
 .library-intro{
 
 max-width:760px;
@@ -249,18 +281,25 @@ color:var(--text-soft);
 
 }
 
-/* -------- VOLUME GRID -------- */
+
+/* VOLUMES */
+
 
 .volume-grid{
 
 display:grid;
 
 grid-template-columns:
-repeat(auto-fit,minmax(420px,1fr));
+
+repeat(
+auto-fit,
+minmax(420px,1fr)
+);
 
 gap:40px;
 
 }
+
 
 .volume{
 
@@ -269,7 +308,8 @@ background:
 linear-gradient(
 180deg,
 rgba(255,255,255,.03),
-rgba(255,255,255,.015));
+rgba(255,255,255,.015)
+);
 
 backdrop-filter:blur(6px);
 
@@ -293,6 +333,7 @@ box-shadow:
 
 }
 
+
 .volume:hover{
 
 transform:translateY(-8px);
@@ -304,6 +345,7 @@ box-shadow:
 0 32px 90px rgba(0,0,0,.42);
 
 }
+
 
 .volume-label{
 
@@ -319,6 +361,7 @@ margin-bottom:18px;
 
 }
 
+
 .volume h3{
 
 font-family:"EB Garamond",serif;
@@ -333,6 +376,7 @@ margin-bottom:12px;
 
 }
 
+
 .volume-subtitle{
 
 color:var(--text-soft);
@@ -342,6 +386,7 @@ line-height:1.8;
 margin-bottom:30px;
 
 }
+
 
 .divider{
 
@@ -353,11 +398,13 @@ linear-gradient(
 90deg,
 transparent,
 rgba(184,155,94,.6),
-transparent);
+transparent
+);
 
 margin:26px 0;
 
 }
+
 
 .section-link{
 
@@ -369,9 +416,10 @@ text-decoration:none;
 
 color:var(--text);
 
-transition:all .25s ease;
+transition:.25s ease;
 
 }
+
 
 .section-link:hover{
 
@@ -380,6 +428,7 @@ padding-left:10px;
 color:var(--gold-soft);
 
 }
+
 
 .section-title{
 
@@ -391,6 +440,7 @@ margin-bottom:4px;
 
 }
 
+
 .section-range{
 
 font-size:.92rem;
@@ -398,6 +448,7 @@ font-size:.92rem;
 color:var(--text-soft);
 
 }
+
 
 .full-volume{
 
@@ -423,17 +474,23 @@ transition:.3s ease;
 
 }
 
+
 .full-volume:hover{
 
-background:rgba(184,155,94,.12);
+background:
+
+rgba(184,155,94,.12);
 
 }
+
 
 </style>
 
 </head>
 
+
 <body>
+
 
 <section class="hero">
 
@@ -442,6 +499,7 @@ background:rgba(184,155,94,.12);
 <img src="dhammawheel.png"
 class="wheel"
 alt="Dhamma Wheel">
+
 
 <h1>
 
@@ -453,12 +511,14 @@ Selected Buddhist Writings
 
 </h1>
 
+
 <p class="subtitle">
 
-A visual companion to the 152 Middle Discourses of the Buddha,
-beautifully organised for study, reflection, and exploration.
+A visual companion to the 152 Middle Discourses of the Buddha
+and selected Buddhist writings.
 
 </p>
+
 
 <div class="hero-image">
 
@@ -471,31 +531,46 @@ alt="The Buddha teaching at Deer Park">
 
 </section>
 
+
 <section class="library">
 
 <div class="container">
 
-<h2>The Library</h2>
+
+<h2>
+The Library
+</h2>
+
 
 <p class="library-intro">
 
-Browse the collection as complete illustrated volumes or explore
-individual sections for faster reading.
+Browse the collection as complete illustrated volumes
+(full volumes take longer to load), or explore individual
+sections for faster reading.
 
 </p>
 
+
 <div class="volume-grid">
 
-<!-- Volume I begins here -->
+
+<!-- ========================= -->
+<!-- VOLUME I -->
+<!-- ========================= -->
+
+
 <div class="volume">
+
 
 <div class="volume-label">
 📘 Volume I
 </div>
 
+
 <h3>
 Mūlapaṇṇāsa Pāḷi
 </h3>
+
 
 <p class="volume-subtitle">
 
@@ -504,20 +579,25 @@ MN 1–50
 
 </p>
 
-<!-- Full-volume Heyzine button will go here in Chunk 2 -->
 
-<div class="divider"></div>
 <a href="#"
 class="full-volume"
 target="_blank"
 rel="noopener noreferrer">
 
-📖 Read Complete Volume (Heyzine)
+📖 Open Complete Volume
 
 </a>
 
+
+<div class="divider"></div>
+<!-- ========================= -->
+<!-- VOLUME I CONTINUED -->
+<!-- ========================= -->
+
+
 <a class="section-link"
-href="https://archive.org/details/1.1-fgmn"
+href="https://drive.google.com/file/d/1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -526,13 +606,15 @@ Mūlapariyāya Vagga
 </div>
 
 <div class="section-range">
+The Division of the Discourse on the Root<br>
 MN 1–10
 </div>
 
 </a>
 
+
 <a class="section-link"
-href="https://heyzine.com/flip-book/652008b678.html"
+href="https://drive.google.com/file/d/10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -541,10 +623,12 @@ Sīhanāda Vagga
 </div>
 
 <div class="section-range">
+The Division of the Lion's Roar<br>
 MN 11–20
 </div>
 
 </a>
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4/view?usp=drive_link"
@@ -556,10 +640,12 @@ Opamma Vagga
 </div>
 
 <div class="section-range">
+The Division of Similes<br>
 MN 21–30
 </div>
 
 </a>
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p/view?usp=drive_link"
@@ -571,10 +657,12 @@ Mahāyamaka Vagga
 </div>
 
 <div class="section-range">
+The Great Division of Pairs<br>
 MN 31–40
 </div>
 
 </a>
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP/view?usp=drive_link"
@@ -586,26 +674,33 @@ Cūḷayamaka Vagga
 </div>
 
 <div class="section-range">
+The Shorter Division of Pairs<br>
 MN 41–50
 </div>
 
 </a>
 
+
 </div>
 
+
 <!-- ========================= -->
-<!-- Volume II -->
+<!-- VOLUME II -->
 <!-- ========================= -->
 
+
 <div class="volume">
+
 
 <div class="volume-label">
 📗 Volume II
 </div>
 
+
 <h3>
 Majjhimapaṇṇāsa Pāḷi
 </h3>
+
 
 <p class="volume-subtitle">
 
@@ -614,16 +709,20 @@ MN 51–100
 
 </p>
 
+
 <a href="#"
 class="full-volume"
 target="_blank"
 rel="noopener noreferrer">
 
-📖 Read Complete Volume (Heyzine)
+📖 Open Complete Volume
 
 </a>
 
+
 <div class="divider"></div>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf/view?usp=drive_link"
@@ -635,10 +734,13 @@ Gahapati Vagga
 </div>
 
 <div class="section-range">
+The Division on Householders<br>
 MN 51–60
 </div>
 
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E/view?usp=drive_link"
@@ -650,10 +752,13 @@ Bhikkhu Vagga
 </div>
 
 <div class="section-range">
+The Division on Bhikkhus<br>
 MN 61–70
 </div>
 
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1iGsiAogQzLg2HaampN35C5wCMU6ocjah/view?usp=drive_link"
@@ -665,10 +770,13 @@ Paribbājaka Vagga
 </div>
 
 <div class="section-range">
+The Division on Wanderers<br>
 MN 71–80
 </div>
 
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg/view?usp=drive_link"
@@ -680,10 +788,13 @@ Rāja Vagga
 </div>
 
 <div class="section-range">
+The Division on Kings<br>
 MN 81–90
 </div>
 
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-/view?usp=drive_link"
@@ -695,25 +806,31 @@ Brāhmaṇa Vagga
 </div>
 
 <div class="section-range">
+The Division on Brahmins<br>
 MN 91–100
 </div>
 
 </a>
 
+
 </div>
 <!-- ========================= -->
-<!-- Volume III -->
+<!-- VOLUME III -->
 <!-- ========================= -->
 
+
 <div class="volume">
+
 
 <div class="volume-label">
 📙 Volume III
 </div>
 
+
 <h3>
 Uparipaṇṇāsa Pāḷi
 </h3>
+
 
 <p class="volume-subtitle">
 
@@ -722,19 +839,23 @@ MN 101–152
 
 </p>
 
+
 <a href="#"
 class="full-volume"
 target="_blank"
 rel="noopener noreferrer">
 
-📖 Read Complete Volume (Heyzine)
+📖 Open Complete Volume
 
 </a>
 
+
 <div class="divider"></div>
 
+
+
 <a class="section-link"
-href="#"
+href="https://drive.google.com/file/d/1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -743,13 +864,16 @@ Devadaha Vagga
 </div>
 
 <div class="section-range">
+The Division at Devadaha<br>
 MN 101–110
 </div>
 
 </a>
 
+
+
 <a class="section-link"
-href="#"
+href="https://drive.google.com/file/d/1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -758,13 +882,16 @@ Anupada Vagga
 </div>
 
 <div class="section-range">
+The Division of One by One<br>
 MN 111–120
 </div>
 
 </a>
 
+
+
 <a class="section-link"
-href="#"
+href="https://drive.google.com/file/d/1NuX7UqQbA0ZLKj0jQZqxZ6QRyap5VDPn/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -773,13 +900,16 @@ Suññata Vagga
 </div>
 
 <div class="section-range">
+The Division on Voidness<br>
 MN 121–130
 </div>
 
 </a>
 
+
+
 <a class="section-link"
-href="#"
+href="https://drive.google.com/file/d/1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -788,13 +918,16 @@ Vibhaṅga Vagga
 </div>
 
 <div class="section-range">
+The Division of Expositions<br>
 MN 131–142
 </div>
 
 </a>
 
+
+
 <a class="section-link"
-href="#"
+href="https://drive.google.com/file/d/1EAMg_TwelGqYAPbEFbd6FxBcEdrvhp4O/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
@@ -803,44 +936,56 @@ Saḷāyatana Vagga
 </div>
 
 <div class="section-range">
+The Division of the Sixfold Base<br>
 MN 143–152
 </div>
 
 </a>
 
+
 </div>
 
+
+
 <!-- ========================= -->
-<!-- Volume IV -->
+<!-- VOLUME IV -->
 <!-- ========================= -->
+
 
 <div class="volume">
 
+
 <div class="volume-label">
-📕 Special Collection
+📕 Volume IV
 </div>
+
 
 <h3>
 Selected Buddhist Writings
 </h3>
 
+
 <p class="volume-subtitle">
 
-A curated collection of important Buddhist texts,
-supplementary readings and reference material.
+Supplementary Buddhist texts,
+essays, and reference material.
 
 </p>
+
 
 <a href="#"
 class="full-volume"
 target="_blank"
 rel="noopener noreferrer">
 
-📖 Read Complete Volume (Heyzine)
+📖 Open Complete Volume
 
 </a>
 
+
 <div class="divider"></div>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM/view?usp=drive_link"
@@ -851,11 +996,9 @@ rel="noopener noreferrer">
 Selected Suttas 1–20
 </div>
 
-<div class="section-range">
-Google Drive
-</div>
-
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I/view?usp=drive_link"
@@ -866,11 +1009,9 @@ rel="noopener noreferrer">
 Selected Suttas 21–40
 </div>
 
-<div class="section-range">
-Google Drive
-</div>
-
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/1WY2ugb-KyOMGp9KoQfvwo9z3gfTZoMKs/view?usp=drive_link"
@@ -881,26 +1022,22 @@ rel="noopener noreferrer">
 Selected Suttas 41–65
 </div>
 
-<div class="section-range">
-Google Drive
-</div>
-
 </a>
 
+
+
 <a class="section-link"
-href="https://drive.google.com/file/d/1stpWq8XRVGX8IEOIj73N2tbhvlq29FPv/view?usp=drive_link"
+href="https://drive.google.com/file/d/1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
 <div class="section-title">
-Selected Mahāyāna Sūtras / Writings 66–80
-</div>
-
-<div class="section-range">
-Google Drive
+Selected Mahāyāna Sūtras/Writings 66–80
 </div>
 
 </a>
+
+
 
 <a class="section-link"
 href="https://drive.google.com/file/d/10YQrvUVxa8ImhapGM7T6auHq7VjN5u2R/view?usp=drive_link"
@@ -911,47 +1048,28 @@ rel="noopener noreferrer">
 Essay + About the Compiler
 </div>
 
-<div class="section-range">
-Google Drive
-</div>
-
 </a>
 
-</div>
 
 </div>
+
 
 </div>
 
 </section>
+
+
+
 <footer>
 
-<div class="container">
-
-<div style="max-width:900px;margin:auto;text-align:center;padding:90px 0 40px;">
 
 <div style="
-font-family:'EB Garamond',serif;
-font-size:2rem;
-color:var(--gold-soft);
-margin-bottom:24px;
+max-width:800px;
+margin:auto;
+text-align:center;
+padding:80px 0 40px;
 ">
 
-❦
-
-</div>
-
-<p style="
-font-family:'EB Garamond',serif;
-font-size:1.55rem;
-line-height:1.8;
-margin-bottom:28px;
-">
-
-"May these teachings serve as a reliable companion
-for study, contemplation, and practice."
-
-</p>
 
 <p style="
 max-width:760px;
@@ -960,22 +1078,30 @@ line-height:1.9;
 color:var(--text-soft);
 ">
 
-This collection is offered freely for the benefit of all who wish to
-explore the Buddha's teachings. Complete volumes may be viewed as
-flipbooks, while individual sections are provided for faster reading.
+This collection is offered freely for the benefit of all beings.
+Complete volumes may be viewed as flipbooks, while individual sections
+are provided for faster reading.
 
 </p>
+
+
 
 <div style="
 width:220px;
 height:1px;
 margin:0 auto 35px;
-background:linear-gradient(
+
+background:
+linear-gradient(
 90deg,
 transparent,
 var(--gold),
-transparent);
+transparent
+);
+
 "></div>
+
+
 
 <p style="
 font-size:.9rem;
@@ -985,27 +1111,16 @@ color:var(--gold-soft);
 margin-bottom:10px;
 ">
 
-A Field Guide to the Majjhima Nikāya
-& Selected Buddhist Writings
+A FIELD GUIDE TO THE MAJJHIMA NIKĀYA
+& SELECTED BUDDHIST WRITINGS
 
 </p>
 
-<p style="
-font-size:.9rem;
-color:var(--text-soft);
-opacity:.8;
-">
-
-© Dhamma River
-
-</p>
 
 </div>
 
-</div>
 
 </footer>
-
 </body>
 
 </html>

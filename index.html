@@ -1,7 +1,4 @@
-
-# Build the final index.html with Google Drive links and the fancy viewer wrapper
-
-final_index = '''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -930,29 +927,29 @@ footer{
 <section class="hero">
   <div class="hero-archway"></div>
   <div class="hero-line"></div>
-  
+
   <div class="container">
     <div class="hero-content">
-      
+
       <div class="wheel-container" onclick="ringBell(this)">
         <img src="dhammawheel.png" class="wheel" alt="Dhamma Wheel">
         <div class="wheel-ring-1"></div>
         <div class="wheel-ring-2"></div>
         <div class="bell-ripple"></div>
       </div>
-      
+
       <h1>
         A Field Guide to the<br>
         Majjhima Nikāya &<br>
         Selected Buddhist Writings
       </h1>
-      
+
       <p class="subtitle">
         <span class="subtitle-ornament">&#10087;</span>
         A visual companion to the 152 Middle Discourses of the Buddha
         and selected Buddhist writings
       </p>
-      
+
       <div class="hero-image">
         <div class="hero-image-wrapper">
           <div class="hero-frame-outer"></div>
@@ -965,10 +962,10 @@ footer{
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
-  
+
   <div class="scroll-indicator">
     <span>Enter</span>
     <div class="scroll-line"></div>
@@ -984,7 +981,7 @@ footer{
 <!-- Library -->
 <section class="library">
   <div class="container">
-    
+
     <div class="library-header reveal">
       <div class="library-header-circle"></div>
       <h2>The Library</h2>
@@ -994,14 +991,14 @@ footer{
         Each tome awaits the seeker with patience.
       </p>
     </div>
-    
+
     <!-- Shelf I -->
     <div class="bookshelf reveal reveal-delay-1">
       <div class="shelf-label"><div class="shelf-label-bar"></div>First Collection</div>
       <div class="shelf-board">
         <div class="shelf-shadow"></div>
         <div class="volume-grid">
-          
+
           <div class="volume">
             <div class="volume-texture"></div>
             <div class="volume-spine"></div>
@@ -1014,7 +1011,7 @@ footer{
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
-            
+
             <a class="section-link" href="viewer/index.html?file=https://drive.google.com/file/d/1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Mūlapariyāya Vagga</div>
@@ -1041,7 +1038,7 @@ footer{
               <div class="section-range">The Shorter Division of Pairs<br>MN 41–50</div>
             </a>
           </div>
-          
+
           <div class="volume">
             <div class="volume-texture"></div>
             <div class="volume-spine"></div>
@@ -1054,7 +1051,7 @@ footer{
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
-            
+
             <a class="section-link" href="viewer/index.html?file=https://drive.google.com/file/d/1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Gahapati Vagga</div>
@@ -1081,18 +1078,18 @@ footer{
               <div class="section-range">The Division on Brahmins<br>MN 91–100</div>
             </a>
           </div>
-          
+
         </div>
       </div>
     </div>
-    
+
     <!-- Shelf II -->
     <div class="bookshelf reveal reveal-delay-2">
       <div class="shelf-label"><div class="shelf-label-bar"></div>Second Collection</div>
       <div class="shelf-board">
         <div class="shelf-shadow"></div>
         <div class="volume-grid">
-          
+
           <div class="volume">
             <div class="volume-texture"></div>
             <div class="volume-spine"></div>
@@ -1105,7 +1102,7 @@ footer{
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
-            
+
             <a class="section-link" href="viewer/index.html?file=https://drive.google.com/file/d/1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Devadaha Vagga</div>
@@ -1132,7 +1129,7 @@ footer{
               <div class="section-range">The Division of the Sixfold Base<br>MN 143–152</div>
             </a>
           </div>
-          
+
           <div class="volume">
             <div class="volume-texture"></div>
             <div class="volume-spine"></div>
@@ -1145,7 +1142,7 @@ footer{
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
-            
+
             <a class="section-link" href="viewer/index.html?file=https://drive.google.com/file/d/1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Selected Suttas 1–20</div>
@@ -1167,11 +1164,11 @@ footer{
               <div class="section-title">Essay + About the Compiler</div>
             </a>
           </div>
-          
+
         </div>
       </div>
     </div>
-    
+
   </div>
 </section>
 
@@ -1276,9 +1273,4 @@ volumes.forEach(vol => {
 </script>
 
 </body>
-</html>'''
-
-with open('/mnt/agents/output/index.html', 'w', encoding='utf-8') as f:
-    f.write(final_index)
-
-print(f"Final index.html saved: {len(final_index)} chars")
+</html>

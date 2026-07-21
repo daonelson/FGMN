@@ -2,895 +2,245 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<title>Reader — A Field Guide to the Majjhima Nikaya</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reading — A Field Guide to the Majjhima Nikaya</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 
 :root{
   --bg-deep:      #140e0e;
-  --bg-mid:       #1c1212;
-  --bg-raised:    #251818;
-  --bg-hover:     #352222;
+  --bg-raised:    #1c1212;
   --gold:         #c9a84c;
   --gold-bright:  #e8d5a3;
   --gold-dim:     #8a7340;
-  --gold-muted:   rgba(201,168,76,0.4);
   --text:         #f0e6d8;
   --text-soft:    #c4b8a8;
   --text-muted:   #8a7e72;
-  --border-subtle: rgba(201,168,76,0.08);
-  --border-medium: rgba(201,168,76,0.15);
 }
 
 *{ margin:0; padding:0; box-sizing:border-box; }
 
 html, body{
   height: 100%;
-  overflow: hidden;
+  font-family: 'EB Garamond', serif;
   background: var(--bg-deep);
   color: var(--text);
-  font-family: 'Inter', system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
 }
 
-body::before{
-  content: '';
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201,168,76,0.03) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(184,115,51,0.02) 0%, transparent 50%);
-  pointer-events: none;
-  z-index: 0;
-}
-
-body::after{
-  content: '';
-  position: fixed;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-size: 256px 256px;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.5;
-}
-
-.app{
-  display: flex;
-  height: 100vh;
-  position: relative;
-  z-index: 1;
-}
-
-.sidebar{
-  width: 200px;
-  flex-shrink: 0;
-  background: var(--bg-mid);
-  border-right: 1px solid var(--border-subtle);
+body{
   display: flex;
   flex-direction: column;
 }
 
-.sidebar-header{
-  padding: 20px 14px 12px;
-  border-bottom: 1px solid var(--border-subtle);
-}
-
-.sidebar-header h2{
-  font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  font-weight: 600;
-  color: var(--gold-dim);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.sidebar-header .doc-title{
-  font-family: 'EB Garamond', serif;
-  font-size: 0.9rem;
-  color: var(--text);
-  margin-top: 6px;
-  line-height: 1.3;
-  font-style: italic;
-}
-
-.thumbnails{
-  flex: 1;
-  overflow-y: auto;
-  padding: 10px 6px;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-medium) transparent;
-}
-
-.thumbnails::-webkit-scrollbar{ width: 4px; }
-.thumbnails::-webkit-scrollbar-track{ background: transparent; }
-.thumbnails::-webkit-scrollbar-thumb{ background: var(--border-medium); border-radius: 2px; }
-
-.thumb{
-  width: 100%;
-  aspect-ratio: 3/4;
-  background: var(--bg-raised);
-  border: 1px solid var(--border-subtle);
-  border-radius: 3px;
-  margin-bottom: 6px;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-  transition: border-color 0.2s, box-shadow 0.2s;
-}
-
-.thumb:hover{ border-color: var(--gold-muted); }
-
-.thumb.active{
-  border-color: var(--gold);
-  box-shadow: 0 0 0 1px var(--gold);
-}
-
-.thumb canvas{
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.thumb-num{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 0.6rem;
-  color: var(--text-muted);
-  padding: 2px;
-  background: linear-gradient(to top, var(--bg-deep), transparent);
-}
-
-.thumb.active .thumb-num{ color: var(--gold); }
-
-.main{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  position: relative;
-}
-
-.header{
-  height: 52px;
-  background: var(--bg-mid);
-  border-bottom: 1px solid var(--border-subtle);
+/* -- Header -- */
+header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
-  flex-shrink: 0;
+  gap: 20px;
+  padding: 16px 28px;
+  background: linear-gradient(180deg, #1c1212 0%, #180f0f 100%);
+  border-bottom: 1px solid rgba(201,168,76,0.15);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
+  z-index: 10;
 }
 
 .header-left{
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
+  min-width: 0;
 }
 
-.back-btn{
+.back-link{
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  color: var(--text-soft);
+  gap: 8px;
   text-decoration: none;
-  font-size: 0.78rem;
-  font-weight: 400;
-  letter-spacing: 0.02em;
-  transition: color 0.2s;
-  font-family: 'Inter', sans-serif;
-}
-
-.back-btn:hover{ color: var(--gold); }
-
-.back-btn svg{
-  width: 15px;
-  height: 15px;
-  stroke: currentColor;
-  stroke-width: 1.5;
-  fill: none;
-}
-
-.header-title{
+  color: var(--gold);
   font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  font-weight: 400;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 999px;
+  padding: 8px 18px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.back-link:hover{
+  background: rgba(201,168,76,0.1);
+  border-color: var(--gold);
+}
+
+.title-block{
+  min-width: 0;
+  overflow: hidden;
+}
+
+.title-block .eyebrow{
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 2px;
+}
+
+.title-block h1{
+  font-size: 1.15rem;
+  font-weight: 500;
   color: var(--text);
-  letter-spacing: 0.08em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .header-right{
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.header-btn{
-  width: 34px;
-  height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border: 1px solid var(--border-subtle);
-  border-radius: 6px;
-  color: var(--text-soft);
-  cursor: pointer;
-  transition: all 0.2s;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.header-btn:hover{
-  border-color: var(--gold-muted);
-  color: var(--gold);
-  background: var(--bg-hover);
-}
-
-.header-btn:active{ transform: scale(0.95); }
-
-.header-btn svg{
-  width: 16px;
-  height: 16px;
-  stroke: currentColor;
-  stroke-width: 1.5;
-  fill: none;
-}
-
-.page-indicator{
-  font-family: 'EB Garamond', serif;
-  font-size: 0.85rem;
-  color: var(--text-soft);
-  min-width: 70px;
-  text-align: center;
-  user-select: none;
-}
-
-.page-indicator span{ color: var(--gold-dim); }
-
-.toolbar{
-  height: 40px;
-  background: var(--bg-raised);
-  border-bottom: 1px solid var(--border-subtle);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  padding: 0 12px;
   flex-shrink: 0;
 }
 
-.tool-btn{
-  height: 30px;
-  padding: 0 10px;
+.download-link{
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  background: transparent;
-  border: 1px solid transparent;
-  border-radius: 4px;
+  gap: 8px;
+  text-decoration: none;
   color: var(--text-soft);
   font-family: 'Inter', sans-serif;
-  font-size: 0.72rem;
-  font-weight: 400;
-  cursor: pointer;
-  transition: all 0.2s;
-  white-space: nowrap;
-  -webkit-tap-highlight-color: transparent;
+  font-size: 0.85rem;
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 999px;
+  padding: 8px 18px;
+  transition: all 0.3s ease;
 }
 
-.tool-btn:hover{
-  color: var(--text);
-  background: var(--bg-hover);
-  border-color: var(--border-subtle);
+.download-link:hover{
+  color: var(--gold-bright);
+  border-color: rgba(201,168,76,0.4);
 }
 
-.tool-btn:active{ transform: scale(0.95); }
-
-.tool-btn svg{
-  width: 13px;
-  height: 13px;
-  stroke: currentColor;
-  stroke-width: 1.5;
-  fill: none;
-}
-
-.tool-sep{
-  width: 1px;
-  height: 18px;
-  background: var(--border-subtle);
-  margin: 0 3px;
-}
-
-.zoom-level{
-  font-family: 'Inter', sans-serif;
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  min-width: 44px;
-  text-align: center;
-  user-select: none;
-}
-
-.viewport{
+/* -- Viewer -- */
+.viewer-wrap{
   flex: 1;
-  overflow: auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 30px 16px;
-  background: var(--bg-deep);
-  scrollbar-width: thin;
-  scrollbar-color: var(--border-medium) transparent;
   position: relative;
-  -webkit-overflow-scrolling: touch;
+  background: #0d0808;
 }
 
-.viewport::-webkit-scrollbar{ width: 8px; }
-.viewport::-webkit-scrollbar-track{ background: transparent; }
-.viewport::-webkit-scrollbar-thumb{ background: var(--border-medium); border-radius: 4px; }
-
-.page-container{
-  position: relative;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.5), 0 0 0 1px var(--border-subtle);
-  background: #1a1a1a;
-  line-height: 0;
-  max-width: 100%;
-}
-
-.page-container canvas{
+.viewer-wrap iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 
-.loading-state{
+/* -- States -- */
+.state-message{
   position: absolute;
   inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 14px;
-  color: var(--text-soft);
-}
-
-.loading-state .spinner{
-  width: 28px;
-  height: 28px;
-  border: 1px solid var(--border-medium);
-  border-top-color: var(--gold);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin{ to { transform: rotate(360deg); } }
-
-.loading-state p{
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  font-style: italic;
-  color: var(--text-muted);
-}
-
-.error-state{
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  color: var(--text-soft);
   text-align: center;
   padding: 40px;
+  gap: 18px;
 }
 
-.error-state h3{
-  font-family: 'Cinzel', serif;
+.state-message.hidden{ display: none; }
+
+.state-ornament{
+  font-size: 1.4rem;
   color: var(--gold-dim);
-  font-size: 1rem;
 }
 
-.error-state p{
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  max-width: 400px;
-  line-height: 1.6;
-}
-
-.error-state .error-detail{
-  font-family: 'Inter', monospace;
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  background: var(--bg-raised);
-  padding: 8px 12px;
-  border-radius: 4px;
-  max-width: 90%;
-  word-break: break-all;
-  margin-top: 8px;
-}
-
-.footer{
-  height: 32px;
-  background: var(--bg-mid);
-  border-top: 1px solid var(--border-subtle);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  padding: 0 16px;
-  flex-shrink: 0;
-}
-
-.footer-hint{
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.03em;
-}
-
-.footer-hint kbd{
-  display: inline-block;
-  padding: 1px 4px;
-  background: var(--bg-raised);
-  border: 1px solid var(--border-subtle);
-  border-radius: 3px;
-  font-family: 'Inter', monospace;
-  font-size: 0.62rem;
+.state-message p{
   color: var(--text-soft);
-  margin: 0 2px;
+  max-width: 480px;
+  line-height: 1.8;
+  font-size: 1.05rem;
 }
 
-.sidebar-toggle{ display: none; }
-
-@media (max-width: 768px){
-  .sidebar{
-    position: fixed;
-    left: 0; top: 0; bottom: 0;
-    z-index: 100;
-    box-shadow: 4px 0 24px rgba(0,0,0,0.5);
-    transform: translateX(0);
-    transition: transform 0.3s ease;
-  }
-
-  .sidebar.hidden{ transform: translateX(-100%); }
-
-  .sidebar-toggle{
-    display: flex;
-    width: 34px;
-    height: 34px;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: 1px solid var(--border-subtle);
-    border-radius: 6px;
-    color: var(--text-soft);
-    cursor: pointer;
-  }
-
-  .sidebar-toggle svg{
-    width: 16px;
-    height: 16px;
-    stroke: currentColor;
-    stroke-width: 1.5;
-    fill: none;
-  }
-
-  .header-title{ display: none; }
-  .tool-btn span{ display: none; }
-  .footer{ display: none; }
-  .viewport{ padding: 16px 10px; }
+.state-message .fallback-open{
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 999px;
+  padding: 12px 28px;
+  transition: all 0.3s ease;
 }
 
-@media print{
-  .sidebar, .header, .toolbar, .footer{ display: none; }
-  .viewport{ overflow: visible; padding: 0; }
-  .page-container{ box-shadow: none; }
+.state-message .fallback-open:hover{
+  background: rgba(201,168,76,0.1);
+  border-color: var(--gold);
 }
 
 </style>
 </head>
 <body>
 
-<div class="app">
-  <aside class="sidebar" id="sidebar">
-    <div class="sidebar-header">
-      <h2>Contents</h2>
-      <div class="doc-title" id="docTitle">Loading...</div>
+<header>
+  <div class="header-left">
+    <a href="../index.html" class="back-link">&larr; Library</a>
+    <div class="title-block">
+      <div class="eyebrow">Volume I &middot; Mulapariyaya Vagga</div>
+      <h1 id="pageTitle">MN 1&ndash;10 &middot; The Division on the Root</h1>
     </div>
-    <div class="thumbnails" id="thumbnails"></div>
-  </aside>
+  </div>
+  <div class="header-right">
+    <a id="downloadLink" href="#" class="download-link" download>&#8681; Download PDF</a>
+  </div>
+</header>
 
-  <div class="main">
-    <header class="header">
-      <div class="header-left">
-        <button class="header-btn sidebar-toggle" id="toggleSidebar" title="Toggle sidebar">
-          <svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
-        </button>
-        <a href="../index.html" class="back-btn">
-          <svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
-          Library
-        </a>
-        <span class="header-title" id="headerTitle">A Field Guide to the Majjhima Nikaya</span>
-      </div>
-      <div class="header-right">
-        <span class="page-indicator" id="pageIndicator">-- / --</span>
-        <button class="header-btn" id="prevPage" title="Previous page (←)">
-          <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
-        </button>
-        <button class="header-btn" id="nextPage" title="Next page (→)">
-          <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
-        </button>
-      </div>
-    </header>
+<div class="viewer-wrap">
+  <iframe id="pdfFrame" title="PDF reader"></iframe>
 
-    <div class="toolbar">
-      <button class="tool-btn" id="zoomOut" title="Zoom out">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M8 11h6"/></svg>
-        <span>Out</span>
-      </button>
-      <span class="zoom-level" id="zoomLevel">100%</span>
-      <button class="tool-btn" id="zoomIn" title="Zoom in">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35M8 11h6m-3-3v6"/></svg>
-        <span>In</span>
-      </button>
-      <div class="tool-sep"></div>
-      <button class="tool-btn" id="fitWidth" title="Fit to width">
-        <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 12h20"/></svg>
-        <span>Width</span>
-      </button>
-      <button class="tool-btn" id="fitPage" title="Fit to page">
-        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/></svg>
-        <span>Page</span>
-      </button>
-    </div>
-
-    <div class="viewport" id="viewport">
-      <div class="loading-state" id="loadingState">
-        <div class="spinner"></div>
-        <p>Opening the text...</p>
-      </div>
-      <div class="page-container" id="pageContainer" style="display:none;">
-        <canvas id="pdfCanvas"></canvas>
-      </div>
-    </div>
-
-    <footer class="footer">
-      <span class="footer-hint"><kbd>&larr;</kbd> <kbd>&rarr;</kbd> Navigate</span>
-      <span class="footer-hint"><kbd>+</kbd> <kbd>-</kbd> Zoom</span>
-      <span class="footer-hint"><kbd>Home</kbd> First</span>
-      <span class="footer-hint"><kbd>End</kbd> Last</span>
-    </footer>
+  <div class="state-message hidden" id="notFoundState">
+    <div class="state-ornament">&#10087;</div>
+    <p>This section isn't wired up yet — only MN 1&ndash;10 is hosted here for now. The rest will open directly from Google Drive until they're added.</p>
+    <a href="../index.html" class="fallback-open">&larr; Return to the Library</a>
   </div>
 </div>
 
 <script>
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.min.js';
-
-const fileMap = {
-  '1.1': 'https://daonelson.github.io/A-Field-Guide-to-the-Majjhima-Nikaya/1.1%20FGMN.pdf',
+// Map of "file" query values to their actual paths in the repo.
+// Add an entry here each time a new PDF is hosted locally.
+// NOTE: the current file has a literal space in its name — encoded below as %20.
+const FILES = {
+  "1.1": {
+    path: "../1.1%20FGMN.pdf",
+    title: "MN 1\u201310 \u00b7 The Division on the Root"
+  }
 };
-
-const state = {
-  pdf: null,
-  currentPage: 1,
-  totalPages: 0,
-  scale: 1.5,
-  fitMode: 'none',
-  isRendering: false,
-  pendingRender: null,
-  renderTask: null
-};
-
-const $ = id => document.getElementById(id);
-const viewportEl = $('viewport');
-const pageContainer = $('pageContainer');
-const canvas = $('pdfCanvas');
-const ctx = canvas.getContext('2d');
-const thumbnailsEl = $('thumbnails');
-const pageIndicator = $('pageIndicator');
-const docTitle = $('docTitle');
-const headerTitle = $('headerTitle');
-const zoomLevel = $('zoomLevel');
-const loadingState = $('loadingState');
 
 const params = new URLSearchParams(window.location.search);
-const fileId = params.get('file');
-const pdfUrl = fileMap[fileId] || fileId;
+const key = params.get("file");
+const entry = key ? FILES[key] : null;
 
-async function init() {
-  if (typeof pdfjsLib === 'undefined') {
-    showError('PDF viewer failed to load', 'The PDF.js library could not be loaded. Please try again later.');
-    return;
-  }
+const frame = document.getElementById("pdfFrame");
+const notFound = document.getElementById("notFoundState");
+const downloadLink = document.getElementById("downloadLink");
+const pageTitle = document.getElementById("pageTitle");
 
-  if (!pdfUrl) {
-    showError('No document specified', 'Please select a volume from the library.');
-    return;
-  }
-
-  console.log('[Viewer] Loading PDF:', pdfUrl);
-
-  try {
-    const loadingTask = pdfjsLib.getDocument({
-      url: pdfUrl,
-      cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/cmaps/',
-      cMapPacked: true,
-    });
-
-    const timeoutId = setTimeout(() => {
-      console.warn('[Viewer] PDF loading is taking longer than expected...');
-    }, 5000);
-
-    state.pdf = await loadingTask.promise;
-    clearTimeout(timeoutId);
-
-    state.totalPages = state.pdf.numPages;
-    console.log('[Viewer] PDF loaded. Pages:', state.totalPages);
-
-    try {
-      const metadata = await state.pdf.getMetadata();
-      const title = metadata?.info?.Title || ('Volume ' + fileId);
-      docTitle.textContent = title;
-      headerTitle.textContent = title;
-      document.title = title + ' \u2014 A Field Guide to the Majjhima Nikaya';
-    } catch (metaErr) {
-      docTitle.textContent = 'Volume ' + fileId;
-      headerTitle.textContent = 'A Field Guide to the Majjhima Nikaya';
-    }
-
-    loadingState.style.display = 'none';
-    pageContainer.style.display = '';
-
-    await renderThumbnails();
-    await renderPage(1);
-    updateUI();
-
-  } catch (err) {
-    console.error('[Viewer] PDF load error:', err);
-    let message = err.message || 'The file may be unavailable.';
-    if (err.name === 'MissingPDFException') {
-      message = 'The PDF file could not be found at the specified URL.';
-    } else if (err.name === 'UnexpectedResponseException') {
-      message = 'The server returned an unexpected response.';
-    } else if (err.message && err.message.includes('network')) {
-      message = 'Network error while loading the PDF.';
-    }
-    showError('Unable to open document', message, pdfUrl);
-  }
-}
-
-async function renderPage(num) {
-  if (num < 1 || num > state.totalPages) return;
-  if (state.isRendering) {
-    state.pendingRender = num;
-    return;
-  }
-
-  state.isRendering = true;
-  state.currentPage = num;
-
-  try {
-    const page = await state.pdf.getPage(num);
-    let scale = state.scale;
-
-    if (state.fitMode === 'width') {
-      const vpWidth = viewportEl.clientWidth - 60;
-      const pageWidth = page.getViewport({ scale: 1 }).width;
-      scale = vpWidth / pageWidth;
-    } else if (state.fitMode === 'page') {
-      const vpWidth = viewportEl.clientWidth - 60;
-      const vpHeight = viewportEl.clientHeight - 60;
-      const vp1 = page.getViewport({ scale: 1 });
-      scale = Math.min(vpWidth / vp1.width, vpHeight / vp1.height);
-    }
-
-    const pageViewport = page.getViewport({ scale });
-    canvas.width = pageViewport.width;
-    canvas.height = pageViewport.height;
-    canvas.style.width = pageViewport.width + 'px';
-    canvas.style.height = pageViewport.height + 'px';
-
-    state.renderTask = page.render({
-      canvasContext: ctx,
-      viewport: pageViewport
-    });
-
-    await state.renderTask.promise;
-
-    document.querySelectorAll('.thumb').forEach((t, i) => {
-      t.classList.toggle('active', i + 1 === num);
-    });
-    scrollThumbnailIntoView(num);
-    updateUI();
-
-  } catch (err) {
-    if (err.name !== 'RenderingCancelledException') {
-      console.error('[Viewer] Render error:', err);
-    }
-  } finally {
-    state.isRendering = false;
-    if (state.pendingRender) {
-      const next = state.pendingRender;
-      state.pendingRender = null;
-      renderPage(next);
-    }
-  }
-}
-
-async function renderThumbnails() {
-  thumbnailsEl.innerHTML = '';
-
-  for (let i = 1; i <= state.totalPages; i++) {
-    const thumb = document.createElement('div');
-    thumb.className = 'thumb';
-    thumb.dataset.page = i;
-    thumb.innerHTML = '<canvas></canvas><div class="thumb-num">' + i + '</div>';
-    thumb.addEventListener('click', () => {
-      renderPage(i);
-      if (window.innerWidth <= 768) {
-        $('sidebar').classList.add('hidden');
-      }
-    });
-    thumbnailsEl.appendChild(thumb);
-
-    renderThumbnailPage(i, thumb.querySelector('canvas'));
-  }
-}
-
-async function renderThumbnailPage(num, thumbCanvas) {
-  try {
-    const page = await state.pdf.getPage(num);
-    const scale = 0.18;
-    const vp = page.getViewport({ scale });
-    thumbCanvas.width = vp.width;
-    thumbCanvas.height = vp.height;
-    await page.render({
-      canvasContext: thumbCanvas.getContext('2d'),
-      viewport: vp
-    }).promise;
-  } catch (e) {}
-}
-
-function scrollThumbnailIntoView(pageNum) {
-  const thumb = thumbnailsEl.querySelector('[data-page="' + pageNum + '"]');
-  if (thumb) {
-    thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-}
-
-function updateUI() {
-  pageIndicator.innerHTML = '<span>' + state.currentPage + '</span> / ' + state.totalPages;
-  const pct = Math.round(state.scale * 100);
-  zoomLevel.textContent = state.fitMode === 'width' ? 'Fit W' : state.fitMode === 'page' ? 'Fit P' : pct + '%';
-}
-
-function showError(title, message, detail) {
-  loadingState.style.display = 'none';
-  pageContainer.style.display = 'none';
-
-  const existing = viewportEl.querySelector('.error-state');
-  if (existing) existing.remove();
-
-  const err = document.createElement('div');
-  err.className = 'error-state';
-  let html = '<h3>' + title + '</h3><p>' + message + '</p>';
-  if (detail) {
-    html += '<div class="error-detail">URL: ' + detail + '</div>';
-  }
-  err.innerHTML = html;
-  viewportEl.appendChild(err);
-}
-
-function zoomIn() {
-  state.fitMode = 'none';
-  state.scale = Math.min(state.scale * 1.2, 5);
-  renderPage(state.currentPage);
-}
-
-function zoomOut() {
-  state.fitMode = 'none';
-  state.scale = Math.max(state.scale / 1.2, 0.25);
-  renderPage(state.currentPage);
-}
-
-function fitWidth() {
-  state.fitMode = state.fitMode === 'width' ? 'none' : 'width';
-  renderPage(state.currentPage);
-}
-
-function fitPage() {
-  state.fitMode = state.fitMode === 'page' ? 'none' : 'page';
-  renderPage(state.currentPage);
-}
-
-function prevPage() { renderPage(state.currentPage - 1); }
-function nextPage() { renderPage(state.currentPage + 1); }
-function firstPage() { renderPage(1); }
-function lastPage() { renderPage(state.totalPages); }
-
-$('prevPage').addEventListener('click', prevPage);
-$('nextPage').addEventListener('click', nextPage);
-$('zoomIn').addEventListener('click', zoomIn);
-$('zoomOut').addEventListener('click', zoomOut);
-$('fitWidth').addEventListener('click', fitWidth);
-$('fitPage').addEventListener('click', fitPage);
-
-let touchStartX = 0;
-viewportEl.addEventListener('touchstart', (e) => {
-  touchStartX = e.changedTouches[0].screenX;
-}, { passive: true });
-
-viewportEl.addEventListener('touchend', (e) => {
-  const diff = touchStartX - e.changedTouches[0].screenX;
-  if (Math.abs(diff) > 50) {
-    diff > 0 ? nextPage() : prevPage();
-  }
-}, { passive: true });
-
-document.addEventListener('keydown', (e) => {
-  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-
-  switch(e.key) {
-    case 'ArrowLeft':
-    case 'PageUp':
-      e.preventDefault();
-      prevPage();
-      break;
-    case 'ArrowRight':
-    case 'PageDown':
-    case ' ':
-      e.preventDefault();
-      nextPage();
-      break;
-    case 'Home':
-      e.preventDefault();
-      firstPage();
-      break;
-    case 'End':
-      e.preventDefault();
-      lastPage();
-      break;
-    case '+':
-    case '=':
-      e.preventDefault();
-      zoomIn();
-      break;
-    case '-':
-    case '_':
-      e.preventDefault();
-      zoomOut();
-      break;
-  }
-});
-
-const sidebar = $('sidebar');
-$('toggleSidebar').addEventListener('click', () => {
-  sidebar.classList.toggle('hidden');
-});
-
-let resizeTimeout;
-window.addEventListener('resize', () => {
-  clearTimeout(resizeTimeout);
-  resizeTimeout = setTimeout(() => {
-    if (state.fitMode !== 'none') {
-      renderPage(state.currentPage);
-    }
-  }, 150);
-});
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', init);
+if (entry) {
+  frame.src = entry.path;
+  downloadLink.href = entry.path;
+  if (entry.title) pageTitle.textContent = entry.title;
 } else {
-  init();
+  frame.style.display = "none";
+  notFound.classList.remove("hidden");
+  downloadLink.style.display = "none";
 }
 </script>
 

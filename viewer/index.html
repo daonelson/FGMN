@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.min.js"></script>
 <style>
 
 :root{
@@ -37,7 +37,7 @@ html, body{
   -webkit-font-smoothing: antialiased;
 }
 
-/* ── Static atmosphere ── */
+/* -- Static atmosphere -- */
 body::before{
   content: '';
   position: fixed;
@@ -49,7 +49,7 @@ body::before{
   z-index: 0;
 }
 
-/* ── Static noise ── */
+/* -- Static noise -- */
 body::after{
   content: '';
   position: fixed;
@@ -62,7 +62,7 @@ body::after{
   opacity: 0.5;
 }
 
-/* ── Layout ── */
+/* -- Layout -- */
 .app{
   display: flex;
   height: 100vh;
@@ -70,7 +70,7 @@ body::after{
   z-index: 1;
 }
 
-/* ── Sidebar ── */
+/* -- Sidebar -- */
 .sidebar{
   width: 200px;
   flex-shrink: 0;
@@ -155,7 +155,7 @@ body::after{
 
 .thumb.active .thumb-num{ color: var(--gold); }
 
-/* ── Main area ── */
+/* -- Main area -- */
 .main{
   flex: 1;
   display: flex;
@@ -164,7 +164,7 @@ body::after{
   position: relative;
 }
 
-/* ── Header ── */
+/* -- Header -- */
 .header{
   height: 52px;
   background: var(--bg-mid);
@@ -261,7 +261,7 @@ body::after{
 
 .page-indicator span{ color: var(--gold-dim); }
 
-/* ── Toolbar ── */
+/* -- Toolbar -- */
 .toolbar{
   height: 40px;
   background: var(--bg-raised);
@@ -325,7 +325,7 @@ body::after{
   user-select: none;
 }
 
-/* ── Viewport ── */
+/* -- Viewport -- */
 .viewport{
   flex: 1;
   overflow: auto;
@@ -414,7 +414,19 @@ body::after{
   line-height: 1.6;
 }
 
-/* ── Footer ── */
+.error-state .error-detail{
+  font-family: 'Inter', monospace;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: var(--bg-raised);
+  padding: 8px 12px;
+  border-radius: 4px;
+  max-width: 90%;
+  word-break: break-all;
+  margin-top: 8px;
+}
+
+/* -- Footer -- */
 .footer{
   height: 32px;
   background: var(--bg-mid);
@@ -446,10 +458,10 @@ body::after{
   margin: 0 2px;
 }
 
-/* ── Mobile sidebar toggle ── */
+/* -- Mobile sidebar toggle -- */
 .sidebar-toggle{ display: none; }
 
-/* ── Responsive ── */
+/* -- Responsive -- */
 @media (max-width: 768px){
   .sidebar{
     position: fixed;
@@ -492,7 +504,7 @@ body::after{
   .viewport{ padding: 16px 10px; }
 }
 
-/* ── Print ── */
+/* -- Print -- */
 @media print{
   .sidebar, .header, .toolbar, .footer{ display: none; }
   .viewport{ overflow: visible; padding: 0; }
@@ -500,6 +512,7 @@ body::after{
 }
 
 </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -528,7 +541,7 @@ body::after{
         <span class="header-title" id="headerTitle">A Field Guide to the Majjhima Nikaya</span>
       </div>
       <div class="header-right">
-        <span class="page-indicator" id="pageIndicator">— / —</span>
+        <span class="page-indicator" id="pageIndicator">-- / --</span>
         <button class="header-btn" id="prevPage" title="Previous page (←)">
           <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
         </button>
@@ -573,7 +586,7 @@ body::after{
 
     <!-- Footer -->
     <footer class="footer">
-      <span class="footer-hint"><kbd>←</kbd> <kbd>→</kbd> Navigate</span>
+      <span class="footer-hint"><kbd>&larr;</kbd> <kbd>&rarr;</kbd> Navigate</span>
       <span class="footer-hint"><kbd>+</kbd> <kbd>-</kbd> Zoom</span>
       <span class="footer-hint"><kbd>Home</kbd> First</span>
       <span class="footer-hint"><kbd>End</kbd> Last</span>
@@ -582,30 +595,39 @@ body::after{
 </div>
 
 <script>
-// ── Configuration ──
-pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.worker.min.js';
+// ============================================
+// CONFIGURATION
+// ============================================
 
-// ── File map ──
+// PDF.js setup using jsDelivr CDN
+pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/build/pdf.worker.min.js';
+
+// Map file IDs to PDF URLs
 const fileMap = {
   '1.1': 'https://daonelson.github.io/A-Field-Guide-to-the-Majjhima-Nikaya/1.1%20FGMN.pdf',
-  // Add more volumes here as they are uploaded to GitHub
-  // '1.2': 'https://daonelson.github.io/A-Field-Guide-to-the-Majjhima-Nikaya/1.2%20FGMN.pdf',
+  // Add more as volumes are uploaded to GitHub
 };
 
-// ── State ──
+// ============================================
+// STATE
+// ============================================
+
 const state = {
   pdf: null,
   currentPage: 1,
   totalPages: 0,
   scale: 1.5,
   defaultScale: 1.5,
-  fitMode: 'none',
+  fitMode: 'none', // 'none', 'width', 'page'
   isRendering: false,
   pendingRender: null,
   renderTask: null
 };
 
-// ── DOM refs ──
+// ============================================
+// DOM REFERENCES
+// ============================================
+
 const $ = id => document.getElementById(id);
 const viewportEl = $('viewport');
 const pageContainer = $('pageContainer');
@@ -618,48 +640,90 @@ const headerTitle = $('headerTitle');
 const zoomLevel = $('zoomLevel');
 const loadingState = $('loadingState');
 
-// ── URL parsing ──
+// ============================================
+// URL PARSING
+// ============================================
+
 const params = new URLSearchParams(window.location.search);
 const fileId = params.get('file');
 const pdfUrl = fileMap[fileId] || fileId;
 
-// ── Initialize ──
+// ============================================
+// INITIALIZATION
+// ============================================
+
 async function init() {
-  if (!pdfUrl) {
-    showError('No document specified', 'Please select a volume from the library.');
+  // Check if PDF.js loaded
+  if (typeof pdfjsLib === 'undefined') {
+    showError('PDF viewer failed to load', 'The PDF.js library could not be loaded from the CDN. This may be a network issue. Please try again later or use the Google Drive links instead.');
     return;
   }
+
+  // Check if file parameter provided
+  if (!pdfUrl) {
+    showError('No document specified', 'Please select a volume from the library, or provide a file parameter in the URL.');
+    return;
+  }
+
+  console.log('[Viewer] Loading PDF:', pdfUrl);
 
   try {
     const loadingTask = pdfjsLib.getDocument({
       url: pdfUrl,
-      cMapUrl: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/cmaps/',
+      cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.6.82/cmaps/',
       cMapPacked: true,
     });
 
+    // Set a timeout in case loading hangs
+    const timeoutId = setTimeout(() => {
+      console.warn('[Viewer] PDF loading is taking longer than expected...');
+    }, 5000);
+
     state.pdf = await loadingTask.promise;
+    clearTimeout(timeoutId);
+
     state.totalPages = state.pdf.numPages;
+    console.log('[Viewer] PDF loaded. Pages:', state.totalPages);
 
-    const metadata = await state.pdf.getMetadata();
-    const title = metadata?.info?.Title || `Volume ${fileId}`;
-    docTitle.textContent = title;
-    headerTitle.textContent = title;
-    document.title = `${title} — A Field Guide to the Majjhima Nikaya`;
+    // Try to get metadata
+    try {
+      const metadata = await state.pdf.getMetadata();
+      const title = metadata?.info?.Title || ('Volume ' + fileId);
+      docTitle.textContent = title;
+      headerTitle.textContent = title;
+      document.title = title + ' — A Field Guide to the Majjhima Nikaya';
+    } catch (metaErr) {
+      docTitle.textContent = 'Volume ' + fileId;
+      headerTitle.textContent = 'A Field Guide to the Majjhima Nikaya';
+    }
 
+    // Hide loading, show canvas
     loadingState.style.display = 'none';
     pageContainer.style.display = '';
 
+    // Render thumbnails and first page
     await renderThumbnails();
     await renderPage(1);
     updateUI();
 
   } catch (err) {
-    console.error('PDF load error:', err);
-    showError('Unable to open document', err.message || 'The file may be unavailable or too large.');
+    console.error('[Viewer] PDF load error:', err);
+    let message = err.message || 'The file may be unavailable or too large to load in the browser.';
+    if (err.name === 'MissingPDFException') {
+      message = 'The PDF file could not be found at the specified URL.';
+    } else if (err.name === 'UnexpectedResponseException') {
+      message = 'The server returned an unexpected response. The file may not exist or may not be accessible.';
+    } else if (err.message && err.message.includes('network')) {
+      message = 'Network error while loading the PDF. Please check your connection.';
+    }
+    showError('Unable to open document', message, pdfUrl);
   }
 }
 
-// ── Render page ──
+// ============================================
+// PAGE RENDERING
+// ============================================
+
 async function renderPage(num) {
   if (num < 1 || num > state.totalPages) return;
   if (state.isRendering) {
@@ -698,6 +762,7 @@ async function renderPage(num) {
 
     await state.renderTask.promise;
 
+    // Update thumbnail active state
     document.querySelectorAll('.thumb').forEach((t, i) => {
       t.classList.toggle('active', i + 1 === num);
     });
@@ -706,7 +771,7 @@ async function renderPage(num) {
 
   } catch (err) {
     if (err.name !== 'RenderingCancelledException') {
-      console.error('Render error:', err);
+      console.error('[Viewer] Render error:', err);
     }
   } finally {
     state.isRendering = false;
@@ -718,7 +783,10 @@ async function renderPage(num) {
   }
 }
 
-// ── Thumbnails ──
+// ============================================
+// THUMBNAILS
+// ============================================
+
 async function renderThumbnails() {
   thumbnailsEl.innerHTML = '';
 
@@ -726,10 +794,17 @@ async function renderThumbnails() {
     const thumb = document.createElement('div');
     thumb.className = 'thumb';
     thumb.dataset.page = i;
-    thumb.innerHTML = `<canvas></canvas><div class="thumb-num">${i}</div>`;
-    thumb.addEventListener('click', () => renderPage(i));
+    thumb.innerHTML = '<canvas></canvas><div class="thumb-num">' + i + '</div>';
+    thumb.addEventListener('click', () => {
+      renderPage(i);
+      // Close sidebar on mobile after selection
+      if (window.innerWidth <= 768) {
+        $('sidebar').classList.add('hidden');
+      }
+    });
     thumbnailsEl.appendChild(thumb);
 
+    // Render thumbnail asynchronously (don't await)
     renderThumbnailPage(i, thumb.querySelector('canvas'));
   }
 }
@@ -751,29 +826,44 @@ async function renderThumbnailPage(num, thumbCanvas) {
 }
 
 function scrollThumbnailIntoView(pageNum) {
-  const thumb = thumbnailsEl.querySelector(`[data-page="${pageNum}"]`);
+  const thumb = thumbnailsEl.querySelector('[data-page="' + pageNum + '"]');
   if (thumb) {
     thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
 }
 
-// ── UI Updates ──
+// ============================================
+// UI UPDATES
+// ============================================
+
 function updateUI() {
-  pageIndicator.innerHTML = `<span>${state.currentPage}</span> / ${state.totalPages}`;
+  pageIndicator.innerHTML = '<span>' + state.currentPage + '</span> / ' + state.totalPages;
   const pct = Math.round(state.scale * 100);
-  zoomLevel.textContent = state.fitMode === 'width' ? 'Fit W' : state.fitMode === 'page' ? 'Fit P' : `${pct}%`;
+  zoomLevel.textContent = state.fitMode === 'width' ? 'Fit W' : state.fitMode === 'page' ? 'Fit P' : pct + '%';
 }
 
-function showError(title, message) {
+function showError(title, message, detail) {
   loadingState.style.display = 'none';
   pageContainer.style.display = 'none';
+
+  // Remove any existing error
+  const existing = viewportEl.querySelector('.error-state');
+  if (existing) existing.remove();
+
   const err = document.createElement('div');
   err.className = 'error-state';
-  err.innerHTML = `<h3>${title}</h3><p>${message}</p>`;
+  let html = '<h3>' + title + '</h3><p>' + message + '</p>';
+  if (detail) {
+    html += '<div class="error-detail">URL: ' + detail + '</div>';
+  }
+  err.innerHTML = html;
   viewportEl.appendChild(err);
 }
 
-// ── Zoom ──
+// ============================================
+// ZOOM CONTROLS
+// ============================================
+
 function zoomIn() {
   state.fitMode = 'none';
   state.scale = Math.min(state.scale * 1.2, 5);
@@ -796,13 +886,19 @@ function fitPage() {
   renderPage(state.currentPage);
 }
 
-// ── Navigation ──
+// ============================================
+// NAVIGATION
+// ============================================
+
 function prevPage() { renderPage(state.currentPage - 1); }
 function nextPage() { renderPage(state.currentPage + 1); }
 function firstPage() { renderPage(1); }
 function lastPage() { renderPage(state.totalPages); }
 
-// ── Event listeners ──
+// ============================================
+// EVENT LISTENERS
+// ============================================
+
 $('prevPage').addEventListener('click', prevPage);
 $('nextPage').addEventListener('click', nextPage);
 $('zoomIn').addEventListener('click', zoomIn);
@@ -827,7 +923,7 @@ viewportEl.addEventListener('touchend', (e) => {
   }
 }, { passive: true });
 
-// Keyboard
+// Keyboard navigation
 document.addEventListener('keydown', (e) => {
   if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
@@ -870,14 +966,6 @@ $('toggleSidebar').addEventListener('click', () => {
   sidebar.classList.toggle('hidden');
 });
 
-// Close sidebar when clicking a thumbnail on mobile
-thumbnailsEl.addEventListener('click', (e) => {
-  const thumb = e.target.closest('.thumb');
-  if (thumb && window.innerWidth <= 768) {
-    sidebar.classList.add('hidden');
-  }
-});
-
 // Window resize
 let resizeTimeout;
 window.addEventListener('resize', () => {
@@ -889,8 +977,17 @@ window.addEventListener('resize', () => {
   }, 150);
 });
 
-// ── Start ──
-init();
+// ============================================
+// START
+// ============================================
+
+// Wait for DOM and fonts, then init
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
+
 </script>
 
 </body>

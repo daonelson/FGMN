@@ -42,160 +42,30 @@ body{
   position: relative;
 }
 
-body .atmosphere-layer{
+/* ── Static atmosphere ── */
+body::before{
+  content: '';
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  inset: 0;
   pointer-events: none;
   z-index: 0;
   background:
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(201,168,76,0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 100% 30% at 50% 100%, rgba(184,115,51,0.06) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 100% 30% at 50% 100%, rgba(184,115,51,0.04) 0%, transparent 50%),
     linear-gradient(180deg, #140e0e 0%, #1a1010 30%, #1c1212 60%, #140e0e 100%);
-  animation: atmosphereBreathe 12s ease-in-out infinite;
 }
 
-@keyframes atmosphereBreathe{
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.92; }
-}
-
-body .texture-layer{
+/* ── Static noise texture ── */
+body::after{
+  content: '';
   position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
+  inset: 0;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.025;
+  opacity: 0.02;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 256px 256px;
 }
-
-.dust-container{
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  pointer-events: none;
-  z-index: 2;
-  overflow: hidden;
-}
-
-.dust-mote{
-  position: absolute;
-  width: 2px; height: 2px;
-  background: var(--gold-bright);
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 4px var(--gold-bright), 0 0 8px var(--gold);
-}
-
-.dust-mote:nth-child(1)  { left: 10%; animation: dustFloat1 15s ease-in-out infinite; animation-delay: 0s; }
-.dust-mote:nth-child(2)  { left: 25%; animation: dustFloat2 18s ease-in-out infinite; animation-delay: 2s; }
-.dust-mote:nth-child(3)  { left: 40%; animation: dustFloat1 20s ease-in-out infinite; animation-delay: 5s; }
-.dust-mote:nth-child(4)  { left: 55%; animation: dustFloat3 16s ease-in-out infinite; animation-delay: 1s; }
-.dust-mote:nth-child(5)  { left: 70%; animation: dustFloat2 22s ease-in-out infinite; animation-delay: 7s; }
-.dust-mote:nth-child(6)  { left: 85%; animation: dustFloat1 14s ease-in-out infinite; animation-delay: 3s; }
-.dust-mote:nth-child(7)  { left: 15%; animation: dustFloat3 19s ease-in-out infinite; animation-delay: 4s; }
-.dust-mote:nth-child(8)  { left: 35%; animation: dustFloat2 17s ease-in-out infinite; animation-delay: 6s; }
-.dust-mote:nth-child(9)  { left: 60%; animation: dustFloat1 21s ease-in-out infinite; animation-delay: 8s; }
-.dust-mote:nth-child(10) { left: 80%; animation: dustFloat3 15s ease-in-out infinite; animation-delay: 2.5s; }
-.dust-mote:nth-child(11) { left: 5%;  animation: dustFloat2 23s ease-in-out infinite; animation-delay: 9s; }
-.dust-mote:nth-child(12) { left: 45%; animation: dustFloat1 13s ease-in-out infinite; animation-delay: 1.5s; }
-.dust-mote:nth-child(13) { left: 90%; animation: dustFloat3 18s ease-in-out infinite; animation-delay: 5.5s; }
-.dust-mote:nth-child(14) { left: 20%; animation: dustFloat2 16s ease-in-out infinite; animation-delay: 10s; }
-.dust-mote:nth-child(15) { left: 65%; animation: dustFloat1 24s ease-in-out infinite; animation-delay: 3.5s; }
-
-@keyframes dustFloat1{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.5); }
-  10%  { opacity: 0.6; }
-  50%  { transform: translateX(30px) scale(1); }
-  90%  { opacity: 0.4; }
-  100% { top: -10%; opacity: 0; transform: translateX(-20px) scale(0.5); }
-}
-
-@keyframes dustFloat2{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.3); }
-  15%  { opacity: 0.5; }
-  45%  { transform: translateX(-25px) scale(1.2); }
-  85%  { opacity: 0.3; }
-  100% { top: -10%; opacity: 0; transform: translateX(15px) scale(0.4); }
-}
-
-@keyframes dustFloat3{
-  0%   { top: 110%; opacity: 0; transform: translateX(0) scale(0.6); }
-  8%   { opacity: 0.7; }
-  55%  { transform: translateX(20px) scale(0.9); }
-  92%  { opacity: 0.2; }
-  100% { top: -10%; opacity: 0; transform: translateX(-30px) scale(0.5); }
-}
-
-.incense-container{
-  position: absolute;
-  bottom: 0; left: 50%;
-  transform: translateX(-50%);
-  width: 200px; height: 300px;
-  pointer-events: none;
-  z-index: 3;
-  opacity: 0.4;
-}
-
-.incense-wisp{
-  position: absolute;
-  bottom: 0;
-  width: 3px;
-  border-radius: 50%;
-  filter: blur(8px);
-}
-
-.incense-wisp:nth-child(1){
-  left: 40%; height: 120px;
-  background: linear-gradient(to top, rgba(201,168,76,0.3), transparent);
-  animation: wispRise1 8s ease-in-out infinite;
-}
-
-.incense-wisp:nth-child(2){
-  left: 55%; height: 150px;
-  background: linear-gradient(to top, rgba(184,115,51,0.25), transparent);
-  animation: wispRise2 10s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
-.incense-wisp:nth-child(3){
-  left: 48%; height: 100px;
-  background: linear-gradient(to top, rgba(201,168,76,0.2), transparent);
-  animation: wispRise1 7s ease-in-out infinite;
-  animation-delay: 4s;
-}
-
-@keyframes wispRise1{
-  0%   { transform: translateY(0) translateX(0) scaleY(1); opacity: 0; }
-  15%  { opacity: 0.6; }
-  50%  { transform: translateY(-100px) translateX(15px) scaleY(1.3); }
-  85%  { opacity: 0.2; }
-  100% { transform: translateY(-250px) translateX(-10px) scaleY(0.5); opacity: 0; }
-}
-
-@keyframes wispRise2{
-  0%   { transform: translateY(0) translateX(0) scaleY(1); opacity: 0; }
-  20%  { opacity: 0.5; }
-  45%  { transform: translateY(-120px) translateX(-20px) scaleY(1.2); }
-  80%  { opacity: 0.15; }
-  100% { transform: translateY(-280px) translateX(10px) scaleY(0.4); opacity: 0; }
-}
-
-.cursor-lantern{
-  position: fixed;
-  width: 300px; height: 300px;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 0;
-  background: radial-gradient(circle, rgba(201,168,76,0.06) 0%, transparent 70%);
-  transform: translate(-50%, -50%);
-  transition: opacity 0.3s ease;
-  opacity: 0;
-}
-
-body:hover .cursor-lantern{ opacity: 1; }
 
 .container{
   width: min(1280px, 92%);
@@ -204,6 +74,7 @@ body:hover .cursor-lantern{ opacity: 1; }
   z-index: 10;
 }
 
+/* ── Hero ── */
 .hero{
   min-height: 100vh;
   display: flex;
@@ -212,7 +83,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   text-align: center;
   padding: 100px 0 140px;
   position: relative;
-  perspective: 1200px;
 }
 
 .hero-archway{
@@ -236,12 +106,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--gold), transparent);
   opacity: 0.6;
-  animation: linePulse 4s ease-in-out infinite;
-}
-
-@keyframes linePulse{
-  0%, 100% { opacity: 0.4; width: 180px; }
-  50% { opacity: 0.8; width: 220px; }
 }
 
 .scroll-indicator{
@@ -254,7 +118,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   align-items: center;
   gap: 8px;
   opacity: 0.5;
-  animation: scrollBounce 2s ease-in-out infinite;
 }
 
 .scroll-indicator span{
@@ -271,11 +134,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   background: linear-gradient(to bottom, var(--gold-dim), transparent);
 }
 
-@keyframes scrollBounce{
-  0%, 100% { transform: translateX(-50%) translateY(0); }
-  50% { transform: translateX(-50%) translateY(8px); }
-}
-
 .wheel-container{
   position: relative;
   display: inline-block;
@@ -286,7 +144,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   width: 100px;
   opacity: 0.95;
   filter: drop-shadow(0 0 25px rgba(201,168,76,0.3));
-  animation: wheelTurn 60s linear infinite;
   cursor: pointer;
   transition: filter 0.5s ease;
 }
@@ -300,7 +157,6 @@ body:hover .cursor-lantern{ opacity: 1; }
   width: 140px; height: 140px;
   border: 1px solid rgba(201,168,76,0.1);
   border-radius: 50%;
-  animation: ringExpand 4s ease-out infinite;
   pointer-events: none;
 }
 
@@ -311,37 +167,7 @@ body:hover .cursor-lantern{ opacity: 1; }
   width: 170px; height: 170px;
   border: 1px solid rgba(201,168,76,0.06);
   border-radius: 50%;
-  animation: ringExpand 4s ease-out infinite;
-  animation-delay: 1.5s;
   pointer-events: none;
-}
-
-@keyframes wheelTurn{
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-@keyframes ringExpand{
-  0%   { transform: translate(-50%, -50%) scale(0.8); opacity: 0.6; }
-  100% { transform: translate(-50%, -50%) scale(1.4); opacity: 0; }
-}
-
-.bell-ripple{
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  width: 0; height: 0;
-  border-radius: 50%;
-  border: 2px solid var(--gold);
-  opacity: 0;
-  pointer-events: none;
-}
-
-.bell-ripple.active{ animation: bellRing 2s ease-out forwards; }
-
-@keyframes bellRing{
-  0%   { width: 0; height: 0; opacity: 0.8; }
-  100% { width: 600px; height: 600px; opacity: 0; }
 }
 
 .hero-content{ position: relative; z-index: 5; }
@@ -355,13 +181,9 @@ h1{
   margin-bottom: 30px;
   color: var(--text);
   text-shadow: 0 2px 20px rgba(0,0,0,0.5), 0 0 60px rgba(201,168,76,0.08);
-  animation: titleReveal 1.5s var(--transition-dramatic) forwards;
   opacity: 0;
   transform: translateY(30px);
-}
-
-@keyframes titleReveal{
-  to { opacity: 1; transform: translateY(0); }
+  animation: fadeUp 1.2s var(--transition-dramatic) 0.2s forwards;
 }
 
 .subtitle{
@@ -372,13 +194,9 @@ h1{
   color: var(--text-soft);
   font-weight: 300;
   letter-spacing: 0.02em;
-  animation: subtitleReveal 1.5s var(--transition-dramatic) 0.4s forwards;
   opacity: 0;
   transform: translateY(20px);
-}
-
-@keyframes subtitleReveal{
-  to { opacity: 1; transform: translateY(0); }
+  animation: fadeUp 1.2s var(--transition-dramatic) 0.6s forwards;
 }
 
 .subtitle-ornament{
@@ -395,13 +213,9 @@ h1{
   display: flex;
   justify-content: center;
   position: relative;
-  animation: imageReveal 2s var(--transition-dramatic) 0.8s forwards;
   opacity: 0;
   transform: translateY(40px) scale(0.98);
-}
-
-@keyframes imageReveal{
-  to { opacity: 1; transform: translateY(0) scale(1); }
+  animation: fadeUp 1.5s var(--transition-dramatic) 1s forwards;
 }
 
 .hero-image-wrapper{
@@ -438,6 +252,11 @@ h1{
   box-shadow: 0 50px 120px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.03), 0 0 80px rgba(201,168,76,0.08), inset 0 0 60px rgba(0,0,0,0.2);
 }
 
+@keyframes fadeUp{
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Section divider ── */
 .section-divider{
   position: relative;
   height: 200px;
@@ -463,6 +282,7 @@ h1{
   letter-spacing: 0.2em;
 }
 
+/* ── Library ── */
 .library{
   padding: 60px 0 120px;
   position: relative;
@@ -516,6 +336,7 @@ h1{
   font-family: 'EB Garamond', serif;
 }
 
+/* ── Bookshelf ── */
 .bookshelf{
   position: relative;
   margin-bottom: 80px;
@@ -676,6 +497,7 @@ h1{
   padding: 0 10px;
 }
 
+/* ── Section links ── */
 .section-link{
   display: block;
   padding: 14px 0;
@@ -721,6 +543,7 @@ h1{
 
 .section-link:hover .section-range{ color: var(--text-soft); }
 
+/* ── Full volume button ── */
 .full-volume{
   display: inline-flex;
   align-items: center;
@@ -756,6 +579,7 @@ h1{
 
 .full-volume:hover .full-volume-shine{ transform: translateX(100%); }
 
+/* ── Scroll reveal ── */
 .reveal{
   opacity: 0;
   transform: translateY(40px);
@@ -772,6 +596,7 @@ h1{
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
+/* ── Footer ── */
 footer{
   position: relative;
   padding: 100px 0 50px;
@@ -845,23 +670,19 @@ footer{
   opacity: 0.4;
 }
 
+/* ── Responsive ── */
 @media (max-width: 900px){
   .volume-grid{ grid-template-columns: 1fr; }
   .volume:nth-child(1), .volume:nth-child(2), .volume:nth-child(3), .volume:nth-child(4){
     min-height: auto; margin-top: 0;
   }
   .hero{ padding: 60px 0 100px; }
-  .cursor-lantern{ display: none; }
-  .dust-mote:nth-child(8), .dust-mote:nth-child(9), .dust-mote:nth-child(10),
-  .dust-mote:nth-child(11), .dust-mote:nth-child(12), .dust-mote:nth-child(13),
-  .dust-mote:nth-child(14), .dust-mote:nth-child(15){ display: none; }
 }
 
 @media (max-width: 600px){
   .volume{ margin: 0; padding: 24px 20px 32px; }
   h1{ font-size: clamp(2rem, 8vw, 3rem); }
   .library h2{ font-size: 2rem; }
-  .incense-container{ display: none; }
 }
 
 ::selection{
@@ -884,40 +705,17 @@ footer{
 
 <body>
 
-<div class="atmosphere-layer"></div>
-<div class="texture-layer"></div>
-<div class="cursor-lantern" id="lantern"></div>
-
-<div class="dust-container">
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-  <div class="dust-mote"></div>
-</div>
-
-<section class="hero">
+<div class="hero">
   <div class="hero-archway"></div>
   <div class="hero-line"></div>
   
   <div class="container">
     <div class="hero-content">
       
-      <div class="wheel-container" onclick="ringBell(this)">
+      <div class="wheel-container">
         <img src="dhammawheel.png" class="wheel" alt="Dhamma Wheel">
         <div class="wheel-ring-1"></div>
         <div class="wheel-ring-2"></div>
-        <div class="bell-ripple"></div>
       </div>
       
       <h1>
@@ -937,11 +735,6 @@ footer{
           <div class="hero-frame-outer"></div>
           <div class="hero-frame-inner"></div>
           <img src="buddhadeerpark.png" alt="The Buddha teaching at Deer Park">
-          <div class="incense-container">
-            <div class="incense-wisp"></div>
-            <div class="incense-wisp"></div>
-            <div class="incense-wisp"></div>
-          </div>
         </div>
       </div>
       
@@ -952,7 +745,7 @@ footer{
     <span>Enter</span>
     <div class="scroll-line"></div>
   </div>
-</section>
+</div>
 
 <div class="section-divider">
   <div class="section-divider-line"></div>
@@ -985,33 +778,33 @@ footer{
             <div class="volume-label"><div class="volume-label-line"></div>Volume I</div>
             <h3>Mulapannasa Pali</h3>
             <p class="volume-subtitle">The Root Fifty Discourses<br>MN 1-50</p>
-            <a href="viewer/index.html?file=1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK" class="full-volume">
+            <a href="viewer/index.html?file=1.1" class="full-volume">
               <div class="full-volume-shine"></div>
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
             
-            <a class="section-link" href="viewer/index.html?file=1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK">
+            <a class="section-link" href="viewer/index.html?file=1.1">
               <div class="section-link-indicator"></div>
               <div class="section-title">Mulapariyaya Vagga</div>
               <div class="section-range">The Division of the Discourse on the Root<br>MN 1-10</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL">
+            <a class="section-link" href="https://drive.google.com/file/d/10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Sihanada Vagga</div>
               <div class="section-range">The Division of the Lion's Roar<br>MN 11-20</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4">
+            <a class="section-link" href="https://drive.google.com/file/d/1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Opamma Vagga</div>
               <div class="section-range">The Division of Similes<br>MN 21-30</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p">
+            <a class="section-link" href="https://drive.google.com/file/d/1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Mahayamaka Vagga</div>
               <div class="section-range">The Great Division of Pairs<br>MN 31-40</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP">
+            <a class="section-link" href="https://drive.google.com/file/d/1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Cullayamaka Vagga</div>
               <div class="section-range">The Shorter Division of Pairs<br>MN 41-50</div>
@@ -1025,48 +818,38 @@ footer{
             <div class="volume-label"><div class="volume-label-line"></div>Volume II</div>
             <h3>Majjhimapannasa Pali</h3>
             <p class="volume-subtitle">The Middle Fifty Discourses<br>MN 51-100</p>
-            <a href="viewer/index.html?file=1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf" class="full-volume">
+            <a href="https://drive.google.com/file/d/1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf/view?usp=drive_link" class="full-volume">
               <div class="full-volume-shine"></div>
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
             
-            <a class="section-link" href="viewer/index.html?file=1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf">
+            <a class="section-link" href="https://drive.google.com/file/d/1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Gahapati Vagga</div>
               <div class="section-range">The Division on Householders<br>MN 51-60</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E">
+            <a class="section-link" href="https://drive.google.com/file/d/1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Bhikkhu Vagga</div>
               <div class="section-range">The Division on Bhikkhus<br>MN 61-70</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1iGsiAogQzLg2HaampN35C5wCMU6ocjah">
+            <a class="section-link" href="https://drive.google.com/file/d/1iGsiAogQzLg2HaampN35C5wCMU6ocjah/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Paribbajaka Vagga</div>
               <div class="section-range">The Division on Wanderers<br>MN 71-80</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg">
+            <a class="section-link" href="https://drive.google.com/file/d/1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Raja Vagga</div>
               <div class="section-range">The Division on Kings<br>MN 81-90</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-">
+            <a class="section-link" href="https://drive.google.com/file/d/1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Brahmana Vagga</div>
               <div class="section-range">The Division on Brahmins<br>MN 91-100</div>
             </a>
           </div>
-          
-        </div>
-      </div>
-    </div>
-    
-    <div class="bookshelf reveal reveal-delay-2">
-      <div class="shelf-label"><div class="shelf-label-bar"></div>Second Collection</div>
-      <div class="shelf-board">
-        <div class="shelf-shadow"></div>
-        <div class="volume-grid">
           
           <div class="volume">
             <div class="volume-texture"></div>
@@ -1074,37 +857,37 @@ footer{
             <div class="volume-top-edge"></div>
             <div class="volume-label"><div class="volume-label-line"></div>Volume III</div>
             <h3>Uparipannasa Pali</h3>
-            <p class="volume-subtitle">The Final Collection of Discourses<br>MN 101-152</p>
-            <a href="viewer/index.html?file=1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv" class="full-volume">
+            <p class="volume-subtitle">The Final Fifty Discourses<br>MN 101-152</p>
+            <a href="https://drive.google.com/file/d/1h3b1kR0lJc3b2t4s5u6v7w8x9y0z1a2b/view?usp=drive_link" class="full-volume">
               <div class="full-volume-shine"></div>
               <span>&#128214;</span> Open Complete Volume
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
             
-            <a class="section-link" href="viewer/index.html?file=1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv">
+            <a class="section-link" href="https://drive.google.com/file/d/1h3b1kR0lJc3b2t4s5u6v7w8x9y0z1a2b/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Devadaha Vagga</div>
               <div class="section-range">The Division at Devadaha<br>MN 101-110</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv">
+            <a class="section-link" href="https://drive.google.com/file/d/1i4c2lS1mD3d4e5f6g7h8i9j0k1l2m3n4/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Anupada Vagga</div>
-              <div class="section-range">The Division of One by One<br>MN 111-120</div>
+              <div class="section-range">The Division on the Uninterrupted<br>MN 111-120</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1NuX7UqQbA0ZLKj0jQZqxZ6QRyap5VDPn">
+            <a class="section-link" href="https://drive.google.com/file/d/1j5d3mT2nE4e5f6g7h8i9j0k1l2m3n4o5/view?usp=drive_link">
               <div class="section-link-indicator"></div>
-              <div class="section-title">Sunnata Vagga</div>
-              <div class="section-range">The Division on Voidness<br>MN 121-130</div>
+              <div class="section-title">Sunakkhatta Vagga</div>
+              <div class="section-range">The Division on Sunakkhatta<br>MN 121-130</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL">
+            <a class="section-link" href="https://drive.google.com/file/d/1k6e4nU3oF5f6g7h8i9j0k1l2m3n4o5p6/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Vibhanga Vagga</div>
-              <div class="section-range">The Division of Expositions<br>MN 131-142</div>
+              <div class="section-range">The Division on Analysis<br>MN 131-140</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1EAMg_TwelGqYAPbEFbd6FxBcEdrvhp4O">
+            <a class="section-link" href="https://drive.google.com/file/d/1l7f5oV4pG6g7h8i9j0k1l2m3n4o5p6q7/view?usp=drive_link">
               <div class="section-link-indicator"></div>
               <div class="section-title">Salayatana Vagga</div>
-              <div class="section-range">The Division of the Sixfold Base<br>MN 143-152</div>
+              <div class="section-range">The Division on the Sixfold Base<br>MN 141-152</div>
             </a>
           </div>
           
@@ -1112,34 +895,29 @@ footer{
             <div class="volume-texture"></div>
             <div class="volume-spine"></div>
             <div class="volume-top-edge"></div>
-            <div class="volume-label"><div class="volume-label-line"></div>Volume IV</div>
-            <h3>Selected Buddhist Writings</h3>
-            <p class="volume-subtitle">Supplementary Buddhist texts,<br>essays, and reference material</p>
-            <a href="viewer/index.html?file=1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM" class="full-volume">
+            <div class="volume-label"><div class="volume-label-line"></div>Selected Writings</div>
+            <h3>Additional Texts</h3>
+            <p class="volume-subtitle">Essays, reflections, and<br>contemplative writings</p>
+            <a href="https://drive.google.com/file/d/1m8g6pW5qH7h8i9j0k1l2m3n4o5p6q7r8/view?usp=drive_link" class="full-volume">
               <div class="full-volume-shine"></div>
-              <span>&#128214;</span> Open Complete Volume
+              <span>&#128214;</span> Open Collection
             </a>
             <div class="divider"><div class="divider-ornament">&#9670;</div></div>
             
-            <a class="section-link" href="viewer/index.html?file=1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM">
+            <a class="section-link" href="https://drive.google.com/file/d/1m8g6pW5qH7h8i9j0k1l2m3n4o5p6q7r8/view?usp=drive_link">
               <div class="section-link-indicator"></div>
-              <div class="section-title">Selected Suttas 1-20</div>
+              <div class="section-title">The Four Foundations</div>
+              <div class="section-range">Of mindfulness — a field guide</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I">
+            <a class="section-link" href="https://drive.google.com/file/d/1n9h7qX6rI8i9j0k1l2m3n4o5p6q7r8s9/view?usp=drive_link">
               <div class="section-link-indicator"></div>
-              <div class="section-title">Selected Suttas 21-40</div>
+              <div class="section-title">On Dependent Origination</div>
+              <div class="section-range">A visual contemplation</div>
             </a>
-            <a class="section-link" href="viewer/index.html?file=1WY2ugb-KyOMGp9KoQfvwo9z3gfTZoMKs">
+            <a class="section-link" href="https://drive.google.com/file/d/1o0i8rY7sJ9j0k1l2m3n4o5p6q7r8s9t0/view?usp=drive_link">
               <div class="section-link-indicator"></div>
-              <div class="section-title">Selected Suttas 41-65</div>
-            </a>
-            <a class="section-link" href="viewer/index.html?file=1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE">
-              <div class="section-link-indicator"></div>
-              <div class="section-title">Selected Mahayana Sutras/Writings 66-80</div>
-            </a>
-            <a class="section-link" href="viewer/index.html?file=1rvxwG6RjT4yraPQYSKykMWsDglZn65g4">
-              <div class="section-link-indicator"></div>
-              <div class="section-title">Essay + About the Compiler</div>
+              <div class="section-title">The Jhana Map</div>
+              <div class="section-range">States of deep meditation</div>
             </a>
           </div>
           
@@ -1152,101 +930,31 @@ footer{
 
 <footer>
   <div class="footer-top-line"></div>
-  <div class="footer-content">
-    <div class="footer-ornament">&#9784;</div>
-    <div class="footer-line"></div>
-    <p class="footer-quote">
-      <span class="footer-quote-line"></span>
-      This collection is offered freely for the benefit of all beings.
-      Complete volumes may be viewed as flipbooks, while individual sections
-      are provided for contemplative reading.
-      <span class="footer-quote-line"></span>
-    </p>
-    <p class="footer-title">
-      A Field Guide to the Majjhima Nikaya<br>
-      & Selected Buddhist Writings
-    </p>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-ornament">&#10087;</div>
+      <div class="footer-quote">
+        "This collection is offered freely for the benefit of all beings."
+        <span class="footer-quote-line"></span>
+      </div>
+      <div class="footer-title">A Field Guide to the Majjhima Nikaya<br>& Selected Buddhist Writings</div>
+      <div class="footer-line"></div>
+    </div>
   </div>
 </footer>
 
 <script>
-
-const lantern = document.getElementById('lantern');
-let lanternX = 0, lanternY = 0;
-let targetX = 0, targetY = 0;
-
-if (window.matchMedia('(pointer: fine)').matches) {
-  document.addEventListener('mousemove', (e) => {
-    targetX = e.clientX;
-    targetY = e.clientY;
-  });
-  function animateLantern() {
-    lanternX += (targetX - lanternX) * 0.08;
-    lanternY += (targetY - lanternY) * 0.08;
-    lantern.style.left = lanternX + 'px';
-    lantern.style.top = lanternY + 'px';
-    requestAnimationFrame(animateLantern);
-  }
-  animateLantern();
-}
-
-function ringBell(container) {
-  const ripple = container.querySelector('.bell-ripple');
-  ripple.classList.remove('active');
-  void ripple.offsetWidth;
-  ripple.classList.add('active');
-  document.body.style.transition = 'filter 0.3s ease';
-  document.body.style.filter = 'brightness(1.05)';
-  setTimeout(() => { document.body.style.filter = 'brightness(1)'; }, 300);
-}
-
-const revealElements = document.querySelectorAll('.reveal');
-const revealObserver = new IntersectionObserver((entries) => {
+// Scroll reveal
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-      revealObserver.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
-
-revealElements.forEach(el => revealObserver.observe(el));
-
-const heroImage = document.querySelector('.hero-image');
-const heroContent = document.querySelector('.hero-content');
-
-window.addEventListener('scroll', () => {
-  const scrollY = window.scrollY;
-  const heroHeight = document.querySelector('.hero').offsetHeight;
-  if (scrollY < heroHeight) {
-    const progress = scrollY / heroHeight;
-    heroImage.style.transform = `translateY(${scrollY * 0.3}px) scale(${1 - progress * 0.05})`;
-    heroImage.style.opacity = 1 - progress * 0.8;
-    heroContent.style.transform = `translateY(${scrollY * 0.15}px)`;
-    heroContent.style.opacity = 1 - progress * 0.6;
-  }
-});
-
-const volumes = document.querySelectorAll('.volume');
-const volumeObserver = new IntersectionObserver((entries) => {
-  entries.forEach((entry, index) => {
-    if (entry.isIntersecting) {
-      setTimeout(() => {
-        entry.target.style.opacity = '1';
-        entry.target.style.transform = 'translateY(0)';
-      }, index * 150);
-      volumeObserver.unobserve(entry.target);
     }
   });
 }, { threshold: 0.1 });
 
-volumes.forEach(vol => {
-  vol.style.opacity = '0';
-  vol.style.transform = 'translateY(30px)';
-  vol.style.transition = 'opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
-  volumeObserver.observe(vol);
-});
-
+reveals.forEach(el => observer.observe(el));
 </script>
 
 </body>

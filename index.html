@@ -4,23 +4,26 @@
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>
 A Field Guide to the Majjhima Nikāya & Selected Buddhist Writings
 </title>
 
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 
 <style>
 
 :root{
 
 --paper:#f5efe2;
---paper-dark:#eadbbd;
+--paper-dark:#efe5d2;
 
 --ink:#3d3126;
 --ink-soft:#6d5c4a;
@@ -32,9 +35,11 @@ A Field Guide to the Majjhima Nikāya & Selected Buddhist Writings
 
 
 *{
+
 margin:0;
 padding:0;
 box-sizing:border-box;
+
 }
 
 
@@ -50,9 +55,9 @@ body{
 background:
 linear-gradient(
 180deg,
-#eee0c3 0%,
-#f5efe2 50%,
-#e8d7b8 100%);
+#f5efe2 0%,
+#efe5d2 100%
+);
 
 color:var(--ink);
 
@@ -61,6 +66,7 @@ font-family:"EB Garamond",serif;
 line-height:1.75;
 
 }
+
 
 
 .container{
@@ -72,6 +78,10 @@ margin:auto;
 padding:50px 24px 80px;
 
 }
+
+
+
+/* HERO */
 
 
 .hero{
@@ -92,6 +102,7 @@ opacity:.95;
 }
 
 
+
 h1{
 
 font-size:clamp(2.6rem,6vw,4.2rem);
@@ -107,6 +118,7 @@ letter-spacing:.01em;
 }
 
 
+
 .subtitle{
 
 font-size:1.28rem;
@@ -120,23 +132,22 @@ margin:0 auto;
 }
 
 
+
 .deerpark{
 
 display:block;
 
 width:min(680px,100%);
 
-margin:55px auto 55px;
+margin:55px auto;
 
 border-radius:4px;
 
-opacity:.92;
-
-filter:
-sepia(8%)
-saturate(90%);
-
 }
+
+
+
+/* DIVIDERS */
 
 
 .library-divider{
@@ -147,22 +158,13 @@ height:1px;
 
 background:var(--gold);
 
-margin:0 auto 30px;
+margin:0 auto 55px;
 
 }
 
 
-.library-divider-bottom{
 
-width:90px;
-
-height:1px;
-
-background:var(--gold);
-
-margin:25px auto 55px;
-
-}
+/* LIBRARY */
 
 
 h2{
@@ -178,20 +180,23 @@ margin-bottom:55px;
 }
 
 
+
 .volume{
 
-margin-bottom:75px;
+margin-bottom:70px;
 
 }
+
 
 
 .volume-header{
 
 text-align:center;
 
-margin-bottom:26px;
+margin-bottom:30px;
 
 }
+
 
 
 .volume-label{
@@ -209,6 +214,7 @@ margin-bottom:10px;
 }
 
 
+
 .volume-title{
 
 font-size:2rem;
@@ -220,6 +226,7 @@ margin-bottom:4px;
 }
 
 
+
 .volume-subtitle{
 
 font-size:1.1rem;
@@ -229,17 +236,8 @@ color:var(--ink-soft);
 }
 
 
-.section-divider{
 
-width:100%;
-
-height:1px;
-
-background:#d6c5a5;
-
-margin:32px 0;
-
-}
+/* SECTIONS */
 
 
 .section{
@@ -247,6 +245,7 @@ margin:32px 0;
 padding:14px 0;
 
 }
+
 
 
 .section a{
@@ -259,9 +258,8 @@ display:block;
 
 transition:.2s;
 
-text-align:center;
-
 }
+
 
 
 .section a:hover{
@@ -269,6 +267,7 @@ text-align:center;
 padding-left:8px;
 
 }
+
 
 
 .section-title{
@@ -282,6 +281,7 @@ margin-bottom:3px;
 }
 
 
+
 .section-range{
 
 font-size:1rem;
@@ -289,8 +289,7 @@ font-size:1rem;
 color:var(--ink-soft);
 
 }
-
-
+   
 footer{
 
 text-align:center;
@@ -298,6 +297,7 @@ text-align:center;
 padding-top:60px;
 
 }
+
 
 
 .footer-note{
@@ -315,6 +315,7 @@ line-height:1.9;
 }
 
 
+
 .footer-title{
 
 font-size:.9rem;
@@ -328,7 +329,9 @@ color:var(--gold-dark);
 }
 
 
+
 @media(max-width:700px){
+
 
 .container{
 
@@ -357,21 +360,29 @@ font-size:1.25rem;
 
 }
 
+
 }
+
+
 
 </style>
 
 </head>
 
+
 <body>
+
 
 <div class="container">
 
+
 <section class="hero">
+
 
 <img src="dhammawheel.png"
 class="wheel"
 alt="Dhamma Wheel">
+
 
 <h1>
 
@@ -383,6 +394,7 @@ Selected Buddhist Writings
 
 </h1>
 
+
 <p class="subtitle">
 
 A visual companion to the 152 Middle Discourses of the Buddha
@@ -390,397 +402,630 @@ and selected Buddhist writings.
 
 </p>
 
+
 <img src="buddhadeerpark.png"
 class="deerpark"
 alt="The Buddha teaching the Dhamma at Deer Park">
 
+
 </section>
+
+
 
 <div class="library-divider"></div>
 
-<h2>The Library</h2>
 
-<div class="library-divider library-divider-bottom"></div>
+
+<h2>
+The Library
+</h2>
+
+
+
+<div class="library-divider"></div>
+
+
+
+
 <!-- ========================= -->
 <!-- VOLUME I -->
 <!-- ========================= -->
 
+
 <div class="volume">
+
 
 <div class="volume-header">
 
+
 <div class="volume-label">
+
 📘 Volume I
+
 </div>
+
+
 
 <div class="volume-title">
+
 Mūlapaṇṇāsa Pāḷi
+
 </div>
+
+
 
 <div class="volume-subtitle">
+
 The Root Fifty Discourses<br>
+
 MN 1–50
-</div>
 
 </div>
 
-<div class="section-divider"></div>
+
+</div>
+
 
 
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1XMwPluAsiIzIyx_Awqhoax8WUOSWYtNK/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Mūlapariyāya Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of the Discourse on the Root<br>
+
 MN 1–10
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Sīhanāda Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of the Lion's Roar<br>
+
 MN 11–20
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1ZCYaOIYQ5vq5BOAZSzoRTvGhEZ8rJHq4/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Opamma Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of Similes<br>
+
 MN 21–30
+
 </div>
+
 
 </a>
 
+
 </div>
 
-
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Mahāyamaka Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Great Division of Pairs<br>
+
 MN 31–40
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1DhDMgr-R7ptYG0d8h_lusUyLUhOIaTxP/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Cūḷayamaka Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Shorter Division of Pairs<br>
+
 MN 41–50
+
 </div>
+
 
 </a>
 
-</div>
 
 </div>
+
+
+</div>
+
+
+
+<div class="library-divider"></div>
+
 
 
 <!-- ========================= -->
 <!-- VOLUME II -->
 <!-- ========================= -->
 
+
 <div class="volume">
+
 
 <div class="volume-header">
 
+
 <div class="volume-label">
+
 📗 Volume II
+
 </div>
+
+
 
 <div class="volume-title">
+
 Majjhimapaṇṇāsa Pāḷi
+
 </div>
+
+
 
 <div class="volume-subtitle">
+
 The Middle Fifty Discourses<br>
+
 MN 51–100
-</div>
 
 </div>
 
-<div class="section-divider"></div>
+
+</div>
+
 
 
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1ze0IvS582NvmVZ1C8aSOBlCdr4kV5Hhf/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Gahapati Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Householders<br>
+
 MN 51–60
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Bhikkhu Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Bhikkhus<br>
+
 MN 61–70
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1iGsiAogQzLg2HaampN35C5wCMU6ocjah/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Paribbājaka Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Wanderers<br>
+
 MN 71–80
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Rāja Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Kings<br>
+
 MN 81–90
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1DkQeO_-3oUR02cESgolRGdyYyO5H3Pn-/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Brāhmaṇa Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Brahmins<br>
+
 MN 91–100
+
 </div>
+
 
 </a>
 
-</div>
 
 </div>
+
+
+</div>
+
+
+
+<div class="library-divider"></div>
+
+
+
 <!-- ========================= -->
 <!-- VOLUME III -->
 <!-- ========================= -->
 
+
+
 <div class="volume">
+
 
 <div class="volume-header">
 
+
 <div class="volume-label">
+
 📙 Volume III
+
 </div>
+
 
 <div class="volume-title">
+
 Uparipaṇṇāsa Pāḷi
+
 </div>
+
 
 <div class="volume-subtitle">
+
 The Final Collection of Discourses<br>
+
 MN 101–152
-</div>
 
 </div>
 
-<div class="section-divider"></div>
 
+</div>
 
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1x4Pq6wi4Y9H78v92AtMD64w3XZ-802Lv/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Devadaha Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division at Devadaha<br>
+
 MN 101–110
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Anupada Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of One by One<br>
+
 MN 111–120
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1NuX7UqQbA0ZLKj0jQZqxZ6QRyap5VDPn/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Suññata Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division on Voidness<br>
+
 MN 121–130
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Vibhaṅga Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of Expositions<br>
+
 MN 131–142
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1EAMg_TwelGqYAPbEFbd6FxBcEdrvhp4O/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Saḷāyatana Vagga
+
 </div>
 
+
 <div class="section-range">
+
 The Division of the Sixfold Base<br>
+
 MN 143–152
+
 </div>
+
 
 </a>
 
-</div>
 
 </div>
+
+
+</div>
+
+
+
+<div class="library-divider"></div>
 
 
 
@@ -788,103 +1033,154 @@ MN 143–152
 <!-- VOLUME IV -->
 <!-- ========================= -->
 
+
 <div class="volume">
+
 
 <div class="volume-header">
 
+
 <div class="volume-label">
+
 📕 Volume IV
+
 </div>
+
 
 <div class="volume-title">
+
 Selected Buddhist Writings
+
 </div>
+
 
 <div class="volume-subtitle">
+
 Supplementary Texts & Essays
-</div>
 
 </div>
 
-<div class="section-divider"></div>
+
+</div>
+
 
 
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1W4DgzPUUE4suGy6pyA8rvslQqEaebuPM/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Selected Suttas 1–20
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Selected Suttas 21–40
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1WY2ugb-KyOMGp9KoQfvwo9z3gfTZoMKs/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Selected Suttas 41–65
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Selected Mahāyāna Sūtras / Writings 66–80
+
 </div>
+
 
 </a>
 
+
 </div>
 
 
+
 <div class="section">
+
 
 <a href="https://drive.google.com/file/d/10YQrvUVxa8ImhapGM7T6auHq7VjN5u2R/view?usp=drive_link"
 target="_blank"
 rel="noopener noreferrer">
 
+
 <div class="section-title">
+
 Essay + About the Compiler
+
 </div>
+
 
 </a>
 
-</div>
 
 </div>
+
+
+</div>
+
+
+
+
 <footer>
+
 
 <p class="footer-note">
 
@@ -893,7 +1189,9 @@ This collection is offered freely for the benefit of all beings.
 </p>
 
 
+
 <div class="library-divider"></div>
+
 
 
 <div class="footer-title">
@@ -911,6 +1209,7 @@ SELECTED BUDDHIST WRITINGS
 
 
 </div>
+
 
 </body>
 

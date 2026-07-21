@@ -20,7 +20,7 @@ A Field Guide to the Majjhima Nikāya & Selected Buddhist Writings
 :root{
 
 --paper:#f5efe2;
---paper-dark:#efe5d2;
+--paper-dark:#eadbbd;
 
 --ink:#3d3126;
 --ink-soft:#6d5c4a;
@@ -30,24 +30,29 @@ A Field Guide to the Majjhima Nikāya & Selected Buddhist Writings
 
 }
 
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 }
 
+
 html{
+
 scroll-behavior:smooth;
+
 }
+
 
 body{
 
 background:
 linear-gradient(
 180deg,
-#faf6ee 0%,
-#f5efe2 45%,
-#efe5d2 100%);
+#eee0c3 0%,
+#f5efe2 50%,
+#e8d7b8 100%);
 
 color:var(--ink);
 
@@ -56,6 +61,7 @@ font-family:"EB Garamond",serif;
 line-height:1.75;
 
 }
+
 
 .container{
 
@@ -67,11 +73,13 @@ padding:50px 24px 80px;
 
 }
 
+
 .hero{
 
 text-align:center;
 
 }
+
 
 .wheel{
 
@@ -82,6 +90,7 @@ margin-bottom:22px;
 opacity:.95;
 
 }
+
 
 h1{
 
@@ -97,6 +106,7 @@ letter-spacing:.01em;
 
 }
 
+
 .subtitle{
 
 font-size:1.28rem;
@@ -109,6 +119,7 @@ margin:0 auto;
 
 }
 
+
 .deerpark{
 
 display:block;
@@ -119,7 +130,14 @@ margin:55px auto 55px;
 
 border-radius:4px;
 
+opacity:.92;
+
+filter:
+sepia(8%)
+saturate(90%);
+
 }
+
 
 .library-divider{
 
@@ -133,6 +151,7 @@ margin:0 auto 55px;
 
 }
 
+
 h2{
 
 font-size:2.4rem;
@@ -145,25 +164,13 @@ margin-bottom:18px;
 
 }
 
-.library-intro{
-
-max-width:720px;
-
-margin:0 auto 70px;
-
-text-align:center;
-
-font-size:1.15rem;
-
-color:var(--ink-soft);
-
-}
 
 .volume{
 
 margin-bottom:75px;
 
 }
+
 
 .volume-header{
 
@@ -172,6 +179,7 @@ text-align:center;
 margin-bottom:26px;
 
 }
+
 
 .volume-label{
 
@@ -187,6 +195,7 @@ margin-bottom:10px;
 
 }
 
+
 .volume-title{
 
 font-size:2rem;
@@ -197,6 +206,7 @@ margin-bottom:4px;
 
 }
 
+
 .volume-subtitle{
 
 font-size:1.1rem;
@@ -205,29 +215,6 @@ color:var(--ink-soft);
 
 }
 
-.complete-volume{
-
-display:inline-block;
-
-margin-top:20px;
-
-padding:10px 26px;
-
-border:1px solid var(--gold);
-
-color:var(--gold-dark);
-
-text-decoration:none;
-
-transition:.25s;
-
-}
-
-.complete-volume:hover{
-
-background:#f3ead8;
-
-}
 
 .section-divider{
 
@@ -241,11 +228,13 @@ margin:32px 0;
 
 }
 
+
 .section{
 
 padding:14px 0;
 
 }
+
 
 .section a{
 
@@ -257,13 +246,17 @@ display:block;
 
 transition:.2s;
 
+text-align:center;
+
 }
+
 
 .section a:hover{
 
 padding-left:8px;
 
 }
+
 
 .section-title{
 
@@ -275,6 +268,7 @@ margin-bottom:3px;
 
 }
 
+
 .section-range{
 
 font-size:1rem;
@@ -283,6 +277,7 @@ color:var(--ink-soft);
 
 }
 
+
 footer{
 
 text-align:center;
@@ -290,6 +285,7 @@ text-align:center;
 padding-top:60px;
 
 }
+
 
 .footer-note{
 
@@ -305,6 +301,7 @@ line-height:1.9;
 
 }
 
+
 .footer-title{
 
 font-size:.9rem;
@@ -317,6 +314,7 @@ color:var(--gold-dark);
 
 }
 
+
 @media(max-width:700px){
 
 .container{
@@ -325,17 +323,20 @@ padding:35px 18px 60px;
 
 }
 
+
 .subtitle{
 
 font-size:1.15rem;
 
 }
 
+
 .volume-title{
 
 font-size:1.7rem;
 
 }
+
 
 .section-title{
 
@@ -385,19 +386,11 @@ alt="The Buddha teaching the Dhamma at Deer Park">
 <div class="library-divider"></div>
 
 <h2>The Library</h2>
-
-<p class="library-intro">
-
-Browse the collection as complete illustrated volumes
-(full volumes may take longer to load)
-or explore individual sections for faster reading.
-
-</p>
-
 <!-- ========================= -->
 <!-- VOLUME I -->
 <!-- ========================= -->
-  <div class="volume">
+
+<div class="volume">
 
 <div class="volume-header">
 
@@ -414,18 +407,10 @@ The Root Fifty Discourses<br>
 MN 1–50
 </div>
 
-<a href="YOUR-HEYZINE-VOLUME-1-LINK"
-class="complete-volume"
-target="_blank"
-rel="noopener noreferrer">
-
-Open Complete Volume
-
-</a>
-
 </div>
 
 <div class="section-divider"></div>
+
 
 <div class="section">
 
@@ -446,6 +431,7 @@ MN 1–10
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/10w6h7aa2mPkVz-wp1OVYFHSUbIIplijL/view?usp=drive_link"
@@ -464,6 +450,7 @@ MN 11–20
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -484,6 +471,7 @@ MN 21–30
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1quOJS3gncxXceaFzUA2mpFCX3ndCBy5p/view?usp=drive_link"
@@ -502,6 +490,7 @@ MN 31–40
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -524,6 +513,7 @@ MN 41–50
 
 </div>
 
+
 <!-- ========================= -->
 <!-- VOLUME II -->
 <!-- ========================= -->
@@ -545,18 +535,10 @@ The Middle Fifty Discourses<br>
 MN 51–100
 </div>
 
-<a href="YOUR-HEYZINE-VOLUME-2-LINK"
-class="complete-volume"
-target="_blank"
-rel="noopener noreferrer">
-
-Open Complete Volume
-
-</a>
-
 </div>
 
 <div class="section-divider"></div>
+
 
 <div class="section">
 
@@ -577,6 +559,7 @@ MN 51–60
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1kuYpT3ODqjSSFhIAoCbqE7TcTrhdB7_E/view?usp=drive_link"
@@ -595,6 +578,7 @@ MN 61–70
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -615,6 +599,7 @@ MN 71–80
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1Dw1tRRbh7N8tyyqWAOQsGOumT-uZOWUg/view?usp=drive_link"
@@ -633,6 +618,7 @@ MN 81–90
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -675,18 +661,10 @@ The Final Collection of Discourses<br>
 MN 101–152
 </div>
 
-<a href="YOUR-HEYZINE-VOLUME-3-LINK"
-class="complete-volume"
-target="_blank"
-rel="noopener noreferrer">
-
-Open Complete Volume
-
-</a>
-
 </div>
 
 <div class="section-divider"></div>
+
 
 <div class="section">
 
@@ -707,6 +685,7 @@ MN 101–110
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1aKuxWikrtF4d-vUW86zUyZ1Bwx2kTMLv/view?usp=drive_link"
@@ -725,6 +704,7 @@ MN 111–120
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -745,6 +725,7 @@ MN 121–130
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1vdtE8HjN0xHg6Oz25BmjhPsRHYIKpywL/view?usp=drive_link"
@@ -763,6 +744,7 @@ MN 131–142
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -785,6 +767,8 @@ MN 143–152
 
 </div>
 
+
+
 <!-- ========================= -->
 <!-- VOLUME IV -->
 <!-- ========================= -->
@@ -805,18 +789,10 @@ Selected Buddhist Writings
 Supplementary Texts & Essays
 </div>
 
-<a href="YOUR-HEYZINE-VOLUME-4-LINK"
-class="complete-volume"
-target="_blank"
-rel="noopener noreferrer">
-
-Open Complete Volume
-
-</a>
-
 </div>
 
 <div class="section-divider"></div>
+
 
 <div class="section">
 
@@ -832,6 +808,7 @@ Selected Suttas 1–20
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1kZKaQ6cQDSKWNs3rmgBEurKRJ8YlYS8I/view?usp=drive_link"
@@ -845,6 +822,7 @@ Selected Suttas 21–40
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -860,6 +838,7 @@ Selected Suttas 41–65
 
 </div>
 
+
 <div class="section">
 
 <a href="https://drive.google.com/file/d/1oHNCm4cBXeJilPkpwfNNdyB5DnlKs4KE/view?usp=drive_link"
@@ -873,6 +852,7 @@ Selected Mahāyāna Sūtras / Writings 66–80
 </a>
 
 </div>
+
 
 <div class="section">
 
@@ -894,12 +874,12 @@ Essay + About the Compiler
 <p class="footer-note">
 
 This collection is offered freely for the benefit of all beings.
-Complete volumes may be viewed as flipbooks,
-while individual sections are provided for faster reading.
 
 </p>
 
+
 <div class="library-divider"></div>
+
 
 <div class="footer-title">
 
@@ -911,7 +891,9 @@ SELECTED BUDDHIST WRITINGS
 
 </div>
 
+
 </footer>
+
 
 </div>
 

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Introduction to the Field Guide
+</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+
+--ink:#3d3126;
+--ink-soft:#6d5c4a;
+
+--gold:#b89b5e;
+--gold-dark:#9d8245;
+
+}
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#e7dcc7 0%,
+#dbcdb4 100%
+);
+
+color:var(--ink);
+
+font-family:"EB Garamond",serif;
+
+line-height:1.75;
+
+}
+
+.container{
+
+max-width:900px;
+
+margin:auto;
+
+padding:50px 24px 80px;
+
+text-align:center;
+
+}
+
+.wheel{
+
+width:88px;
+
+margin-bottom:40px;
+
+opacity:.95;
+
+}
+
+.library-divider{
+
+width:170px;
+
+height:1px;
+
+background:var(--gold);
+
+margin:35px auto;
+
+}
+
+.intro-text{
+
+max-width:680px;
+
+margin:0 auto;
+
+font-size:1.2rem;
+
+color:var(--ink-soft);
+
+}
+
+video{
+
+display:block;
+
+width:min(680px,100%);
+
+margin:0 auto;
+
+border-radius:4px;
+
+}
+
+.return-link{
+
+margin-top:35px;
+
+}
+
+.return-link a{
+
+font-family:"EB Garamond",serif;
+
+font-size:1rem;
+
+font-weight:400;
+
+letter-spacing:.08em;
+
+text-decoration:none;
+
+color:var(--ink-soft);
+
+transition:.2s;
+
+}
+
+.return-link a:hover{
+
+color:#74521d;
+
+}
+
+@media(max-width:700px){
+
+.container{
+
+padding:35px 18px 60px;
+
+}
+
+.intro-text{
+
+font-size:1.1rem;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img
+src="dhammawheel.png"
+class="wheel"
+alt="Dhamma Wheel">
+
+<div class="library-divider"></div>
+
+<p class="intro-text">
+
+The following video offers a five-minute introduction to the Field Guide, its mission and how to make the most of it.
+
+</p>
+
+<div class="library-divider"></div>
+
+<video controls preload="metadata">
+
+<source src="FGMNintro.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
+
+</video>
+
+<div class="library-divider"></div>
+
+<div class="return-link">
+
+<a href="index.html">
+
+Return
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

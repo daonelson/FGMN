@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 
-fetch("catalog.json?v=2")
+fetch("catalog.json")
 
 .then(response => response.json())
 

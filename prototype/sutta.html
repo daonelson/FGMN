@@ -113,15 +113,18 @@ document.querySelector("#return-link").href =
 "./viewer.html?id=" + sutta.id;
 
 
-fetch(sutta.text)
+document.querySelector(".sutta-text").innerHTML = 
+`
+<p>
+The complete original text of this sutta is available at SuttaCentral.
+</p>
 
-.then(response => response.text())
-
-.then(text => {
-
-document.querySelector(".sutta-text").innerHTML = text;
-
-});
+<p>
+<a href="${sutta.original}" target="_blank">
+Read Original Sutta
+</a>
+</p>
+`;
 
 
 });

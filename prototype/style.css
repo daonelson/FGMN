@@ -188,3 +188,26 @@ font-size:2rem;
 
 
 }
+
+.sutta-text{
+
+max-width:720px;
+
+margin:0 auto;
+
+text-align:left;
+
+font-size:1.2rem;
+
+line-height:2;
+
+color:var(--ink);
+
+}
+
+
+.sutta-text p{
+
+margin-bottom:24px;
+
+}

@@ -85,7 +85,55 @@ Return
 
 </div>
 
+<script>
 
+const params = new URLSearchParams(window.location.search);
+
+const id = params.get("id");
+
+
+fetch("catalog.json")
+
+.then(response => response.json())
+
+.then(data => {
+
+const sutta = data.find(item => item.id === id);
+
+
+if(!sutta){
+
+document.querySelector(".page-title").textContent =
+"Sutta not found";
+
+return;
+
+}
+
+
+document.querySelector(".page-title").textContent =
+sutta.title;
+
+
+document.querySelector(".subtitle").textContent =
+sutta.subtitle;
+
+
+fetch(sutta.text)
+
+.then(response => response.text())
+
+.then(text => {
+
+document.querySelector(".sutta-text").innerHTML = text;
+
+});
+
+
+});
+
+</script>
+  
 </body>
 
 </html>

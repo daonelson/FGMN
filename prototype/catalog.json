@@ -1,12 +1,12 @@
 [
   {
-    "id": "mn1",
-    "title": "MN 1 — Mūlapariyāya Sutta",
-    "subtitle": "The Discourse on the Root",
-    "pdf": "",
-    "video": "",
-    "original": "https://suttacentral.net/mn1/en/sujato"
-  },
+"id": "mn1",
+"title": "MN 1 — Mūlapariyāya Sutta",
+"subtitle": "The Discourse on the Root",
+"pdf": "",
+"video": "",
+"text": "../texts/mn1.html"
+},
   {
     "id": "mn2",
     "title": "MN 2 — Sabbāsava Sutta",

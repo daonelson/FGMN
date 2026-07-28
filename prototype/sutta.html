@@ -113,18 +113,26 @@ document.querySelector("#return-link").href =
 "./viewer.html?id=" + sutta.id;
 
 
-document.querySelector(".sutta-text").innerHTML = 
-`
-<p>
-The complete original text of this sutta is available at SuttaCentral.
-</p>
+fetch(
+"https://raw.githubusercontent.com/suttacentral/bilara-data/master/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json"
+)
 
-<p>
-<a href="${sutta.original}" target="_blank">
-Read Original Sutta
-</a>
-</p>
-`;
+.then(response => response.json())
+
+.then(data => {
+
+let text = "";
+
+Object.values(data).forEach(segment => {
+
+text += "<p>" + segment + "</p>";
+
+});
+
+
+document.querySelector(".sutta-text").innerHTML = text;
+
+});
 
 
 });

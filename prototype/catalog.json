@@ -1,11 +1,11 @@
 [
 {
-"id": "mn1",
-"title": "MN 1 — Mūlapariyāya Sutta",
-"subtitle": "The Discourse on the Root",
-"pdf": "",
-"video": "",
-"text": "../texts/mn1.html"
+"id":"mn1",
+"title":"MN 1 — Mūlapariyāya Sutta",
+"subtitle":"The Discourse on the Root",
+"visual":"../pdf/mn1.pdf",
+"video":"../videos/mn1.mp4",
+"text":"../texts/mn1.html"
 },
   {
     "id": "mn2",

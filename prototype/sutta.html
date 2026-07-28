@@ -111,8 +111,8 @@ sutta.title;
 document.querySelector(".subtitle").textContent =
 sutta.subtitle;
 
-  document.querySelector("#return-link").href =
-"viewer.html?id=" + sutta.id;
+document.querySelector("#return-link").href =
+"./viewer.html?id=" + sutta.id;
 
 
 fetch(sutta.text)

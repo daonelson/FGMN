@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Field Guide — Visual Companion
+</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img
+src="../dhammawheel.png"
+class="wheel"
+alt="Dhamma Wheel">
+
+<div class="library-divider"></div>
+
+<h1 class="page-title">
+
+Loading...
+
+</h1>
+
+<p class="subtitle">
+
+</p>
+
+<div class="library-divider"></div>
+
+<iframe
+id="pdf-viewer"
+style="width:100%;height:80vh;border:none;">
+</iframe>
+
+<div class="library-divider"></div>
+
+<div class="return-link">
+
+<a id="return-link">
+
+Return
+
+</a>
+
+</div>
+
+</div>
+
+<script>
+
+const params = new URLSearchParams(window.location.search);
+
+const id = params.get("id");
+
+fetch("catalog.json")
+
+.then(response => response.json())
+
+.then(data => {
+
+const sutta = data.find(item => item.id === id);
+
+if(!sutta){
+
+document.querySelector(".page-title").textContent =
+"Visual Companion not found";
+
+return;
+
+}
+
+document.querySelector(".page-title").textContent =
+sutta.title;
+
+document.querySelector(".subtitle").textContent =
+sutta.subtitle;
+
+document.querySelector("#return-link").href =
+"./viewer.html?id=" + sutta.id;
+
+document.querySelector("#pdf-viewer").src =
+sutta.visual;
+
+});
+
+</script>
+
+</body>
+
+</html>

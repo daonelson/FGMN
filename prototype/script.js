@@ -38,9 +38,9 @@ const pdf =
 document.getElementById("pdf");
 
 
-if(sutta.pdf){
+if(sutta.visual){
 
-pdf.href = sutta.pdf;
+pdf.href = sutta.visual;
 
 }
 
@@ -74,7 +74,7 @@ const original =
 document.getElementById("original");
 
 
-original.href = sutta.original;
+original.href = "sutta.html?id=" + sutta.id;
 
 
 

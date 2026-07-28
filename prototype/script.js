@@ -58,7 +58,7 @@ document.getElementById("video");
 
 if(sutta.video){
 
-video.href = sutta.video;
+video.href = "video.html?id=" + sutta.id;
 
 }
 

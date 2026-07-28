@@ -191,15 +191,15 @@ font-size:2rem;
 
 .sutta-text{
 
-max-width:720px;
+max-width:700px;
 
 margin:0 auto;
 
 text-align:left;
 
-font-size:1.2rem;
+font-size:1.25rem;
 
-line-height:2;
+line-height:2.1;
 
 color:var(--ink);
 
@@ -208,6 +208,6 @@ color:var(--ink);
 
 .sutta-text p{
 
-margin-bottom:24px;
+margin-bottom:1.4em;
 
 }

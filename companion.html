@@ -146,6 +146,11 @@ function toggleFullscreen() {
 
 
 
+const params = new URLSearchParams(window.location.search);
+
+const id = params.get("id");
+
+
 fetch("data/companions.json")
 
 .then(response => response.json())
@@ -153,7 +158,7 @@ fetch("data/companions.json")
 .then(data => {
 
 
-    let sutta = data["MN001"];
+    let sutta = data[id];
 
     let container = document.getElementById("pages");
 

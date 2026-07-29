@@ -1,3 +1,4 @@
+```javascript
 const params = new URLSearchParams(window.location.search);
 
 const id = params.get("id");
@@ -78,6 +79,24 @@ original.href = "sutta.html?id=" + sutta.id;
 
 
 
+const external =
+document.getElementById("external");
+
+
+if(sutta.external){
+
+external.href = sutta.external;
+
+}
+
+else{
+
+external.style.display = "none";
+
+}
+
+
+
 })
 
 .catch(error => {
@@ -85,3 +104,4 @@ original.href = "sutta.html?id=" + sutta.id;
 console.log("Error loading catalog:", error);
 
 });
+```

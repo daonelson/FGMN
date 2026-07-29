@@ -40,13 +40,13 @@ document.getElementById("visual");
 
 if(sutta.visual){
 
-pdf.href = sutta.visual;
+visual.href = sutta.visual;
 
 }
 
 else{
 
-pdf.style.display = "none";
+visual.style.display = "none";
 
 }
 

@@ -4,63 +4,211 @@
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Visual Companion</title>
+<title>
+Visual Companion
+</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 
 <style>
 
-body {
-    background: #2b1b0e;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 20px;
-}
+:root{
 
-h1 {
-    margin-bottom: 10px;
-}
-
-#controls {
-    position: sticky;
-    top: 0;
-    background: #2b1b0e;
-    padding: 12px;
-    margin-bottom: 20px;
-    z-index: 1000;
-}
-
-@media (max-width: 600px) {
-
-    #controls {
-        display: none;
-    }
+--ink:#3d3126;
+--ink-soft:#6d5c4a;
+--gold:#b89b5e;
+--gold-dark:#9d8245;
 
 }
 
-button {
-    font-size: 18px;
-    padding: 8px 16px;
-    margin: 0 8px;
-    cursor: pointer;
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
 }
 
-#zoomLabel {
-    font-size: 18px;
-    display: inline-block;
-    width: 70px;
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#e7dcc7 0%,
+#dbcdb4 100%
+);
+
+color:var(--ink);
+
+font-family:"EB Garamond",serif;
+
+line-height:1.75;
+
 }
 
-.page {
-    width: 900px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 40px auto;
-    transition: width 0.15s ease;
+
+.container{
+
+max-width:900px;
+
+margin:auto;
+
+padding:50px 24px 80px;
+
+text-align:center;
+
 }
+
+
+.wheel{
+
+width:88px;
+
+margin-bottom:40px;
+
+opacity:.95;
+
+}
+
+
+.library-divider{
+
+width:170px;
+
+height:1px;
+
+background:var(--gold);
+
+margin:35px auto;
+
+}
+
+
+.page-title{
+
+font-size:2.4rem;
+
+font-weight:500;
+
+margin-bottom:10px;
+
+}
+
+
+#controls{
+
+position:sticky;
+
+top:0;
+
+background:#e7dcc7;
+
+padding:12px;
+
+margin-bottom:30px;
+
+z-index:1000;
+
+}
+
+
+button{
+
+font-size:18px;
+
+padding:8px 16px;
+
+margin:0 8px;
+
+cursor:pointer;
+
+font-family:"EB Garamond",serif;
+
+}
+
+
+#zoomLabel{
+
+font-size:18px;
+
+display:inline-block;
+
+width:70px;
+
+}
+
+
+.page{
+
+width:900px;
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+
+margin:40px auto;
+
+transition:.15s;
+
+}
+
+
+.return-link{
+
+margin-top:40px;
+
+}
+
+
+.return-link a{
+
+text-decoration:none;
+
+color:var(--ink-soft);
+
+letter-spacing:.08em;
+
+font-size:1.25rem;
+
+}
+
+
+.return-link a:hover{
+
+color:var(--gold-dark);
+
+}
+
+
+@media(max-width:600px){
+
+#controls{
+
+display:none;
+
+}
+
+
+.page-title{
+
+font-size:2rem;
+
+}
+
+}
+
 
 </style>
 
@@ -69,7 +217,27 @@ button {
 
 <body>
 
-<h1 id="title">Loading...</h1>
+
+<div class="container">
+
+
+<img
+src="dhammawheel.png"
+class="wheel"
+alt="Dhamma Wheel">
+
+
+<div class="library-divider"></div>
+
+
+<h1 class="page-title" id="title">
+
+Loading...
+
+</h1>
+
+
+<div class="library-divider"></div>
 
 
 <div id="controls">
@@ -87,114 +255,148 @@ button {
 
 <div id="pages"></div>
 
-    <div style="margin:50px 0;">
 
-<a id="return"
-style="color:white; text-decoration:none; font-size:20px;">
+<div class="library-divider"></div>
+
+
+<div class="return-link">
+
+<a id="return">
+
 Return
+
 </a>
 
 </div>
+
+
+</div>
+
+
 
 <script>
 
 let zoom = 100;
 
 
-function updateZoom() {
+function updateZoom(){
 
-    document.getElementById("zoomLabel").textContent = zoom + "%";
-
-    document.querySelectorAll(".page").forEach(img => {
-
-        img.style.width = (900 * zoom / 100) + "px";
-
-    });
-
-}
+document.getElementById("zoomLabel").textContent =
+zoom + "%";
 
 
-function zoomIn() {
+document.querySelectorAll(".page").forEach(img=>{
 
-    if (zoom < 200) {
+img.style.width =
+(900 * zoom / 100) + "px";
 
-        zoom += 10;
-        updateZoom();
-
-    }
-
-}
-
-
-function zoomOut() {
-
-    if (zoom > 50) {
-
-        zoom -= 10;
-        updateZoom();
-
-    }
-
-}
-
-
-function toggleFullscreen() {
-
-    if (!document.fullscreenElement) {
-
-        document.documentElement.requestFullscreen();
-
-    } else {
-
-        document.exitFullscreen();
-
-    }
+});
 
 }
 
 
 
-const params = new URLSearchParams(window.location.search);
+function zoomIn(){
 
-const id = params.get("id");
+if(zoom < 200){
+
+zoom += 10;
+updateZoom();
+
+}
+
+}
+
+
+
+function zoomOut(){
+
+if(zoom > 50){
+
+zoom -= 10;
+updateZoom();
+
+}
+
+}
+
+
+
+function toggleFullscreen(){
+
+if(!document.fullscreenElement){
+
+document.documentElement.requestFullscreen();
+
+}
+
+else{
+
+document.exitFullscreen();
+
+}
+
+}
+
+
+
+const params =
+new URLSearchParams(window.location.search);
+
+
+const id =
+params.get("id");
+
 
 
 fetch("data/companions.json")
 
-.then(response => response.json())
+.then(response=>response.json())
 
-.then(data => {
+.then(data=>{
 
 
-  let sutta = data[id];
+let sutta=data[id];
 
-document.getElementById("title").textContent = sutta.title;
 
-document.title = sutta.title;
+document.getElementById("title").textContent =
+sutta.title;
+
+
+document.title =
+sutta.title;
+
+
 
 document.getElementById("return").href =
 "prototype/viewer.html?id=" + id;
 
-let container = document.getElementById("pages");
 
 
-    sutta.pages.forEach(page => {
+let container =
+document.getElementById("pages");
 
 
-        let img = document.createElement("img");
 
-        img.className = "page";
-
-        img.src = sutta.folder + page;
+sutta.pages.forEach(page=>{
 
 
-        container.appendChild(img);
+let img=document.createElement("img");
 
 
-    });
+img.className="page";
 
 
-    updateZoom();
+img.src=sutta.folder + page;
+
+
+container.appendChild(img);
+
+
+});
+
+
+updateZoom();
 
 
 });

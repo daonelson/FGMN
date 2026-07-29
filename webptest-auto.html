@@ -18,7 +18,8 @@ fetch("data/companions.json")
 .then(response => response.json())
 .then(data => {
 
-    console.log(data);
+    document.getElementById("pages").textContent =
+        JSON.stringify(data, null, 2);
 
 });
 

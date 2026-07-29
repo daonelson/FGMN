@@ -113,8 +113,12 @@ document.querySelector("#return-link").href =
 "./viewer.html?id=" + sutta.id;
 
 
+const number = sutta.id.replace("MN", "").toLowerCase();
+
 fetch(
-"https://raw.githubusercontent.com/suttacentral/bilara-data/master/translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json"
+"https://raw.githubusercontent.com/suttacentral/bilara-data/master/translation/en/sujato/sutta/mn/mn" 
++ number +
+"_translation-en-sujato.json"
 )
 
 .then(response => response.json())

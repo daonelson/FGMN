@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>MN1 WebP Test</title>
 
@@ -8,16 +12,40 @@
 
 body {
     background: #2b1b0e;
+    color: white;
+    font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 20px;
 }
 
 h1 {
-    color: white;
+    margin-bottom: 10px;
 }
 
-img {
+#controls {
+    position: sticky;
+    top: 0;
+    background: #2b1b0e;
+    padding: 12px;
+    margin-bottom: 20px;
+    z-index: 1000;
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#zoomLabel {
+    font-size: 18px;
+    display: inline-block;
+    width: 70px;
+}
+
+.page {
     width: 100%;
     max-width: 900px;
     height: auto;
@@ -33,21 +61,79 @@ img {
 
 <h1>MN 1 — WebP Test</h1>
 
-<img src="MN1-10-1.webp">
-<img src="MN1-10-2.webp">
-<img src="MN1-10-3.webp">
-<img src="MN1-10-4.webp">
-<img src="MN1-10-5.webp">
-<img src="MN1-10-6.webp">
-<img src="MN1-10-7.webp">
-<img src="MN1-10-8.webp">
-<img src="MN1-10-9.webp">
-<img src="MN1-10-10.webp">
-<img src="MN1-10-11.webp">
-<img src="MN1-10-12.webp">
-<img src="MN1-10-13.webp">
-<img src="MN1-10-14.webp">
-<img src="MN1-10-15.webp">
+<div id="controls">
+
+    <button onclick="toggleFullscreen()">⛶</button>
+
+    <button onclick="zoomOut()">−</button>
+
+    <span id="zoomLabel">100%</span>
+
+    <button onclick="zoomIn()">+</button>
+
+</div>
+
+<img class="page" src="MN1-10-1.webp">
+<img class="page" src="MN1-10-2.webp">
+<img class="page" src="MN1-10-3.webp">
+<img class="page" src="MN1-10-4.webp">
+<img class="page" src="MN1-10-5.webp">
+<img class="page" src="MN1-10-6.webp">
+<img class="page" src="MN1-10-7.webp">
+<img class="page" src="MN1-10-8.webp">
+<img class="page" src="MN1-10-9.webp">
+<img class="page" src="MN1-10-10.webp">
+<img class="page" src="MN1-10-11.webp">
+<img class="page" src="MN1-10-12.webp">
+<img class="page" src="MN1-10-13.webp">
+<img class="page" src="MN1-10-14.webp">
+<img class="page" src="MN1-10-15.webp">
+
+<script>
+
+let zoom = 100;
+
+function updateZoom() {
+
+    document.getElementById("zoomLabel").textContent = zoom + "%";
+
+    document.querySelectorAll(".page").forEach(img => {
+        img.style.maxWidth = zoom + "%";
+    });
+
+}
+
+function zoomIn() {
+
+    if (zoom < 150) {
+        zoom += 10;
+        updateZoom();
+    }
+
+}
+
+function zoomOut() {
+
+    if (zoom > 50) {
+        zoom -= 10;
+        updateZoom();
+    }
+
+}
+
+function toggleFullscreen() {
+
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+    } else {
+        document.exitFullscreen();
+    }
+
+}
+
+updateZoom();
+
+</script>
 
 </body>
 

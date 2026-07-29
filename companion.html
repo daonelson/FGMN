@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>MN 1 — Automatic WebP Test</title>
+<title>Visual Companion</title>
 
 <style>
 
@@ -69,7 +69,7 @@ button {
 
 <body>
 
-<h1>MN 1 — Automatic WebP Test</h1>
+<h1 id="title">Loading...</h1>
 
 
 <div id="controls">
@@ -87,6 +87,14 @@ button {
 
 <div id="pages"></div>
 
+    <div style="margin:50px 0;">
+
+<a id="return"
+style="color:white; text-decoration:none; font-size:20px;">
+Return
+</a>
+
+</div>
 
 <script>
 
@@ -158,9 +166,16 @@ fetch("data/companions.json")
 .then(data => {
 
 
-    let sutta = data[id];
+  let sutta = data[id];
 
-    let container = document.getElementById("pages");
+document.getElementById("title").textContent = sutta.title;
+
+document.title = sutta.title;
+
+document.getElementById("return").href =
+"prototype/viewer.html?id=" + id;
+
+let container = document.getElementById("pages");
 
 
     sutta.pages.forEach(page => {

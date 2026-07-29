@@ -54,12 +54,12 @@ font-family:"EB Garamond",serif;
 
 line-height:1.75;
 
+overflow-x:auto;
+
 }
 
 
 .container{
-
-max-width:900px;
 
 margin:auto;
 
@@ -67,9 +67,8 @@ padding:50px 24px 80px;
 
 text-align:center;
 
-overflow-x:auto;
-
 }
+
 
 
 .wheel{
@@ -81,6 +80,7 @@ margin-bottom:40px;
 opacity:.95;
 
 }
+
 
 
 .library-divider{
@@ -96,6 +96,7 @@ margin:35px auto;
 }
 
 
+
 .page-title{
 
 font-size:2.4rem;
@@ -105,6 +106,7 @@ font-weight:500;
 margin-bottom:10px;
 
 }
+
 
 
 #controls{
@@ -117,11 +119,12 @@ background:#e7dcc7;
 
 padding:12px;
 
-margin-bottom:30px;
+margin-bottom:20px;
 
 z-index:1000;
 
 }
+
 
 
 button{
@@ -139,6 +142,7 @@ font-family:"EB Garamond",serif;
 }
 
 
+
 #zoomLabel{
 
 font-size:18px;
@@ -148,6 +152,7 @@ display:inline-block;
 width:70px;
 
 }
+
 
 
 .page{
@@ -165,11 +170,13 @@ transition:.15s;
 }
 
 
+
 .return-link{
 
 margin-top:40px;
 
 }
+
 
 
 .return-link a{
@@ -185,11 +192,13 @@ font-size:1.25rem;
 }
 
 
+
 .return-link a:hover{
 
 color:var(--gold-dark);
 
 }
+
 
 
 @media(max-width:600px){
@@ -213,6 +222,7 @@ font-size:2rem;
 </style>
 
 </head>
+
 
 
 <body>
@@ -253,7 +263,9 @@ Loading...
 </div>
 
 
+
 <div id="pages"></div>
+
 
 
 <div class="library-divider"></div>
@@ -276,10 +288,13 @@ Return
 
 <script>
 
+
 let zoom = 100;
 
 
+
 function updateZoom(){
+
 
 document.getElementById("zoomLabel").textContent =
 zoom + "%";
@@ -287,10 +302,13 @@ zoom + "%";
 
 document.querySelectorAll(".page").forEach(img=>{
 
+
 img.style.width =
 (900 * zoom / 100) + "px";
 
+
 });
+
 
 }
 
@@ -298,12 +316,15 @@ img.style.width =
 
 function zoomIn(){
 
+
 if(zoom < 200){
 
 zoom += 10;
+
 updateZoom();
 
 }
+
 
 }
 
@@ -311,18 +332,22 @@ updateZoom();
 
 function zoomOut(){
 
+
 if(zoom > 50){
 
 zoom -= 10;
+
 updateZoom();
 
 }
+
 
 }
 
 
 
 function toggleFullscreen(){
+
 
 if(!document.fullscreenElement){
 
@@ -336,7 +361,9 @@ document.exitFullscreen();
 
 }
 
+
 }
+
 
 
 
@@ -351,12 +378,12 @@ params.get("id");
 
 fetch("data/companions.json")
 
-.then(response=>response.json())
+.then(response => response.json())
 
-.then(data=>{
+.then(data => {
 
 
-let sutta=data[id];
+let sutta = data[id];
 
 
 document.getElementById("title").textContent =
@@ -387,13 +414,15 @@ let img=document.createElement("img");
 img.className="page";
 
 
-img.src=sutta.folder + page;
+img.src =
+sutta.folder + page;
 
 
 container.appendChild(img);
 
 
 });
+
 
 
 updateZoom();

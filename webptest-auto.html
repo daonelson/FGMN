@@ -2,28 +2,186 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
-<title>MN Auto Test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MN 1 — Automatic WebP Test</title>
+
+<style>
+
+body {
+    background: #2b1b0e;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#controls {
+    position: sticky;
+    top: 0;
+    background: #2b1b0e;
+    padding: 12px;
+    margin-bottom: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 600px) {
+
+    #controls {
+        display: none;
+    }
+
+}
+
+button {
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+#zoomLabel {
+    font-size: 18px;
+    display: inline-block;
+    width: 70px;
+}
+
+.page {
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    transition: width 0.15s ease;
+}
+
+</style>
+
 </head>
+
 
 <body>
 
-<h1>MN001 Automatic Test</h1>
+<h1>MN 1 — Automatic WebP Test</h1>
+
+
+<div id="controls">
+
+<button onclick="toggleFullscreen()">⛶</button>
+
+<button onclick="zoomOut()">−</button>
+
+<span id="zoomLabel">100%</span>
+
+<button onclick="zoomIn()">+</button>
+
+</div>
+
 
 <div id="pages"></div>
 
+
 <script>
 
+let zoom = 100;
+
+
+function updateZoom() {
+
+    document.getElementById("zoomLabel").textContent = zoom + "%";
+
+    document.querySelectorAll(".page").forEach(img => {
+
+        img.style.width = (900 * zoom / 100) + "px";
+
+    });
+
+}
+
+
+function zoomIn() {
+
+    if (zoom < 200) {
+
+        zoom += 10;
+        updateZoom();
+
+    }
+
+}
+
+
+function zoomOut() {
+
+    if (zoom > 50) {
+
+        zoom -= 10;
+        updateZoom();
+
+    }
+
+}
+
+
+function toggleFullscreen() {
+
+    if (!document.fullscreenElement) {
+
+        document.documentElement.requestFullscreen();
+
+    } else {
+
+        document.exitFullscreen();
+
+    }
+
+}
+
+
+
 fetch("data/companions.json")
+
 .then(response => response.json())
+
 .then(data => {
 
-    document.getElementById("pages").textContent =
-        JSON.stringify(data, null, 2);
+
+    let sutta = data["MN001"];
+
+    let container = document.getElementById("pages");
+
+
+    sutta.pages.forEach(page => {
+
+
+        let img = document.createElement("img");
+
+        img.className = "page";
+
+        img.src = sutta.folder + page;
+
+
+        container.appendChild(img);
+
+
+    });
+
+
+    updateZoom();
+
 
 });
 
+
 </script>
+
 
 </body>
 

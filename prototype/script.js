@@ -34,8 +34,8 @@ sutta.subtitle;
 
 
 
-const pdf =
-document.getElementById("pdf");
+const visual =
+document.getElementById("visual");
 
 
 if(sutta.visual){

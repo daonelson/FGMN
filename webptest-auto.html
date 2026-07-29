@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>MN Auto Test</title>
+</head>
+
+<body>
+
+<h1>MN001 Automatic Test</h1>
+
+<div id="pages"></div>
+
+<script>
+
+fetch("data/companions.json")
+.then(response => response.json())
+.then(data => {
+
+    console.log(data);
+
+});
+
+</script>
+
+</body>
+
+</html>

@@ -1,4 +1,3 @@
-```javascript
 const params = new URLSearchParams(window.location.search);
 
 const id = params.get("id");
@@ -104,4 +103,3 @@ external.style.display = "none";
 console.log("Error loading catalog:", error);
 
 });
-```

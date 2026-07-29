@@ -19,5 +19,30 @@
       "MN1-10-14.webp",
       "MN1-10-15.webp"
     ]
+  },
+
+  "MN2": {
+    "title": "MN 2 — Sabbāsava Sutta",
+    "folder": "visual-companions/MN002/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp",
+      "16.webp",
+      "17.webp",
+      "18.webp"
+    ]
   }
 }

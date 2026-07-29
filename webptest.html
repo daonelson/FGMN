@@ -99,7 +99,7 @@ function updateZoom() {
     document.getElementById("zoomLabel").textContent = zoom + "%";
 
     document.querySelectorAll(".page").forEach(img => {
-        img.style.maxWidth = zoom + "%";
+        img.style.width = (900 * zoom / 100) + "px";
     });
 
 }

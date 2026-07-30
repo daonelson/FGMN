@@ -178,11 +178,7 @@ Preface
 <div class="library-divider"></div>
 
 
-
-<img
-src="visual-companions/preface/monk-emptyhut.jpg"
-class="page"
-alt="Preface page 1">
+<div id="pages"></div>
 
 
 
@@ -201,6 +197,52 @@ Return
 
 
 </div>
+
+
+
+<script>
+
+const images = [
+
+"visual-companions/preface/01.webp",
+"visual-companions/preface/02.webp",
+"visual-companions/preface/03.webp",
+"visual-companions/preface/04.webp",
+"visual-companions/preface/05.webp",
+"visual-companions/preface/06.webp",
+"visual-companions/preface/07.webp",
+"visual-companions/preface/08.webp",
+"visual-companions/preface/09.webp",
+"visual-companions/preface/10.webp",
+"visual-compan-companions/preface/11.webp",
+"visual-companions/preface/12.webp"
+
+];
+
+
+const pages = document.getElementById("pages");
+
+
+images.forEach((src, index) => {
+
+
+const img = document.createElement("img");
+
+
+img.src = src;
+
+img.className = "page";
+
+img.alt = `Preface page ${index + 1}`;
+
+
+pages.appendChild(img);
+
+
+});
+
+
+</script>
 
 
 </body>

@@ -60,8 +60,6 @@ line-height:1.75;
 
 .container{
 
-max-width:900px;
-
 margin:auto;
 
 padding:50px 24px 80px;
@@ -69,6 +67,7 @@ padding:50px 24px 80px;
 text-align:center;
 
 }
+
 
 
 .wheel{
@@ -80,6 +79,7 @@ margin-bottom:35px;
 opacity:.95;
 
 }
+
 
 
 .library-divider{
@@ -95,6 +95,7 @@ margin:35px auto;
 }
 
 
+
 .title{
 
 font-size:2.4rem;
@@ -106,17 +107,77 @@ margin-bottom:35px;
 }
 
 
+
+#controls{
+
+position:sticky;
+
+top:0;
+
+background:#5a4026;
+
+padding:12px;
+
+margin-bottom:20px;
+
+z-index:1000;
+
+}
+
+
+
+button{
+
+font-size:18px;
+
+padding:8px 16px;
+
+margin:0 8px;
+
+cursor:pointer;
+
+font-family:"EB Garamond",serif;
+
+background:#3f2d1c;
+
+color:var(--ink);
+
+border:1px solid var(--gold);
+
+}
+
+
+
+#zoomLabel{
+
+font-size:18px;
+
+display:inline-block;
+
+width:70px;
+
+color:var(--ink);
+
+}
+
+
+
 .page{
+
+width:900px;
+
+max-width:none;
+
+height:auto;
 
 display:block;
 
-width:min(800px,100%);
-
 margin:40px auto;
 
-border-radius:4px;
+transition:.15s;
 
 }
+
 
 
 .return-link{
@@ -124,6 +185,7 @@ border-radius:4px;
 margin-top:45px;
 
 }
+
 
 
 .return-link a{
@@ -144,6 +206,40 @@ transition:.2s;
 .return-link a:hover{
 
 color:var(--gold);
+
+}
+
+
+
+@media(max-width:600px){
+
+
+#controls{
+
+display:none;
+
+}
+
+
+.page{
+
+width:100%;
+
+max-width:100%;
+
+height:auto;
+
+margin:30px auto;
+
+}
+
+
+.title{
+
+font-size:2rem;
+
+}
+
 
 }
 
@@ -178,11 +274,27 @@ Preface
 <div class="library-divider"></div>
 
 
+
+<div id="controls">
+
+<button onclick="toggleFullscreen()">⛶</button>
+
+<button onclick="zoomOut()">−</button>
+
+<span id="zoomLabel">100%</span>
+
+<button onclick="zoomIn()">+</button>
+
+</div>
+
+
+
 <div id="pages"></div>
 
 
 
 <div class="library-divider"></div>
+
 
 
 <div class="return-link">
@@ -201,6 +313,84 @@ Return
 
 
 <script>
+
+
+let zoom = 100;
+
+
+
+function updateZoom(){
+
+
+document.getElementById("zoomLabel").textContent =
+zoom + "%";
+
+
+document.querySelectorAll(".page").forEach(img=>{
+
+
+img.style.width =
+(900 * zoom / 100) + "px";
+
+
+});
+
+
+}
+
+
+
+function zoomIn(){
+
+
+if(zoom < 200){
+
+zoom += 10;
+
+updateZoom();
+
+}
+
+
+}
+
+
+
+function zoomOut(){
+
+
+if(zoom > 50){
+
+zoom -= 10;
+
+updateZoom();
+
+}
+
+
+}
+
+
+
+function toggleFullscreen(){
+
+
+if(!document.fullscreenElement){
+
+document.documentElement.requestFullscreen();
+
+}
+
+else{
+
+document.exitFullscreen();
+
+}
+
+
+}
+
+
 
 const images = [
 
@@ -223,10 +413,10 @@ const images = [
 const pages = document.getElementById("pages");
 
 
-images.forEach((src, index) => {
+images.forEach((src, index)=>{
 
 
-const img = document.createElement("img");
+let img = document.createElement("img");
 
 
 img.src = src;
@@ -240,6 +430,9 @@ pages.appendChild(img);
 
 
 });
+
+
+updateZoom();
 
 
 </script>

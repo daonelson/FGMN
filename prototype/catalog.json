@@ -28,7 +28,7 @@
     "id": "MN4",
     "title": "MN 4 — Bhayabherava Sutta",
     "subtitle": "The Discourse on Fear and Dread",
-    "visual": "",
+    "visual": "../companion.html?id=MN4",
      "video": "../videos/MN4.mp4",
     "original": "https://suttacentral.net/mn4/en/sujato"
   },
@@ -44,8 +44,8 @@
     "id": "MN6",
     "title": "MN 6 — Ākaṅkheyya Sutta",
     "subtitle": "The Discourse on Wishes",
-    "visual": "",
-    "video": "",
+    "visual": "../companion.html?id=MN6",
+    "video": "../videos/MN6.mp4"
     "original": "https://suttacentral.net/mn6/en/sujato"
   },
   {

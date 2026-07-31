@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Sīhanāda Vagga — MN 11–20
+</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<img
+src="../dhammawheel.png"
+class="wheel"
+alt="Dhamma Wheel">
+
+
+<div class="library-divider"></div>
+
+
+<h1 class="page-title">
+
+Sīhanāda Vagga
+
+</h1>
+
+
+<p class="subtitle">
+
+The Division of the Lion's Roar<br>
+
+MN 11–20
+
+</p>
+
+
+<div class="library-divider"></div>
+
+
+
+<a class="sutta-link" href="viewer.html?id=MN11">
+
+MN 11 — Cūḷasīhanāda Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN12">
+
+MN 12 — Mahāsīhanāda Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN13">
+
+MN 13 — Mahādukkhakkhandha Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN14">
+
+MN 14 — Cūḷadukkhakkhandha Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN15">
+
+MN 15 — Anumāna Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN16">
+
+MN 16 — Cetokhila Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN17">
+
+MN 17 — Vanapattha Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN18">
+
+MN 18 — Madhupiṇḍika Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN19">
+
+MN 19 — Dvedhāvitakka Sutta
+
+</a>
+
+
+<a class="sutta-link" href="viewer.html?id=MN20">
+
+MN 20 — Vitakkasaṇṭhāna Sutta
+
+</a>
+
+
+
+<div class="library-divider"></div>
+
+
+
+<div class="return-link">
+
+<a href="../index.html">
+
+Return
+
+</a>
+
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>

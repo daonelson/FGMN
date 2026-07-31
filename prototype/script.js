@@ -81,10 +81,11 @@ original.href = "sutta.html?id=" + sutta.id;
 const external =
 document.getElementById("external");
 
-  
 if(sutta.external){
 
 external.href = sutta.external;
+external.target = "_blank";
+external.rel = "noopener noreferrer";
 
 }
 

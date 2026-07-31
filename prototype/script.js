@@ -81,7 +81,7 @@ original.href = "sutta.html?id=" + sutta.id;
 const external =
 document.getElementById("external");
 
-
+  
 if(sutta.external){
 
 external.href = sutta.external;
@@ -91,6 +91,24 @@ external.href = sutta.external;
 else{
 
 external.style.display = "none";
+
+}
+
+
+
+const returnLink =
+document.getElementById("return");
+
+
+if(sutta.division){
+
+returnLink.href = sutta.division;
+
+}
+
+else{
+
+returnLink.href = "MN1-10.html";
 
 }
 

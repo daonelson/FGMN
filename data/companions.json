@@ -249,5 +249,225 @@
       "26.webp",
       "27.webp"
     ]
+  },
+  
+    "MN11": {
+    "title": "MN 11 — Cūḷasīhanāda Sutta",
+    "folder": "visual-companions/MN011/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN12": {
+    "title": "MN 12 — Mahāsīhanāda Sutta",
+    "folder": "visual-companions/MN012/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN13": {
+    "title": "MN 13 — Mahādukkhakkhandha Sutta",
+    "folder": "visual-companions/MN013/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN14": {
+    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+    "folder": "visual-companions/MN014/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN15": {
+    "title": "MN 15 — Anumāna Sutta",
+    "folder": "visual-companions/MN015/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN16": {
+    "title": "MN 16 — Cetokhila Sutta",
+    "folder": "visual-companions/MN016/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN17": {
+    "title": "MN 17 — Vanapattha Sutta",
+    "folder": "visual-companions/MN017/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN18": {
+    "title": "MN 18 — Madhupiṇḍika Sutta",
+    "folder": "visual-companions/MN018/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN19": {
+    "title": "MN 19 — Dvedhāvitakka Sutta",
+    "folder": "visual-companions/MN019/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN20": {
+    "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+    "folder": "visual-companions/MN020/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
   }
 }

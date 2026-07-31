@@ -470,5 +470,665 @@
       "14.webp",
       "15.webp"
     ]
+  },
+  
+    "MN21": {
+    "title": "MN 21 — Kakacūpama Sutta",
+    "folder": "visual-companions/MN021/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN22": {
+    "title": "MN 22 — Alagaddūpama Sutta",
+    "folder": "visual-companions/MN022/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN23": {
+    "title": "MN 23 — Vammika Sutta",
+    "folder": "visual-companions/MN023/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN24": {
+    "title": "MN 24 — Rathavinīta Sutta",
+    "folder": "visual-companions/MN024/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN25": {
+    "title": "MN 25 — Nivāpa Sutta",
+    "folder": "visual-companions/MN025/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN26": {
+    "title": "MN 26 — Ariyapariyesanā Sutta",
+    "folder": "visual-companions/MN026/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN27": {
+    "title": "MN 27 — Cūḷahatthipadopama Sutta",
+    "folder": "visual-companions/MN027/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN28": {
+    "title": "MN 28 — Mahāhatthipadopama Sutta",
+    "folder": "visual-companions/MN028/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN29": {
+    "title": "MN 29 — Mahāsāropama Sutta",
+    "folder": "visual-companions/MN029/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN30": {
+    "title": "MN 30 — Cūḷasāropama Sutta",
+    "folder": "visual-companions/MN030/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+  
+    "MN31": {
+    "title": "MN 31 — Cūḷagosiṅga Sutta",
+    "folder": "visual-companions/MN031/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN32": {
+    "title": "MN 32 — Mahāgosiṅga Sutta",
+    "folder": "visual-companions/MN032/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN33": {
+    "title": "MN 33 — Mahāgopālaka Sutta",
+    "folder": "visual-companions/MN033/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN34": {
+    "title": "MN 34 — Cūḷagopālaka Sutta",
+    "folder": "visual-companions/MN034/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN35": {
+    "title": "MN 35 — Cūḷasaccaka Sutta",
+    "folder": "visual-companions/MN035/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN36": {
+    "title": "MN 36 — Mahāsaccaka Sutta",
+    "folder": "visual-companions/MN036/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN37": {
+    "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
+    "folder": "visual-companions/MN037/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN38": {
+    "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
+    "folder": "visual-companions/MN038/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN39": {
+    "title": "MN 39 — Mahā-Assapura Sutta",
+    "folder": "visual-companions/MN039/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN40": {
+    "title": "MN 40 — Cūḷa-Assapura Sutta",
+    "folder": "visual-companions/MN040/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+    "MN41": {
+    "title": "MN 41 — Sāleyyaka Sutta",
+    "folder": "visual-companions/MN041/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN42": {
+    "title": "MN 42 — Verañjaka Sutta",
+    "folder": "visual-companions/MN042/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN43": {
+    "title": "MN 43 — Mahāvedalla Sutta",
+    "folder": "visual-companions/MN043/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN44": {
+    "title": "MN 44 — Cūḷavedalla Sutta",
+    "folder": "visual-companions/MN044/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN45": {
+    "title": "MN 45 — Cūḷadhammasamādāna Sutta",
+    "folder": "visual-companions/MN045/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN46": {
+    "title": "MN 46 — Mahādhammasamādāna Sutta",
+    "folder": "visual-companions/MN046/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN47": {
+    "title": "MN 47 — Vīmaṃsaka Sutta",
+    "folder": "visual-companions/MN047/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN48": {
+    "title": "MN 48 — Kosambiya Sutta",
+    "folder": "visual-companions/MN048/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN49": {
+    "title": "MN 49 — Brahmanimantanika Sutta",
+    "folder": "visual-companions/MN049/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
+  },
+
+  "MN50": {
+    "title": "MN 50 — Māratajjanīya Sutta",
+    "folder": "visual-companions/MN050/",
+    "pages": [
+      "01.webp",
+      "02.webp",
+      "03.webp",
+      "04.webp",
+      "05.webp",
+      "06.webp",
+      "07.webp",
+      "08.webp",
+      "09.webp",
+      "10.webp",
+      "11.webp",
+      "12.webp",
+      "13.webp",
+      "14.webp",
+      "15.webp"
+    ]
   }
 }

@@ -95,23 +95,31 @@ external.style.display = "none";
 }
 
 
-
 const returnLink =
 document.getElementById("return");
 
 
-if(sutta.division){
+const number =
+parseInt(id.replace("MN",""));
 
-returnLink.href = sutta.division;
+
+let start =
+Math.floor((number - 1) / 10) * 10 + 1;
+
+
+let end =
+start + 9;
+
+
+if(number >= 151){
+
+end = 152;
 
 }
 
-else{
 
-returnLink.href = "MN1-10.html";
-
-}
-
+returnLink.href =
+"MN" + start + "-" + end + ".html";
 
 
 })

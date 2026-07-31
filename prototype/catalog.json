@@ -79,5 +79,325 @@
     "visual": "../companion.html?id=MN10",
     "video": "../videos/MN10.mp4",
     "original": "https://suttacentral.net/mn10/en/sujato"
+  },
+   {
+    "id": "MN11",
+    "title": "MN 11 — Cūḷasīhanāda Sutta",
+    "subtitle": "The Shorter Discourse on the Lion's Roar",
+    "visual": "../companion.html?id=MN11",
+    "video": "../videos/MN11.mp4",
+    "original": "https://suttacentral.net/mn11/en/sujato"
+  },
+  {
+    "id": "MN12",
+    "title": "MN 12 — Mahāsīhanāda Sutta",
+    "subtitle": "The Greater Discourse on the Lion's Roar",
+    "visual": "../companion.html?id=MN12",
+    "video": "../videos/MN12.mp4",
+    "original": "https://suttacentral.net/mn12/en/sujato"
+  },
+  {
+    "id": "MN13",
+    "title": "MN 13 — Mahādukkhakkhandha Sutta",
+    "subtitle": "The Greater Discourse on the Mass of Suffering",
+    "visual": "../companion.html?id=MN13",
+    "video": "../videos/MN13.mp4",
+    "original": "https://suttacentral.net/mn13/en/sujato"
+  },
+  {
+    "id": "MN14",
+    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+    "subtitle": "The Shorter Discourse on the Mass of Suffering",
+    "visual": "../companion.html?id=MN14",
+    "video": "../videos/MN14.mp4",
+    "original": "https://suttacentral.net/mn14/en/sujato"
+  },
+  {
+    "id": "MN15",
+    "title": "MN 15 — Anumāna Sutta",
+    "subtitle": "The Discourse on Inference",
+    "visual": "../companion.html?id=MN15",
+    "video": "../videos/MN15.mp4",
+    "original": "https://suttacentral.net/mn15/en/sujato"
+  },
+  {
+    "id": "MN16",
+    "title": "MN 16 — Cetokhila Sutta",
+    "subtitle": "The Discourse on Mental Barrenness",
+    "visual": "../companion.html?id=MN16",
+    "video": "../videos/MN16.mp4",
+    "original": "https://suttacentral.net/mn16/en/sujato"
+  },
+  {
+    "id": "MN17",
+    "title": "MN 17 — Vanapattha Sutta",
+    "subtitle": "The Discourse on the Forest Thicket",
+    "visual": "../companion.html?id=MN17",
+    "video": "../videos/MN17.mp4",
+    "original": "https://suttacentral.net/mn17/en/sujato"
+  },
+  {
+    "id": "MN18",
+    "title": "MN 18 — Madhupiṇḍika Sutta",
+    "subtitle": "The Honeyball Discourse",
+    "visual": "../companion.html?id=MN18",
+    "video": "../videos/MN18.mp4",
+    "original": "https://suttacentral.net/mn18/en/sujato"
+  },
+  {
+    "id": "MN19",
+    "title": "MN 19 — Dvedhāvitakka Sutta",
+    "subtitle": "The Discourse on Two Kinds of Thought",
+    "visual": "../companion.html?id=MN19",
+    "video": "../videos/MN19.mp4",
+    "original": "https://suttacentral.net/mn19/en/sujato"
+  },
+  {
+    "id": "MN20",
+    "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+    "subtitle": "The Removal of Distracting Thoughts",
+    "visual": "../companion.html?id=MN20",
+    "video": "../videos/MN20.mp4",
+    "original": "https://suttacentral.net/mn20/en/sujato"
+  },
+  {
+    "id": "MN21",
+    "title": "MN 21 — Kakacūpama Sutta",
+    "subtitle": "The Simile of the Saw",
+    "visual": "../companion.html?id=MN21",
+    "video": "../videos/MN21.mp4",
+    "original": "https://suttacentral.net/mn21/en/sujato"
+  },
+  {
+    "id": "MN22",
+    "title": "MN 22 — Alagaddūpama Sutta",
+    "subtitle": "The Simile of the Snake",
+    "visual": "../companion.html?id=MN22",
+    "video": "../videos/MN22.mp4",
+    "original": "https://suttacentral.net/mn22/en/sujato"
+  },
+  {
+    "id": "MN23",
+    "title": "MN 23 — Vammika Sutta",
+    "subtitle": "The Ant-hill",
+    "visual": "../companion.html?id=MN23",
+    "video": "../videos/MN23.mp4",
+    "original": "https://suttacentral.net/mn23/en/sujato"
+  },
+  {
+    "id": "MN24",
+    "title": "MN 24 — Rathavinīta Sutta",
+    "subtitle": "The Relay Chariots",
+    "visual": "../companion.html?id=MN24",
+    "video": "../videos/MN24.mp4",
+    "original": "https://suttacentral.net/mn24/en/sujato"
+  },
+  {
+    "id": "MN25",
+    "title": "MN 25 — Nivāpa Sutta",
+    "subtitle": "The Bait",
+    "visual": "../companion.html?id=MN25",
+    "video": "../videos/MN25.mp4",
+    "original": "https://suttacentral.net/mn25/en/sujato"
+  },
+  {
+    "id": "MN26",
+    "title": "MN 26 — Ariyapariyesanā Sutta",
+    "subtitle": "The Noble Search",
+    "visual": "../companion.html?id=MN26",
+    "video": "../videos/MN26.mp4",
+    "original": "https://suttacentral.net/mn26/en/sujato"
+  },
+  {
+    "id": "MN27",
+    "title": "MN 27 — Cūḷahatthipadopama Sutta",
+    "subtitle": "The Shorter Simile of the Elephant's Footprint",
+    "visual": "../companion.html?id=MN27",
+    "video": "../videos/MN27.mp4",
+    "original": "https://suttacentral.net/mn27/en/sujato"
+  },
+  {
+    "id": "MN28",
+    "title": "MN 28 — Mahāhatthipadopama Sutta",
+    "subtitle": "The Greater Simile of the Elephant's Footprint",
+    "visual": "../companion.html?id=MN28",
+    "video": "../videos/MN28.mp4",
+    "original": "https://suttacentral.net/mn28/en/sujato"
+  },
+  {
+    "id": "MN29",
+    "title": "MN 29 — Mahāsāropama Sutta",
+    "subtitle": "The Greater Discourse on the Simile of the Heartwood",
+    "visual": "../companion.html?id=MN29",
+    "video": "../videos/MN29.mp4",
+    "original": "https://suttacentral.net/mn29/en/sujato"
+  },
+  {
+    "id": "MN30",
+    "title": "MN 30 — Cūḷasāropama Sutta",
+    "subtitle": "The Shorter Discourse on the Simile of the Heartwood",
+    "visual": "../companion.html?id=MN30",
+    "video": "../videos/MN30.mp4",
+    "original": "https://suttacentral.net/mn30/en/sujato"
+  },
+   {
+    "id": "MN31",
+    "title": "MN 31 — Cūḷagosiṅga Sutta",
+    "subtitle": "The Shorter Discourse at Gosiṅga",
+    "visual": "../companion.html?id=MN31",
+    "video": "../videos/MN31.mp4",
+    "original": "https://suttacentral.net/mn31/en/sujato"
+  },
+  {
+    "id": "MN32",
+    "title": "MN 32 — Mahāgosiṅga Sutta",
+    "subtitle": "The Greater Discourse at Gosiṅga",
+    "visual": "../companion.html?id=MN32",
+    "video": "../videos/MN32.mp4",
+    "original": "https://suttacentral.net/mn32/en/sujato"
+  },
+  {
+    "id": "MN33",
+    "title": "MN 33 — Mahāgopālaka Sutta",
+    "subtitle": "The Greater Discourse on the Cowherd",
+    "visual": "../companion.html?id=MN33",
+    "video": "../videos/MN33.mp4",
+    "original": "https://suttacentral.net/mn33/en/sujato"
+  },
+  {
+    "id": "MN34",
+    "title": "MN 34 — Cūḷagopālaka Sutta",
+    "subtitle": "The Shorter Discourse on the Cowherd",
+    "visual": "../companion.html?id=MN34",
+    "video": "../videos/MN34.mp4",
+    "original": "https://suttacentral.net/mn34/en/sujato"
+  },
+  {
+    "id": "MN35",
+    "title": "MN 35 — Cūḷasaccaka Sutta",
+    "subtitle": "The Shorter Discourse to Saccaka",
+    "visual": "../companion.html?id=MN35",
+    "video": "../videos/MN35.mp4",
+    "original": "https://suttacentral.net/mn35/en/sujato"
+  },
+  {
+    "id": "MN36",
+    "title": "MN 36 — Mahāsaccaka Sutta",
+    "subtitle": "The Greater Discourse to Saccaka",
+    "visual": "../companion.html?id=MN36",
+    "video": "../videos/MN36.mp4",
+    "original": "https://suttacentral.net/mn36/en/sujato"
+  },
+  {
+    "id": "MN37",
+    "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
+    "subtitle": "The Shorter Discourse on the Ending of Craving",
+    "visual": "../companion.html?id=MN37",
+    "video": "../videos/MN37.mp4",
+    "original": "https://suttacentral.net/mn37/en/sujato"
+  },
+  {
+    "id": "MN38",
+    "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
+    "subtitle": "The Greater Discourse on the Ending of Craving",
+    "visual": "../companion.html?id=MN38",
+    "video": "../videos/MN38.mp4",
+    "original": "https://suttacentral.net/mn38/en/sujato"
+  },
+  {
+    "id": "MN39",
+    "title": "MN 39 — Mahā-Assapura Sutta",
+    "subtitle": "The Greater Discourse at Assapura",
+    "visual": "../companion.html?id=MN39",
+    "video": "../videos/MN39.mp4",
+    "original": "https://suttacentral.net/mn39/en/sujato"
+  },
+  {
+    "id": "MN40",
+    "title": "MN 40 — Cūḷa-Assapura Sutta",
+    "subtitle": "The Shorter Discourse at Assapura",
+    "visual": "../companion.html?id=MN40",
+    "video": "../videos/MN40.mp4",
+    "original": "https://suttacentral.net/mn40/en/sujato"
+  },
+  {
+    "id": "MN41",
+    "title": "MN 41 — Sāleyyaka Sutta",
+    "subtitle": "The Brahmins of Sālā",
+    "visual": "../companion.html?id=MN41",
+    "video": "../videos/MN41.mp4",
+    "original": "https://suttacentral.net/mn41/en/sujato"
+  },
+  {
+    "id": "MN42",
+    "title": "MN 42 — Verañjaka Sutta",
+    "subtitle": "The People of Verañjā",
+    "visual": "../companion.html?id=MN42",
+    "video": "../videos/MN42.mp4",
+    "original": "https://suttacentral.net/mn42/en/sujato"
+  },
+  {
+    "id": "MN43",
+    "title": "MN 43 — Mahāvedalla Sutta",
+    "subtitle": "The Greater Series of Questions and Answers",
+    "visual": "../companion.html?id=MN43",
+    "video": "../videos/MN43.mp4",
+    "original": "https://suttacentral.net/mn43/en/sujato"
+  },
+  {
+    "id": "MN44",
+    "title": "MN 44 — Cūḷavedalla Sutta",
+    "subtitle": "The Shorter Series of Questions and Answers",
+    "visual": "../companion.html?id=MN44",
+    "video": "../videos/MN44.mp4",
+    "original": "https://suttacentral.net/mn44/en/sujato"
+  },
+  {
+    "id": "MN45",
+    "title": "MN 45 — Cūḷadhammasamādāna Sutta",
+    "subtitle": "The Shorter Discourse on Taking Up Practices",
+    "visual": "../companion.html?id=MN45",
+    "video": "../videos/MN45.mp4",
+    "original": "https://suttacentral.net/mn45/en/sujato"
+  },
+  {
+    "id": "MN46",
+    "title": "MN 46 — Mahādhammasamādāna Sutta",
+    "subtitle": "The Greater Discourse on Taking Up Practices",
+    "visual": "../companion.html?id=MN46",
+    "video": "../videos/MN46.mp4",
+    "original": "https://suttacentral.net/mn46/en/sujato"
+  },
+  {
+    "id": "MN47",
+    "title": "MN 47 — Vīmaṃsaka Sutta",
+    "subtitle": "The Inquirer",
+    "visual": "../companion.html?id=MN47",
+    "video": "../videos/MN47.mp4",
+    "original": "https://suttacentral.net/mn47/en/sujato"
+  },
+  {
+    "id": "MN48",
+    "title": "MN 48 — Kosambiya Sutta",
+    "subtitle": "The Kosambians",
+    "visual": "../companion.html?id=MN48",
+    "video": "../videos/MN48.mp4",
+    "original": "https://suttacentral.net/mn48/en/sujato"
+  },
+  {
+    "id": "MN49",
+    "title": "MN 49 — Brahmanimantanika Sutta",
+    "subtitle": "The Invitation of a Brahmā",
+    "visual": "../companion.html?id=MN49",
+    "video": "../videos/MN49.mp4",
+    "original": "https://suttacentral.net/mn49/en/sujato"
+  },
+  {
+    "id": "MN50",
+    "title": "MN 50 — Māratajjanīya Sutta",
+    "subtitle": "The Rebuke to Māra",
+    "visual": "../companion.html?id=MN50",
+    "video": "../videos/MN50.mp4",
+    "original": "https://suttacentral.net/mn50/en/sujato"
   }
 ]

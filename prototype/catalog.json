@@ -399,5 +399,85 @@
     "visual": "../companion.html?id=MN50",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN50.mp4",
     "original": "https://suttacentral.net/mn50/en/sujato"
+  },
+  {
+    "id": "MN51",
+    "title": "MN 51 — Kandaraka Sutta",
+    "subtitle": "Kandaraka",
+    "visual": "../companion.html?id=MN51",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN51.mp4",
+    "original": "https://suttacentral.net/mn51/en/sujato"
+  },
+  {
+    "id": "MN52",
+    "title": "MN 52 — Aṭṭhakanāgara Sutta",
+    "subtitle": "The Man from Aṭṭhakanagara",
+    "visual": "../companion.html?id=MN52",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN52.mp4",
+    "original": "https://suttacentral.net/mn52/en/sujato"
+  },
+  {
+    "id": "MN53",
+    "title": "MN 53 — Sekha Sutta",
+    "subtitle": "The trainee",
+    "visual": "../companion.html?id=MN53",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN53.mp4",
+    "original": "https://suttacentral.net/mn53/en/sujato"
+  },
+  {
+    "id": "MN54",
+    "title": "MN 54 — Potaliya Sutta",
+    "subtitle": "To Potaliya",
+    "visual": "../companion.html?id=MN54",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN54.mp4",
+    "original": "https://suttacentral.net/mn54/en/sujato"
+  },
+  {
+    "id": "MN55",
+    "title": "MN 55 — Jīvaka Sutta",
+    "subtitle": "With Jīvaka",
+    "visual": "../companion.html?id=MN55",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN55.mp4",
+    "original": "https://suttacentral.net/mn55/en/sujato"
+  },
+  {
+    "id": "MN56",
+    "title": "MN 56 — Upāli Sutta",
+    "subtitle": "With Upāli",
+    "visual": "../companion.html?id=MN56",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN56.mp4",
+    "original": "https://suttacentral.net/mn56/en/sujato"
+  },
+  {
+    "id": "MN57",
+    "title": "MN 57 — Kukkuravatika Sutta",
+    "subtitle": "The Dog-Duty Ascetic",
+    "visual": "../companion.html?id=MN57",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN57.mp4",
+    "original": "https://suttacentral.net/mn57/en/sujato"
+  },
+  {
+    "id": "MN58",
+    "title": "MN 58 — Abhayarājakumāra Sutta",
+    "subtitle": "Prince Abhaya",
+    "visual": "../companion.html?id=MN58",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN58.mp4",
+    "original": "https://suttacentral.net/mn58/en/sujato"
+  },
+  {
+    "id": "MN59",
+    "title": "MN 59 — Bahuvedanīya Sutta",
+    "subtitle": "Many Kinds of Feeling",
+    "visual": "../companion.html?id=MN59",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN59.mp4",
+    "original": "https://suttacentral.net/mn59/en/sujato"
+  },
+  {
+    "id": "MN60",
+    "title": "MN 60 — Apaṇṇaka Sutta",
+    "subtitle": "The Incontrovertible Teaching",
+    "visual": "../companion.html?id=MN60",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN60.mp4",
+    "original": "https://suttacentral.net/mn60/en/sujato"
   }
 ]

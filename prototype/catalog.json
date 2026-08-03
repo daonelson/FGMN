@@ -479,5 +479,85 @@
     "visual": "../companion.html?id=MN60",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN60.mp4",
     "original": "https://suttacentral.net/mn60/en/sujato"
+  },
+  {
+    "id": "MN61",
+    "title": "MN 61 — Ambalaṭṭhikarāhulovāda Sutta",
+    "subtitle": "Advice to Rāhula at Ambalaṭṭhikā",
+    "visual": "../companion.html?id=MN61",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN61.mp4",
+    "original": "https://suttacentral.net/mn61/en/sujato"
+  },
+  {
+    "id": "MN62",
+    "title": "MN 62 — Mahārāhulovāda Sutta",
+    "subtitle": "The Greater Advice to Rāhula",
+    "visual": "../companion.html?id=MN62",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN62.mp4",
+    "original": "https://suttacentral.net/mn62/en/sujato"
+  },
+  {
+    "id": "MN63",
+    "title": "MN 63 — Cūḷamāluṅkya Sutta",
+    "subtitle": "The Shorter Discourse to Māluṅkyaputta",
+    "visual": "../companion.html?id=MN63",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN63.mp4",
+    "original": "https://suttacentral.net/mn63/en/sujato"
+  },
+  {
+    "id": "MN64",
+    "title": "MN 64 — Mahāmāluṅkya Sutta",
+    "subtitle": "The Greater Discourse to Māluṅkyaputta",
+    "visual": "../companion.html?id=MN64",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN64.mp4",
+    "original": "https://suttacentral.net/mn64/en/sujato"
+  },
+  {
+    "id": "MN65",
+    "title": "MN 65 — Bhaddāli Sutta",
+    "subtitle": "To Bhaddāli",
+    "visual": "../companion.html?id=MN65",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN65.mp4",
+    "original": "https://suttacentral.net/mn65/en/sujato"
+  },
+  {
+    "id": "MN66",
+    "title": "MN 66 — Laṭukikopama Sutta",
+    "subtitle": "The Quail Simile",
+    "visual": "../companion.html?id=MN66",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN66.mp4",
+    "original": "https://suttacentral.net/mn66/en/sujato"
+  },
+  {
+    "id": "MN67",
+    "title": "MN 67 — Cātumā Sutta",
+    "subtitle": "At Cātumā",
+    "visual": "../companion.html?id=MN67",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN67.mp4",
+    "original": "https://suttacentral.net/mn67/en/sujato"
+  },
+  {
+    "id": "MN68",
+    "title": "MN 68 — Naḷakapāna Sutta",
+    "subtitle": "At Naḷakapāna",
+    "visual": "../companion.html?id=MN68",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN68.mp4",
+    "original": "https://suttacentral.net/mn68/en/sujato"
+  },
+  {
+    "id": "MN69",
+    "title": "MN 69 — Goliyāni Sutta",
+    "subtitle": "Goliyāni",
+    "visual": "../companion.html?id=MN69",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN69.mp4",
+    "original": "https://suttacentral.net/mn69/en/sujato"
+  },
+  {
+    "id": "MN70",
+    "title": "MN 70 — Kīṭāgiri Sutta",
+    "subtitle": "At Kīṭāgiri",
+    "visual": "../companion.html?id=MN70",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN70.mp4",
+    "original": "https://suttacentral.net/mn70/en/sujato"
   }
 ]

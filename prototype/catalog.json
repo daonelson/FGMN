@@ -559,5 +559,85 @@
     "visual": "../companion.html?id=MN70",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN70.mp4",
     "original": "https://suttacentral.net/mn70/en/sujato"
-  }
+  },
+ {
+  "id": "MN71",
+  "title": "MN 71 — Tevijjavaccha Sutta",
+  "subtitle": "With Vaccha on the Threefold Knowledge",
+  "visual": "../companion.html?id=MN71",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN71.mp4",
+  "original": "https://suttacentral.net/mn71/en/sujato"
+},
+{
+  "id": "MN72",
+  "title": "MN 72 — Aggivacchagotta Sutta",
+  "subtitle": "To Vacchagotta on Fire",
+  "visual": "../companion.html?id=MN72",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN72.mp4",
+  "original": "https://suttacentral.net/mn72/en/sujato"
+},
+{
+  "id": "MN73",
+  "title": "MN 73 — Mahāvacchagotta Sutta",
+  "subtitle": "The Greater Discourse to Vacchagotta",
+  "visual": "../companion.html?id=MN73",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN73.mp4",
+  "original": "https://suttacentral.net/mn73/en/sujato"
+},
+{
+  "id": "MN74",
+  "title": "MN 74 — Dīghanakha Sutta",
+  "subtitle": "To Dīghanakha",
+  "visual": "../companion.html?id=MN74",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN74.mp4",
+  "original": "https://suttacentral.net/mn74/en/sujato"
+},
+{
+  "id": "MN75",
+  "title": "MN 75 — Māgaṇḍiya Sutta",
+  "subtitle": "To Māgaṇḍiya",
+  "visual": "../companion.html?id=MN75",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN75.mp4",
+  "original": "https://suttacentral.net/mn75/en/sujato"
+},
+{
+  "id": "MN76",
+  "title": "MN 76 — Sandaka Sutta",
+  "subtitle": "With Sandaka",
+  "visual": "../companion.html?id=MN76",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN76.mp4",
+  "original": "https://suttacentral.net/mn76/en/sujato"
+},
+{
+  "id": "MN77",
+  "title": "MN 77 — Mahāsakuludāyi Sutta",
+  "subtitle": "The Greater Discourse to Sakuludāyī",
+  "visual": "../companion.html?id=MN77",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN77.mp4",
+  "original": "https://suttacentral.net/mn77/en/sujato"
+},
+{
+  "id": "MN78",
+  "title": "MN 78 — Samaṇamaṇḍikā Sutta",
+  "subtitle": "The Ascetic Maṇḍikā’s Son",
+  "visual": "../companion.html?id=MN78",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN78.mp4",
+  "original": "https://suttacentral.net/mn78/en/sujato"
+},
+{
+  "id": "MN79",
+  "title": "MN 79 — Cūḷasakuludāyi Sutta",
+  "subtitle": "The Shorter Discourse to Sakuludāyī",
+  "visual": "../companion.html?id=MN79",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN79.mp4",
+  "original": "https://suttacentral.net/mn79/en/sujato"
+},
+{
+  "id": "MN80",
+  "title": "MN 80 — Vekhanassa Sutta",
+  "subtitle": "To Vekhanassa",
+  "visual": "../companion.html?id=MN80",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN80.mp4",
+  "original": "https://suttacentral.net/mn80/en/sujato"
+}
 ]

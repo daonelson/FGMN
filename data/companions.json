@@ -1679,7 +1679,9 @@
       "12.webp",
       "13.webp",
       "14.webp",
-      "15.webp"
+      "15.webp",
+      "16.webp",
+      "17.webp"
     ]
   },
 
@@ -1701,7 +1703,226 @@
       "12.webp",
       "13.webp",
       "14.webp",
-      "15.webp"
+      "15.webp",
+      "16.webp"
     ]
-  }
+  },
+  
+  "MN71": {
+  "title": "MN 71 — Tevijjavaccha Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN071/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN72": {
+  "title": "MN 72 — Aggivacchagotta Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN072/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN73": {
+  "title": "MN 73 — Mahāvacchagotta Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN073/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN74": {
+  "title": "MN 74 — Dīghanakha Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN074/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN75": {
+  "title": "MN 75 — Māgaṇḍiya Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN075/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN76": {
+  "title": "MN 76 — Sandaka Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN076/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN77": {
+  "title": "MN 77 — Mahāsakuludāyi Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN077/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN78": {
+  "title": "MN 78 — Samaṇamaṇḍikā Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN078/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+"MN79": {
+  "title": "MN 79 — Cūḷasakuludāyi Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN079/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN80": {
+  "title": "MN 80 — Vekhanassa Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN080/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
 }

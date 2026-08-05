@@ -8,153 +8,178 @@
   "original": "https://suttacentral.net/mn1/en/sujato",
   "dhammaTalks": true
 },
-  {
-    "id": "MN2",
-    "title": "MN 2 — Sabbāsava Sutta",
-    "subtitle": "The Discourse on All the Taints",
-    "visual": "../companion.html?id=MN2",
-    "video": "../videos/MN2.mp4",
-    "original": "https://suttacentral.net/mn2/en/sujato",
-    "dhammaTalks": true
-  },
-  {
-    "id": "MN3",
-    "title": "MN 3 — Dhammadāyāda Sutta",
-    "subtitle": "The Discourse on the Inheritance of the Dhamma",
-    "visual": "../companion.html?id=MN3",
-    "video": "../videos/MN3.mp4",
-    "original": "https://suttacentral.net/mn3/en/sujato",
-    "dhammaTalks": true
-  },
-  {
-    "id": "MN4",
-    "title": "MN 4 — Bhayabherava Sutta",
-    "subtitle": "The Discourse on Fear and Dread",
-    "visual": "../companion.html?id=MN4",
-     "video": "../videos/MN4.mp4",
-    "original": "https://suttacentral.net/mn4/en/sujato"
-  },
-  {
-    "id": "MN5",
-    "title": "MN 5 — Anaṅgaṇa Sutta",
-    "subtitle": "The Discourse on Without Blemishes",
-     "visual": "../companion.html?id=MN5",
-     "video": "../videos/MN5.mp4",
-    "original": "https://suttacentral.net/mn5/en/sujato"
-  },
-  {
-    "id": "MN6",
-    "title": "MN 6 — Ākaṅkheyya Sutta",
-    "subtitle": "The Discourse on Wishes",
-    "visual": "../companion.html?id=MN6",
-    "video": "../videos/MN6.mp4",
-    "original": "https://suttacentral.net/mn6/en/sujato"
-  },
-  {
-    "id": "MN7",
-    "title": "MN 7 — Vatthūpama Sutta",
-    "subtitle": "The Simile of the Cloth",
-    "visual": "../companion.html?id=MN7",
-    "video": "../videos/MN7.mp4",
-    "original": "https://suttacentral.net/mn7/en/sujato"
-  },
-  {
-    "id": "MN8",
-    "title": "MN 8 — Sallekha Sutta",
-    "subtitle": "The Discourse on Effacement",
-    "visual": "../companion.html?id=MN8",
-    "video": "../videos/MN8.mp4",
-    "original": "https://suttacentral.net/mn8/en/sujato"
-  },
-  {
-    "id": "MN9",
-    "title": "MN 9 — Sammādiṭṭhi Sutta",
-    "subtitle": "The Discourse on Right View",
-    "visual": "../companion.html?id=MN9",
-    "video": "../videos/MN9.mp4",
-    "original": "https://suttacentral.net/mn9/en/sujato"
-  },
-  {
-    "id": "MN10",
-    "title": "MN 10 — Satipaṭṭhāna Sutta",
-    "subtitle": "The Discourse on Mindfulness Meditation",
-    "visual": "../companion.html?id=MN10",
-    "video": "../videos/MN10.mp4",
-    "original": "https://suttacentral.net/mn10/en/sujato"
-  },
-   {
-    "id": "MN11",
-    "title": "MN 11 — Cūḷasīhanāda Sutta",
-    "subtitle": "The Shorter Discourse on the Lion's Roar",
-    "visual": "../companion.html?id=MN11",
-    "video": "../videos/MN11.mp4",
-    "original": "https://suttacentral.net/mn11/en/sujato"
-  },
-  {
-    "id": "MN12",
-    "title": "MN 12 — Mahāsīhanāda Sutta",
-    "subtitle": "The Greater Discourse on the Lion's Roar",
-    "visual": "../companion.html?id=MN12",
-    "video": "../videos/MN12.mp4",
-    "original": "https://suttacentral.net/mn12/en/sujato"
-  },
-  {
-    "id": "MN13",
-    "title": "MN 13 — Mahādukkhakkhandha Sutta",
-    "subtitle": "The Greater Discourse on the Mass of Suffering",
-    "visual": "../companion.html?id=MN13",
-    "video": "../videos/MN13.mp4",
-    "original": "https://suttacentral.net/mn13/en/sujato"
-  },
-  {
-    "id": "MN14",
-    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
-    "subtitle": "The Shorter Discourse on the Mass of Suffering",
-    "visual": "../companion.html?id=MN14",
-    "video": "../videos/MN14.mp4",
-    "original": "https://suttacentral.net/mn14/en/sujato"
-  },
-  {
-    "id": "MN15",
-    "title": "MN 15 — Anumāna Sutta",
-    "subtitle": "The Discourse on Inference",
-    "visual": "../companion.html?id=MN15",
-    "video": "../videos/MN15.mp4",
-    "original": "https://suttacentral.net/mn15/en/sujato"
-  },
-  {
-    "id": "MN16",
-    "title": "MN 16 — Cetokhila Sutta",
-    "subtitle": "The Discourse on Mental Barrenness",
-    "visual": "../companion.html?id=MN16",
-    "video": "../videos/MN16.mp4",
-    "original": "https://suttacentral.net/mn16/en/sujato"
-  },
-  {
-    "id": "MN17",
-    "title": "MN 17 — Vanapattha Sutta",
-    "subtitle": "The Discourse on the Forest Thicket",
-    "visual": "../companion.html?id=MN17",
-    "video": "../videos/MN17.mp4",
-    "original": "https://suttacentral.net/mn17/en/sujato"
-  },
-  {
-    "id": "MN18",
-    "title": "MN 18 — Madhupiṇḍika Sutta",
-    "subtitle": "The Honeyball Discourse",
-    "visual": "../companion.html?id=MN18",
-    "video": "../videos/MN18.mp4",
-    "original": "https://suttacentral.net/mn18/en/sujato"
-  },
-  {
-    "id": "MN19",
-    "title": "MN 19 — Dvedhāvitakka Sutta",
-    "subtitle": "The Discourse on Two Kinds of Thought",
-    "visual": "../companion.html?id=MN19",
-    "video": "../videos/MN19.mp4",
-    "original": "https://suttacentral.net/mn19/en/sujato"
-  },
-  {
+{
+  "id": "MN2",
+  "title": "MN 2 — Sabbāsava Sutta",
+  "subtitle": "The Discourse on All the Taints",
+  "visual": "../companion.html?id=MN2",
+  "video": "../videos/MN2.mp4",
+  "original": "https://suttacentral.net/mn2/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN3",
+  "title": "MN 3 — Dhammadāyāda Sutta",
+  "subtitle": "The Discourse on the Inheritance of the Dhamma",
+  "visual": "../companion.html?id=MN3",
+  "video": "../videos/MN3.mp4",
+  "original": "https://suttacentral.net/mn3/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN4",
+  "title": "MN 4 — Bhayabherava Sutta",
+  "subtitle": "The Discourse on Fear and Dread",
+  "visual": "../companion.html?id=MN4",
+  "video": "../videos/MN4.mp4",
+  "original": "https://suttacentral.net/mn4/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN5",
+  "title": "MN 5 — Anaṅgaṇa Sutta",
+  "subtitle": "The Discourse on Without Blemishes",
+  "visual": "../companion.html?id=MN5",
+  "video": "../videos/MN5.mp4",
+  "original": "https://suttacentral.net/mn5/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN6",
+  "title": "MN 6 — Ākaṅkheyya Sutta",
+  "subtitle": "The Discourse on Wishes",
+  "visual": "../companion.html?id=MN6",
+  "video": "../videos/MN6.mp4",
+  "original": "https://suttacentral.net/mn6/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN7",
+  "title": "MN 7 — Vatthūpama Sutta",
+  "subtitle": "The Simile of the Cloth",
+  "visual": "../companion.html?id=MN7",
+  "video": "../videos/MN7.mp4",
+  "original": "https://suttacentral.net/mn7/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN8",
+  "title": "MN 8 — Sallekha Sutta",
+  "subtitle": "The Discourse on Effacement",
+  "visual": "../companion.html?id=MN8",
+  "video": "../videos/MN8.mp4",
+  "original": "https://suttacentral.net/mn8/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN9",
+  "title": "MN 9 — Sammādiṭṭhi Sutta",
+  "subtitle": "The Discourse on Right View",
+  "visual": "../companion.html?id=MN9",
+  "video": "../videos/MN9.mp4",
+  "original": "https://suttacentral.net/mn9/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN10",
+  "title": "MN 10 — Satipaṭṭhāna Sutta",
+  "subtitle": "The Discourse on Mindfulness Meditation",
+  "visual": "../companion.html?id=MN10",
+  "video": "../videos/MN10.mp4",
+  "original": "https://suttacentral.net/mn10/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN11",
+  "title": "MN 11 — Cūḷasīhanāda Sutta",
+  "subtitle": "The Shorter Discourse on the Lion's Roar",
+  "visual": "../companion.html?id=MN11",
+  "video": "../videos/MN11.mp4",
+  "original": "https://suttacentral.net/mn11/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN12",
+  "title": "MN 12 — Mahāsīhanāda Sutta",
+  "subtitle": "The Greater Discourse on the Lion's Roar",
+  "visual": "../companion.html?id=MN12",
+  "video": "../videos/MN12.mp4",
+  "original": "https://suttacentral.net/mn12/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN13",
+  "title": "MN 13 — Mahādukkhakkhandha Sutta",
+  "subtitle": "The Greater Discourse on the Mass of Suffering",
+  "visual": "../companion.html?id=MN13",
+  "video": "../videos/MN13.mp4",
+  "original": "https://suttacentral.net/mn13/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN14",
+  "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+  "subtitle": "The Shorter Discourse on the Mass of Suffering",
+  "visual": "../companion.html?id=MN14",
+  "video": "../videos/MN14.mp4",
+  "original": "https://suttacentral.net/mn14/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN15",
+  "title": "MN 15 — Anumāna Sutta",
+  "subtitle": "The Discourse on Inference",
+  "visual": "../companion.html?id=MN15",
+  "video": "../videos/MN15.mp4",
+  "original": "https://suttacentral.net/mn15/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN16",
+  "title": "MN 16 — Cetokhila Sutta",
+  "subtitle": "The Discourse on Mental Barrenness",
+  "visual": "../companion.html?id=MN16",
+  "video": "../videos/MN16.mp4",
+  "original": "https://suttacentral.net/mn16/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN17",
+  "title": "MN 17 — Vanapattha Sutta",
+  "subtitle": "The Discourse on the Forest Thicket",
+  "visual": "../companion.html?id=MN17",
+  "video": "../videos/MN17.mp4",
+  "original": "https://suttacentral.net/mn17/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN18",
+  "title": "MN 18 — Madhupiṇḍika Sutta",
+  "subtitle": "The Honeyball Discourse",
+  "visual": "../companion.html?id=MN18",
+  "video": "../videos/MN18.mp4",
+  "original": "https://suttacentral.net/mn18/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN19",
+  "title": "MN 19 — Dvedhāvitakka Sutta",
+  "subtitle": "The Discourse on Two Kinds of Thought",
+  "visual": "../companion.html?id=MN19",
+  "video": "../videos/MN19.mp4",
+  "original": "https://suttacentral.net/mn19/en/sujato",
+  "dhammaTalks": true
+},
+{
+  "id": "MN20",
+  "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+  "subtitle": "The Removal of Distracting Thoughts",
+  "visual": "../companion.html?id=MN20",
+  "video": "../videos/MN20.mp4",
+  "original": "https://suttacentral.net/mn20/en/sujato",
+  "dhammaTalks": true
+},
+{
     "id": "MN20",
     "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
     "subtitle": "The Removal of Distracting Thoughts",
@@ -168,7 +193,8 @@
     "subtitle": "The Simile of the Saw",
     "visual": "../companion.html?id=MN21",
     "video": "../videos/MN21.mp4",
-    "original": "https://suttacentral.net/mn21/en/sujato"
+    "original": "https://suttacentral.net/mn21/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN22",
@@ -176,7 +202,8 @@
     "subtitle": "The Simile of the Snake",
     "visual": "../companion.html?id=MN22",
     "video": "../videos/MN22.mp4",
-    "original": "https://suttacentral.net/mn22/en/sujato"
+    "original": "https://suttacentral.net/mn22/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN23",
@@ -184,7 +211,8 @@
     "subtitle": "The Ant-hill",
     "visual": "../companion.html?id=MN23",
     "video": "../videos/MN23.mp4",
-    "original": "https://suttacentral.net/mn23/en/sujato"
+    "original": "https://suttacentral.net/mn23/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN24",
@@ -192,7 +220,8 @@
     "subtitle": "The Relay Chariots",
     "visual": "../companion.html?id=MN24",
     "video": "../videos/MN24.mp4",
-    "original": "https://suttacentral.net/mn24/en/sujato"
+    "original": "https://suttacentral.net/mn24/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN25",
@@ -200,7 +229,8 @@
     "subtitle": "The Bait",
     "visual": "../companion.html?id=MN25",
     "video": "../videos/MN25.mp4",
-    "original": "https://suttacentral.net/mn25/en/sujato"
+    "original": "https://suttacentral.net/mn25/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN26",
@@ -208,7 +238,8 @@
     "subtitle": "The Noble Search",
     "visual": "../companion.html?id=MN26",
     "video": "../videos/MN26.mp4",
-    "original": "https://suttacentral.net/mn26/en/sujato"
+    "original": "https://suttacentral.net/mn26/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN27",
@@ -216,7 +247,8 @@
     "subtitle": "The Shorter Simile of the Elephant's Footprint",
     "visual": "../companion.html?id=MN27",
     "video": "../videos/MN27.mp4",
-    "original": "https://suttacentral.net/mn27/en/sujato"
+    "original": "https://suttacentral.net/mn27/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN28",
@@ -224,7 +256,8 @@
     "subtitle": "The Greater Simile of the Elephant's Footprint",
     "visual": "../companion.html?id=MN28",
     "video": "../videos/MN28.mp4",
-    "original": "https://suttacentral.net/mn28/en/sujato"
+    "original": "https://suttacentral.net/mn28/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN29",
@@ -232,7 +265,8 @@
     "subtitle": "The Greater Discourse on the Simile of the Heartwood",
     "visual": "../companion.html?id=MN29",
     "video": "../videos/MN29.mp4",
-    "original": "https://suttacentral.net/mn29/en/sujato"
+    "original": "https://suttacentral.net/mn29/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN30",
@@ -240,15 +274,17 @@
     "subtitle": "The Shorter Discourse on the Simile of the Heartwood",
     "visual": "../companion.html?id=MN30",
     "video": "../videos/MN30.mp4",
-    "original": "https://suttacentral.net/mn30/en/sujato"
+    "original": "https://suttacentral.net/mn30/en/sujato",
+    "dhammaTalks": true
   },
-   {
+  {
     "id": "MN31",
     "title": "MN 31 — Cūḷagosiṅga Sutta",
     "subtitle": "The Shorter Discourse at Gosiṅga",
     "visual": "../companion.html?id=MN31",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN31.mp4",
-    "original": "https://suttacentral.net/mn31/en/sujato"
+    "original": "https://suttacentral.net/mn31/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN32",
@@ -256,15 +292,17 @@
     "subtitle": "The Greater Discourse at Gosiṅga",
     "visual": "../companion.html?id=MN32",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN32.mp4",
-    "original": "https://suttacentral.net/mn32/en/sujato"
+    "original": "https://suttacentral.net/mn32/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN33",
     "title": "MN 33 — Mahāgopālaka Sutta",
     "subtitle": "The Greater Discourse on the Cowherd",
-    "visual": "../companion.html?id=MN33", 
+    "visual": "../companion.html?id=MN33",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN33.mp4",
-    "original": "https://suttacentral.net/mn33/en/sujato"
+    "original": "https://suttacentral.net/mn33/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN34",
@@ -272,7 +310,8 @@
     "subtitle": "The Shorter Discourse on the Cowherd",
     "visual": "../companion.html?id=MN34",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN34.mp4",
-    "original": "https://suttacentral.net/mn34/en/sujato"
+    "original": "https://suttacentral.net/mn34/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN35",
@@ -280,7 +319,8 @@
     "subtitle": "The Shorter Discourse to Saccaka",
     "visual": "../companion.html?id=MN35",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN35.mp4",
-    "original": "https://suttacentral.net/mn35/en/sujato"
+    "original": "https://suttacentral.net/mn35/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN36",
@@ -288,7 +328,8 @@
     "subtitle": "The Greater Discourse to Saccaka",
     "visual": "../companion.html?id=MN36",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN36.mp4",
-    "original": "https://suttacentral.net/mn36/en/sujato"
+    "original": "https://suttacentral.net/mn36/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN37",
@@ -296,7 +337,8 @@
     "subtitle": "The Shorter Discourse on the Ending of Craving",
     "visual": "../companion.html?id=MN37",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN37.mp4",
-    "original": "https://suttacentral.net/mn37/en/sujato"
+    "original": "https://suttacentral.net/mn37/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN38",
@@ -304,7 +346,8 @@
     "subtitle": "The Greater Discourse on the Ending of Craving",
     "visual": "../companion.html?id=MN38",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN38.mp4",
-    "original": "https://suttacentral.net/mn38/en/sujato"
+    "original": "https://suttacentral.net/mn38/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN39",
@@ -312,7 +355,8 @@
     "subtitle": "The Greater Discourse at Assapura",
     "visual": "../companion.html?id=MN39",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN39.mp4",
-    "original": "https://suttacentral.net/mn39/en/sujato"
+    "original": "https://suttacentral.net/mn39/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN40",
@@ -320,7 +364,8 @@
     "subtitle": "The Shorter Discourse at Assapura",
     "visual": "../companion.html?id=MN40",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN40.mp4",
-    "original": "https://suttacentral.net/mn40/en/sujato"
+    "original": "https://suttacentral.net/mn40/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN41",

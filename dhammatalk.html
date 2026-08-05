@@ -230,8 +230,104 @@ document.querySelector(".subtitle").textContent =
 sutta.subtitle;
 
 
+
+let container =
+document.getElementById("talks");
+
+
+
+sutta.dhammaTalks.forEach((talk,index)=>{
+
+
+let title =
+document.createElement("h2");
+
+title.className="subtitle";
+
+if(index === 0){
+
+title.textContent="Dhamma Talk";
+
+}
+
+else{
+
+title.textContent="Dhamma Talk " + (index + 1);
+
+}
+
+
+container.appendChild(title);
+
+
+
+let source =
+document.createElement("p");
+
+source.className="subtitle";
+
+source.textContent =
+"Presented by " + talk.source;
+
+
+container.appendChild(source);
+
+
+
+let iframe =
+document.createElement("iframe");
+
+
+let url =
+talk.url;
+
+
+if(url.includes("watch?v=")){
+
+url =
+url.replace("watch?v=","embed/");
+
+}
+
+
+if(url.includes("youtu.be/")){
+
+url =
+url.replace("youtu.be/","www.youtube.com/embed/");
+
+}
+
+
+
+iframe.src=url;
+
+iframe.width="100%";
+
+iframe.height="500";
+
+iframe.frameBorder="0";
+
+iframe.allowFullscreen=true;
+
+
+container.appendChild(iframe);
+
+
+
+let divider =
+document.createElement("div");
+
+divider.className="library-divider";
+
+
+container.appendChild(divider);
+
+
+
 });
 
+
+});
 
 </script>
   

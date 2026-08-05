@@ -221,5 +221,115 @@
         "url": "https://www.youtube.com/watch?v=hg0lE84s_LQ"
       }
     ]
-  }  
+  },
+  
+  "MN21": {
+    "title": "MN 21 — Kakacūpama Sutta",
+    "subtitle": "The Simile of the Saw",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=ibik3ecpwVA"
+      }
+    ]
+  },
+
+  "MN22": {
+    "title": "MN 22 — Alagaddūpama Sutta",
+    "subtitle": "The Simile of the Snake",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=Xp8-E5DN7r8"
+      }
+    ]
+  },
+
+  "MN23": {
+    "title": "MN 23 — Vammika Sutta",
+    "subtitle": "The Ant-Hill",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=YzpNx7tjDOQ"
+      }
+    ]
+  },
+
+  "MN24": {
+    "title": "MN 24 — Rathavinīta Sutta",
+    "subtitle": "Relay of Chariots",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=nxXt1Y1f6hQ"
+      }
+    ]
+  },
+
+  "MN25": {
+    "title": "MN 25 — Nivāpa Sutta",
+    "subtitle": "The Bait",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=0vNuqIJtGlw"
+      }
+    ]
+  },
+
+  "MN26": {
+    "title": "MN 26 — Ariyapariyesanā Sutta",
+    "subtitle": "The Noble Search",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=ha-xvVyU7JQ"
+      }
+    ]
+  },
+
+  "MN27": {
+    "title": "MN 27 — Cūḷahatthipadopama Sutta",
+    "subtitle": "The Shorter Discourse on the Simile of the Elephant’s Footprint",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=YFX9aOxM7NU"
+      }
+    ]
+  },
+
+  "MN28": {
+    "title": "MN 28 — Mahāhatthipadopama Sutta",
+    "subtitle": "The Greater Discourse on the Simile of the Elephant’s Footprint",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=UUgx9q_20w0"
+      }
+    ]
+  },
+
+  "MN29": {
+    "title": "MN 29 — Mahāsāropama Sutta",
+    "subtitle": "The Greater Simile of the Heartwood",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=Tyv0kLcygpg"
+      }
+    ]
+  },
+
+  "MN30": {
+    "title": "MN 30 — Cūḷasāropama Sutta",
+    "subtitle": "The Shorter Simile of the Heartwood",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=OIpMSCyFFNE"
+      }
+    ]
+  }
 }

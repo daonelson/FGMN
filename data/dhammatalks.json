@@ -441,5 +441,115 @@
         "url": "https://www.youtube.com/watch?v=Rq7-4uv1lqE"
       }
     ]
+  },
+  
+    "MN41": {
+    "title": "MN 41 — Sāleyyaka Sutta",
+    "subtitle": "The Brahmins of Sālā",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=U7FioZ1_BsU"
+      }
+    ]
+  },
+
+  "MN42": {
+    "title": "MN 42 — Verañjaka Sutta",
+    "subtitle": "The Brahmins of Verañjā",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=Cp_MZVxoxV8"
+      }
+    ]
+  },
+
+  "MN43": {
+    "title": "MN 43 — Mahāvedalla Sutta",
+    "subtitle": "The Greater Series of Questions and Answers",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=7fmlDv7ZO2g"
+      }
+    ]
+  },
+
+  "MN44": {
+    "title": "MN 44 — Cūḷavedalla Sutta",
+    "subtitle": "The Shorter Series of Questions and Answers",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=2UXPgqnppo4"
+      }
+    ]
+  },
+
+  "MN45": {
+    "title": "MN 45 — Cūḷadhammasamādāna Sutta",
+    "subtitle": "The Shorter Discourse on Taking Up Practices",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=Xk-AHl-uixI"
+      }
+    ]
+  },
+
+  "MN46": {
+    "title": "MN 46 — Mahādhammasamādāna Sutta",
+    "subtitle": "The Greater Discourse on Taking Up Practices",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=B5952ZWIuvA"
+      }
+    ]
+  },
+
+  "MN47": {
+    "title": "MN 47 — Vīmaṁsaka Sutta",
+    "subtitle": "The Inquirer",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=oPggbNKRF7Y"
+      }
+    ]
+  },
+
+  "MN48": {
+    "title": "MN 48 — Kosambiya Sutta",
+    "subtitle": "At Kosambī",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=8IKSAaEiKME"
+      }
+    ]
+  },
+
+  "MN49": {
+    "title": "MN 49 — Brahmanimantanika Sutta",
+    "subtitle": "The Invitation of Brahmā",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=BsCpvdRT-bo"
+      }
+    ]
+  },
+
+  "MN50": {
+    "title": "MN 50 — Māratajjanīya Sutta",
+    "subtitle": "The Rebuke of Māra",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=cjlmS08fSfQ"
+      }
+    ]
   }
 }

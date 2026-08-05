@@ -203,7 +203,38 @@ Return
 
 </div>
 
+<script>
 
+const params =
+new URLSearchParams(window.location.search);
+
+const id =
+params.get("id");
+
+
+fetch("data/dhammatalks.json")
+
+.then(response => response.json())
+
+.then(data => {
+
+
+let sutta = data[id];
+
+
+document.querySelector(".page-title").textContent =
+sutta.title;
+
+
+document.querySelector(".subtitle").textContent =
+sutta.subtitle;
+
+
+});
+
+
+</script>
+  
 </body>
 
 </html>

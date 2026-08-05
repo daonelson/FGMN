@@ -551,5 +551,115 @@
         "url": "https://www.youtube.com/watch?v=cjlmS08fSfQ"
       }
     ]
+  },
+  
+    "MN51": {
+    "title": "MN 51 — Kandaraka Sutta",
+    "subtitle": "Kandaraka",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=etBRC0wF3vM"
+      }
+    ]
+  },
+
+  "MN52": {
+    "title": "MN 52 — Aṭṭhakanāgara Sutta",
+    "subtitle": "The Man from Aṭṭhakanagara",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=idbB2agBZ8I"
+      }
+    ]
+  },
+
+  "MN53": {
+    "title": "MN 53 — Sekha Sutta",
+    "subtitle": "The Trainee",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=71f5mafjmOM"
+      }
+    ]
+  },
+
+  "MN54": {
+    "title": "MN 54 — Potaliya Sutta",
+    "subtitle": "To Potaliya",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=U5UHRSe1rew"
+      }
+    ]
+  },
+
+  "MN55": {
+    "title": "MN 55 — Jīvaka Sutta",
+    "subtitle": "To Jīvaka",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=tgheZP0ZQME"
+      }
+    ]
+  },
+
+  "MN56": {
+    "title": "MN 56 — Upāli Sutta",
+    "subtitle": "To Upāli",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=gzntumDG90Q"
+      }
+    ]
+  },
+
+  "MN57": {
+    "title": "MN 57 — Kukkuravatika Sutta",
+    "subtitle": "The Dog-Duty Ascetic",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=kioJ34rGPCg"
+      }
+    ]
+  },
+
+  "MN58": {
+    "title": "MN 58 — Abhayarājakumāra Sutta",
+    "subtitle": "Prince Abhaya",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=3NbewkSndpQ"
+      }
+    ]
+  },
+
+  "MN59": {
+    "title": "MN 59 — Bahuvedanīya Sutta",
+    "subtitle": "Many Kinds of Feeling",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=yMvm9vvoJMU"
+      }
+    ]
+  },
+
+  "MN60": {
+    "title": "MN 60 — Apaṇṇaka Sutta",
+    "subtitle": "The Incontrovertible Teaching",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=2iVWUubfUEE"
+      }
+    ]
   }
 }

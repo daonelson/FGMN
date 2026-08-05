@@ -11,12 +11,10 @@
 Dhamma Talk
 </title>
 
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
-
 
 <style>
 
@@ -29,7 +27,6 @@ Dhamma Talk
 
 }
 
-
 *{
 
 margin:0;
@@ -37,7 +34,6 @@ padding:0;
 box-sizing:border-box;
 
 }
-
 
 body{
 
@@ -56,7 +52,6 @@ line-height:1.75;
 
 }
 
-
 .container{
 
 margin:auto;
@@ -67,8 +62,6 @@ text-align:center;
 
 }
 
-
-
 .wheel{
 
 width:88px;
@@ -78,8 +71,6 @@ margin-bottom:40px;
 opacity:.95;
 
 }
-
-
 
 .library-divider{
 
@@ -93,8 +84,6 @@ margin:35px auto;
 
 }
 
-
-
 .page-title{
 
 font-size:2.4rem;
@@ -105,8 +94,6 @@ margin-bottom:10px;
 
 }
 
-
-
 .subtitle{
 
 font-size:1.5rem;
@@ -115,14 +102,29 @@ color:var(--ink-soft);
 
 }
 
+.video-frame{
 
+width:100%;
+
+max-width:800px;
+
+height:450px;
+
+margin:20px auto;
+
+border:none;
+
+border-radius:8px;
+
+display:block;
+
+}
 
 .return-link{
 
 margin-top:40px;
 
 }
-
 
 .return-link a{
 
@@ -136,70 +138,76 @@ font-size:1.25rem;
 
 }
 
-
 .return-link a:hover{
 
 color:var(--gold-dark);
 
 }
 
+@media(max-width:600px){
 
+.page-title{
+
+font-size:2rem;
+
+}
+
+.subtitle{
+
+font-size:1.25rem;
+
+}
+
+.video-frame{
+
+height:220px;
+
+}
+
+}
 
 </style>
 
 </head>
 
-
 <body>
 
-
 <div class="container">
-
 
 <img
 src="dhammawheel.png"
 class="wheel"
 alt="Dhamma Wheel">
 
-
 <div class="library-divider"></div>
-
 
 <h1 class="page-title">
 
-Dhamma Talk
+Loading...
 
 </h1>
 
-
 <p class="subtitle">
-
-Loading...
 
 </p>
 
-
 <div class="library-divider"></div>
-
 
 <div id="talks">
 
 </div>
 
-
 <div class="library-divider"></div>
-
 
 <div class="return-link">
 
-<a href="prototype/viewer.html">
+<a id="return" href="prototype/viewer.html">
 
 Return
 
 </a>
 
 </div>
-
 
 </div>
 
@@ -211,55 +219,55 @@ new URLSearchParams(window.location.search);
 const id =
 params.get("id");
 
-
 fetch("data/dhammatalks.json")
 
 .then(response => response.json())
 
 .then(data => {
 
+let sutta =
+data[id];
 
-let sutta = data[id];
+if(!sutta){
 
+document.querySelector(".page-title").textContent =
+"Dhamma Talk Not Found";
+
+document.querySelector(".subtitle").textContent =
+"";
+
+return;
+
+}
 
 document.querySelector(".page-title").textContent =
 sutta.title;
 
+document.title =
+sutta.title;
 
 document.querySelector(".subtitle").textContent =
 sutta.subtitle;
 
-
+document.getElementById("return").href =
+"prototype/viewer.html?id=" + id;
 
 let container =
 document.getElementById("talks");
 
-
-
 sutta.dhammaTalks.forEach((talk,index)=>{
-
 
 let title =
 document.createElement("h2");
 
 title.className="subtitle";
 
-if(index === 0){
-
-title.textContent="Dhamma Talk";
-
-}
-
-else{
-
-title.textContent="Dhamma Talk " + (index + 1);
-
-}
-
+title.textContent =
+index === 0
+? "Dhamma Talk"
+: "Dhamma Talk " + (index + 1);
 
 container.appendChild(title);
-
-
 
 let source =
 document.createElement("p");
@@ -269,18 +277,13 @@ source.className="subtitle";
 source.textContent =
 "Presented by " + talk.source;
 
-
 container.appendChild(source);
-
-
 
 let iframe =
 document.createElement("iframe");
 
-
 let url =
 talk.url;
-
 
 if(url.includes("watch?v=")){
 
@@ -289,7 +292,6 @@ url.replace("watch?v=","embed/");
 
 }
 
-
 if(url.includes("youtu.be/")){
 
 url =
@@ -297,40 +299,35 @@ url.replace("youtu.be/","www.youtube.com/embed/");
 
 }
 
+iframe.src =
+url;
 
+iframe.className =
+"video-frame";
 
-iframe.src=url;
-
-iframe.width="100%";
-
-iframe.height="500";
-
-iframe.frameBorder="0";
-
-iframe.allowFullscreen=true;
-
+iframe.allowFullscreen =
+true;
 
 container.appendChild(iframe);
 
-
+if(index < sutta.dhammaTalks.length - 1){
 
 let divider =
 document.createElement("div");
 
-divider.className="library-divider";
-
+divider.className =
+"library-divider";
 
 container.appendChild(divider);
 
-
+}
 
 });
-
 
 });
 
 </script>
-  
+
 </body>
 
 </html>

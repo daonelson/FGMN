@@ -331,5 +331,115 @@
         "url": "https://www.youtube.com/watch?v=OIpMSCyFFNE"
       }
     ]
+  },
+  
+    "MN31": {
+    "title": "MN 31 — Cūḷagosiṅga Sutta",
+    "subtitle": "The Shorter Discourse at Gosiṅga",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=w26Xi59Kc3A"
+      }
+    ]
+  },
+
+  "MN32": {
+    "title": "MN 32 — Mahāgosiṅga Sutta",
+    "subtitle": "The Greater Discourse at Gosiṅga",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=_Z1Xq5GAFX4"
+      }
+    ]
+  },
+
+  "MN33": {
+    "title": "MN 33 — Mahāgopālaka Sutta",
+    "subtitle": "The Greater Discourse on the Cowherd",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=mzriZdloVUM"
+      }
+    ]
+  },
+
+  "MN34": {
+    "title": "MN 34 — Cūḷagopālaka Sutta",
+    "subtitle": "The Shorter Discourse on the Cowherd",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=ycGP_jonNTw"
+      }
+    ]
+  },
+
+  "MN35": {
+    "title": "MN 35 — Cūḷasaccaka Sutta",
+    "subtitle": "The Shorter Discourse to Saccaka",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=gTob3JG7IPw"
+      }
+    ]
+  },
+
+  "MN36": {
+    "title": "MN 36 — Mahāsaccaka Sutta",
+    "subtitle": "The Greater Discourse to Saccaka",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=6i99BFqYqYc"
+      }
+    ]
+  },
+
+  "MN37": {
+    "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
+    "subtitle": "The Shorter Discourse on the Ending of Craving",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=udwB6o-N7kw"
+      }
+    ]
+  },
+
+  "MN38": {
+    "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
+    "subtitle": "The Greater Discourse on the Ending of Craving",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=6m855FIMCpc"
+      }
+    ]
+  },
+
+  "MN39": {
+    "title": "MN 39 — Mahā-Assapura Sutta",
+    "subtitle": "The Greater Discourse at Assapura",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=7ByWhNxj8Is"
+      }
+    ]
+  },
+
+  "MN40": {
+    "title": "MN 40 — Cūḷa-Assapura Sutta",
+    "subtitle": "The Shorter Discourse at Assapura",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=Rq7-4uv1lqE"
+      }
+    ]
   }
 }

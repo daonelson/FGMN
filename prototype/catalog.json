@@ -373,7 +373,8 @@
     "subtitle": "The Brahmins of Sālā",
     "visual": "../companion.html?id=MN41",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN41.mp4",
-    "original": "https://suttacentral.net/mn41/en/sujato"
+    "original": "https://suttacentral.net/mn41/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN42",
@@ -381,7 +382,8 @@
     "subtitle": "The People of Verañjā",
     "visual": "../companion.html?id=MN42",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN42.mp4",
-    "original": "https://suttacentral.net/mn42/en/sujato"
+    "original": "https://suttacentral.net/mn42/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN43",
@@ -389,7 +391,8 @@
     "subtitle": "The Greater Series of Questions and Answers",
     "visual": "../companion.html?id=MN43",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN43.mp4",
-    "original": "https://suttacentral.net/mn43/en/sujato"
+    "original": "https://suttacentral.net/mn43/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN44",
@@ -397,7 +400,8 @@
     "subtitle": "The Shorter Series of Questions and Answers",
     "visual": "../companion.html?id=MN44",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN44.mp4",
-    "original": "https://suttacentral.net/mn44/en/sujato"
+    "original": "https://suttacentral.net/mn44/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN45",
@@ -405,7 +409,8 @@
     "subtitle": "The Shorter Discourse on Taking Up Practices",
     "visual": "../companion.html?id=MN45",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN45.mp4",
-    "original": "https://suttacentral.net/mn45/en/sujato"
+    "original": "https://suttacentral.net/mn45/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN46",
@@ -413,47 +418,53 @@
     "subtitle": "The Greater Discourse on Taking Up Practices",
     "visual": "../companion.html?id=MN46",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN46.mp4",
-    "original": "https://suttacentral.net/mn46/en/sujato"
+    "original": "https://suttacentral.net/mn46/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN47",
-    "title": "MN 47 — Vīmaṃsaka Sutta",
+    "title": "MN 47 — Vīmaṁsaka Sutta",
     "subtitle": "The Inquirer",
     "visual": "../companion.html?id=MN47",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN47.mp4",
-    "original": "https://suttacentral.net/mn47/en/sujato"
+    "original": "https://suttacentral.net/mn47/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN48",
     "title": "MN 48 — Kosambiya Sutta",
-    "subtitle": "The Kosambians",
+    "subtitle": "At Kosambī",
     "visual": "../companion.html?id=MN48",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN48.mp4",
-    "original": "https://suttacentral.net/mn48/en/sujato"
+    "original": "https://suttacentral.net/mn48/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN49",
     "title": "MN 49 — Brahmanimantanika Sutta",
-    "subtitle": "The Invitation of a Brahmā",
+    "subtitle": "The Invitation of Brahmā",
     "visual": "../companion.html?id=MN49",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN49.mp4",
-    "original": "https://suttacentral.net/mn49/en/sujato"
+    "original": "https://suttacentral.net/mn49/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN50",
     "title": "MN 50 — Māratajjanīya Sutta",
-    "subtitle": "The Rebuke to Māra",
+    "subtitle": "The Rebuke of Māra",
     "visual": "../companion.html?id=MN50",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN50.mp4",
-    "original": "https://suttacentral.net/mn50/en/sujato"
+    "original": "https://suttacentral.net/mn50/en/sujato",
+    "dhammaTalks": true
   },
-  {
+   {
     "id": "MN51",
     "title": "MN 51 — Kandaraka Sutta",
     "subtitle": "Kandaraka",
     "visual": "../companion.html?id=MN51",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN51.mp4",
-    "original": "https://suttacentral.net/mn51/en/sujato"
+    "original": "https://suttacentral.net/mn51/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN52",
@@ -461,15 +472,17 @@
     "subtitle": "The Man from Aṭṭhakanagara",
     "visual": "../companion.html?id=MN52",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN52.mp4",
-    "original": "https://suttacentral.net/mn52/en/sujato"
+    "original": "https://suttacentral.net/mn52/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN53",
     "title": "MN 53 — Sekha Sutta",
-    "subtitle": "The trainee",
+    "subtitle": "The Trainee",
     "visual": "../companion.html?id=MN53",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN53.mp4",
-    "original": "https://suttacentral.net/mn53/en/sujato"
+    "original": "https://suttacentral.net/mn53/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN54",
@@ -477,23 +490,26 @@
     "subtitle": "To Potaliya",
     "visual": "../companion.html?id=MN54",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN54.mp4",
-    "original": "https://suttacentral.net/mn54/en/sujato"
+    "original": "https://suttacentral.net/mn54/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN55",
     "title": "MN 55 — Jīvaka Sutta",
-    "subtitle": "With Jīvaka",
+    "subtitle": "To Jīvaka",
     "visual": "../companion.html?id=MN55",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN55.mp4",
-    "original": "https://suttacentral.net/mn55/en/sujato"
+    "original": "https://suttacentral.net/mn55/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN56",
     "title": "MN 56 — Upāli Sutta",
-    "subtitle": "With Upāli",
+    "subtitle": "To Upāli",
     "visual": "../companion.html?id=MN56",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN56.mp4",
-    "original": "https://suttacentral.net/mn56/en/sujato"
+    "original": "https://suttacentral.net/mn56/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN57",
@@ -501,7 +517,8 @@
     "subtitle": "The Dog-Duty Ascetic",
     "visual": "../companion.html?id=MN57",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN57.mp4",
-    "original": "https://suttacentral.net/mn57/en/sujato"
+    "original": "https://suttacentral.net/mn57/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN58",
@@ -509,7 +526,8 @@
     "subtitle": "Prince Abhaya",
     "visual": "../companion.html?id=MN58",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN58.mp4",
-    "original": "https://suttacentral.net/mn58/en/sujato"
+    "original": "https://suttacentral.net/mn58/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN59",
@@ -517,7 +535,8 @@
     "subtitle": "Many Kinds of Feeling",
     "visual": "../companion.html?id=MN59",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN59.mp4",
-    "original": "https://suttacentral.net/mn59/en/sujato"
+    "original": "https://suttacentral.net/mn59/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN60",
@@ -525,15 +544,17 @@
     "subtitle": "The Incontrovertible Teaching",
     "visual": "../companion.html?id=MN60",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN60.mp4",
-    "original": "https://suttacentral.net/mn60/en/sujato"
+    "original": "https://suttacentral.net/mn60/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN61",
     "title": "MN 61 — Ambalaṭṭhikarāhulovāda Sutta",
-    "subtitle": "Advice to Rāhula at Ambalaṭṭhikā",
+    "subtitle": "Advice to Rāhula at Ambalaṭṭhika",
     "visual": "../companion.html?id=MN61",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN61.mp4",
-    "original": "https://suttacentral.net/mn61/en/sujato"
+    "original": "https://suttacentral.net/mn61/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN62",
@@ -541,39 +562,44 @@
     "subtitle": "The Greater Advice to Rāhula",
     "visual": "../companion.html?id=MN62",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN62.mp4",
-    "original": "https://suttacentral.net/mn62/en/sujato"
+    "original": "https://suttacentral.net/mn62/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN63",
     "title": "MN 63 — Cūḷamāluṅkya Sutta",
-    "subtitle": "The Shorter Discourse to Māluṅkyaputta",
+    "subtitle": "The Shorter Discourse to Māluṅkya",
     "visual": "../companion.html?id=MN63",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN63.mp4",
-    "original": "https://suttacentral.net/mn63/en/sujato"
+    "original": "https://suttacentral.net/mn63/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN64",
     "title": "MN 64 — Mahāmāluṅkya Sutta",
-    "subtitle": "The Greater Discourse to Māluṅkyaputta",
+    "subtitle": "The Greater Discourse to Māluṅkya",
     "visual": "../companion.html?id=MN64",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN64.mp4",
-    "original": "https://suttacentral.net/mn64/en/sujato"
+    "original": "https://suttacentral.net/mn64/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN65",
     "title": "MN 65 — Bhaddāli Sutta",
-    "subtitle": "To Bhaddāli",
+    "subtitle": "Bhaddāli",
     "visual": "../companion.html?id=MN65",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN65.mp4",
-    "original": "https://suttacentral.net/mn65/en/sujato"
+    "original": "https://suttacentral.net/mn65/en/sujato",
+    "dhammaTalks": true
   },
-  {
+   {
     "id": "MN66",
     "title": "MN 66 — Laṭukikopama Sutta",
-    "subtitle": "The Quail Simile",
+    "subtitle": "The Simile of the Quail",
     "visual": "../companion.html?id=MN66",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN66.mp4",
-    "original": "https://suttacentral.net/mn66/en/sujato"
+    "original": "https://suttacentral.net/mn66/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN67",
@@ -581,7 +607,8 @@
     "subtitle": "At Cātumā",
     "visual": "../companion.html?id=MN67",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN67.mp4",
-    "original": "https://suttacentral.net/mn67/en/sujato"
+    "original": "https://suttacentral.net/mn67/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN68",
@@ -589,15 +616,17 @@
     "subtitle": "At Naḷakapāna",
     "visual": "../companion.html?id=MN68",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN68.mp4",
-    "original": "https://suttacentral.net/mn68/en/sujato"
+    "original": "https://suttacentral.net/mn68/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN69",
-    "title": "MN 69 — Goliyāni Sutta",
-    "subtitle": "Goliyāni",
+    "title": "MN 69 — Gulissāni Sutta",
+    "subtitle": "Gulissāni",
     "visual": "../companion.html?id=MN69",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN69.mp4",
-    "original": "https://suttacentral.net/mn69/en/sujato"
+    "original": "https://suttacentral.net/mn69/en/sujato",
+    "dhammaTalks": true
   },
   {
     "id": "MN70",
@@ -605,166 +634,277 @@
     "subtitle": "At Kīṭāgiri",
     "visual": "../companion.html?id=MN70",
     "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN70.mp4",
-    "original": "https://suttacentral.net/mn70/en/sujato"
+    "original": "https://suttacentral.net/mn70/en/sujato",
+    "dhammaTalks": true
   },
- {
-  "id": "MN71",
-  "title": "MN 71 — Tevijjavaccha Sutta",
-  "subtitle": "With Vaccha on the Threefold Knowledge",
-  "visual": "../companion.html?id=MN71",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN71.mp4",
-  "original": "https://suttacentral.net/mn71/en/sujato"
-},
-{
-  "id": "MN72",
-  "title": "MN 72 — Aggivacchagotta Sutta",
-  "subtitle": "To Vacchagotta on Fire",
-  "visual": "../companion.html?id=MN72",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN72.mp4",
-  "original": "https://suttacentral.net/mn72/en/sujato"
-},
-{
-  "id": "MN73",
-  "title": "MN 73 — Mahāvacchagotta Sutta",
-  "subtitle": "The Greater Discourse to Vacchagotta",
-  "visual": "../companion.html?id=MN73",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN73.mp4",
-  "original": "https://suttacentral.net/mn73/en/sujato"
-},
-{
-  "id": "MN74",
-  "title": "MN 74 — Dīghanakha Sutta",
-  "subtitle": "To Dīghanakha",
-  "visual": "../companion.html?id=MN74",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN74.mp4",
-  "original": "https://suttacentral.net/mn74/en/sujato"
-},
-{
-  "id": "MN75",
-  "title": "MN 75 — Māgaṇḍiya Sutta",
-  "subtitle": "To Māgaṇḍiya",
-  "visual": "../companion.html?id=MN75",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN75.mp4",
-  "original": "https://suttacentral.net/mn75/en/sujato"
-},
-{
-  "id": "MN76",
-  "title": "MN 76 — Sandaka Sutta",
-  "subtitle": "With Sandaka",
-  "visual": "../companion.html?id=MN76",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN76.mp4",
-  "original": "https://suttacentral.net/mn76/en/sujato"
-},
-{
-  "id": "MN77",
-  "title": "MN 77 — Mahāsakuludāyi Sutta",
-  "subtitle": "The Greater Discourse to Sakuludāyī",
-  "visual": "../companion.html?id=MN77",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN77.mp4",
-  "original": "https://suttacentral.net/mn77/en/sujato"
-},
-{
-  "id": "MN78",
-  "title": "MN 78 — Samaṇamaṇḍikā Sutta",
-  "subtitle": "The Ascetic Maṇḍikā’s Son",
-  "visual": "../companion.html?id=MN78",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN78.mp4",
-  "original": "https://suttacentral.net/mn78/en/sujato"
-},
-{
-  "id": "MN79",
-  "title": "MN 79 — Cūḷasakuludāyi Sutta",
-  "subtitle": "The Shorter Discourse to Sakuludāyī",
-  "visual": "../companion.html?id=MN79",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN79.mp4",
-  "original": "https://suttacentral.net/mn79/en/sujato"
-},
-{
-  "id": "MN80",
-  "title": "MN 80 — Vekhanassa Sutta",
-  "subtitle": "To Vekhanassa",
-  "visual": "../companion.html?id=MN80",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN80.mp4",
-  "original": "https://suttacentral.net/mn80/en/sujato"
-},
-{
-  "id": "MN81",
-  "title": "MN 81 — Ghaṭīkāra Sutta",
-  "subtitle": "With Ghaṭīkāra",
-  "visual": "../companion.html?id=MN81",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN81.mp4",
-  "original": "https://suttacentral.net/mn81/en/sujato"
-},
-{
-  "id": "MN82",
-  "title": "MN 82 — Raṭṭhapāla Sutta",
-  "subtitle": "With Raṭṭhapāla",
-  "visual": "../companion.html?id=MN82",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN82.mp4",
-  "original": "https://suttacentral.net/mn82/en/sujato"
-},
-{
-  "id": "MN83",
-  "title": "MN 83 — Makhādeva Sutta",
-  "subtitle": "King Makhādeva",
-  "visual": "../companion.html?id=MN83",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN83.mp4",
-  "original": "https://suttacentral.net/mn83/en/sujato"
-},
-{
-  "id": "MN84",
-  "title": "MN 84 — Madhura Sutta",
-  "subtitle": "At Madhurā",
-  "visual": "../companion.html?id=MN84",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN84.mp4",
-  "original": "https://suttacentral.net/mn84/en/sujato"
-},
-{
-  "id": "MN85",
-  "title": "MN 85 — Bodhirājakumāra Sutta",
-  "subtitle": "Prince Bodhi",
-  "visual": "../companion.html?id=MN85",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN85.mp4",
-  "original": "https://suttacentral.net/mn85/en/sujato"
-},
-{
-  "id": "MN86",
-  "title": "MN 86 — Aṅgulimāla Sutta",
-  "subtitle": "Aṅgulimāla",
-  "visual": "../companion.html?id=MN86",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN86.mp4",
-  "original": "https://suttacentral.net/mn86/en/sujato"
-},
-{
-  "id": "MN87",
-  "title": "MN 87 — Piyajātika Sutta",
-  "subtitle": "Born from Those Who Are Dear",
-  "visual": "../companion.html?id=MN87",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN87.mp4",
-  "original": "https://suttacentral.net/mn87/en/sujato"
-},
-{
-  "id": "MN88",
-  "title": "MN 88 — Bāhitika Sutta",
-  "subtitle": "The Cloak",
-  "visual": "../companion.html?id=MN88",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN88.mp4",
-  "original": "https://suttacentral.net/mn88/en/sujato"
-},
-{
-  "id": "MN89",
-  "title": "MN 89 — Dhammacetiya Sutta",
-  "subtitle": "Monuments to the Dhamma",
-  "visual": "../companion.html?id=MN89",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN89.mp4",
-  "original": "https://suttacentral.net/mn89/en/sujato"
-},
-{
-  "id": "MN90",
-  "title": "MN 90 — Kaṇṇakatthala Sutta",
-  "subtitle": "At Kaṇṇakatthala",
-  "visual": "../companion.html?id=MN90",
-  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN90.mp4",
-  "original": "https://suttacentral.net/mn90/en/sujato"
-}
+  {
+    "id": "MN71",
+    "title": "MN 71 — Tevijjavaccha Sutta",
+    "subtitle": "To Vacchagotta on the Threefold Knowledge",
+    "visual": "../companion.html?id=MN71",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN71.mp4",
+    "original": "https://suttacentral.net/mn71/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN72",
+    "title": "MN 72 — Aggi-Vacchagotta Sutta",
+    "subtitle": "To Vacchagotta on Fire",
+    "visual": "../companion.html?id=MN72",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN72.mp4",
+    "original": "https://suttacentral.net/mn72/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN73",
+    "title": "MN 73 — Mahāvacchagotta Sutta",
+    "subtitle": "The Greater Discourse to Vacchagotta",
+    "visual": "../companion.html?id=MN73",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN73.mp4",
+    "original": "https://suttacentral.net/mn73/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN74",
+    "title": "MN 74 — Dīghanakha Sutta",
+    "subtitle": "To Dīghanakha",
+    "visual": "../companion.html?id=MN74",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN74.mp4",
+    "original": "https://suttacentral.net/mn74/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN75",
+    "title": "MN 75 — Māgandiya Sutta",
+    "subtitle": "To Māgandiya",
+    "visual": "../companion.html?id=MN75",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN75.mp4",
+    "original": "https://suttacentral.net/mn75/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN76",
+    "title": "MN 76 — Sandaka Sutta",
+    "subtitle": "To Sandaka",
+    "visual": "../companion.html?id=MN76",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN76.mp4",
+    "original": "https://suttacentral.net/mn76/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN77",
+    "title": "MN 77 — Mahāsakuludāyi Sutta",
+    "subtitle": "The Greater Discourse to Sakuludāyi",
+    "visual": "../companion.html?id=MN77",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN77.mp4",
+    "original": "https://suttacentral.net/mn77/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN78",
+    "title": "MN 78 — Samaṇamuṇḍika Sutta",
+    "subtitle": "Samaṇamuṇḍika",
+    "visual": "../companion.html?id=MN78",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN78.mp4",
+    "original": "https://suttacentral.net/mn78/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN79",
+    "title": "MN 79 — Cūḷasakuludāyi Sutta",
+    "subtitle": "The Shorter Discourse to Sakuludāyi",
+    "visual": "../companion.html?id=MN79",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN79.mp4",
+    "original": "https://suttacentral.net/mn79/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN80",
+    "title": "MN 80 — Vekhanassa Sutta",
+    "subtitle": "To Vekhanassa",
+    "visual": "../companion.html?id=MN80",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN80.mp4",
+    "original": "https://suttacentral.net/mn80/en/sujato",
+    "dhammaTalks": true
+  },
+   {
+    "id": "MN81",
+    "title": "MN 81 — Ghaṭīkāra Sutta",
+    "subtitle": "Ghaṭīkāra the Potter",
+    "visual": "../companion.html?id=MN81",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN81.mp4",
+    "original": "https://suttacentral.net/mn81/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN82",
+    "title": "MN 82 — Raṭṭhapāla Sutta",
+    "subtitle": "About Raṭṭhapāla",
+    "visual": "../companion.html?id=MN82",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN82.mp4",
+    "original": "https://suttacentral.net/mn82/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN83",
+    "title": "MN 83 — Makhādeva Sutta",
+    "subtitle": "King Makhādeva",
+    "visual": "../companion.html?id=MN83",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN83.mp4",
+    "original": "https://suttacentral.net/mn83/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN84",
+    "title": "MN 84 — Madhura Sutta",
+    "subtitle": "At Madhurā",
+    "visual": "../companion.html?id=MN84",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN84.mp4",
+    "original": "https://suttacentral.net/mn84/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN85",
+    "title": "MN 85 — Bodhirājakumāra Sutta",
+    "subtitle": "Prince Bodhi",
+    "visual": "../companion.html?id=MN85",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN85.mp4",
+    "original": "https://suttacentral.net/mn85/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN86",
+    "title": "MN 86 — Aṅgulimāla Sutta",
+    "subtitle": "About Aṅgulimāla",
+    "visual": "../companion.html?id=MN86",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN86.mp4",
+    "original": "https://suttacentral.net/mn86/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN87",
+    "title": "MN 87 — Piyajātika Sutta",
+    "subtitle": "Born from Those Who Are Dear",
+    "visual": "../companion.html?id=MN87",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN87.mp4",
+    "original": "https://suttacentral.net/mn87/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN88",
+    "title": "MN 88 — Bāhitika Sutta",
+    "subtitle": "The Outer Robe",
+    "visual": "../companion.html?id=MN88",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN88.mp4",
+    "original": "https://suttacentral.net/mn88/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN89",
+    "title": "MN 89 — Dhammacetiya Sutta",
+    "subtitle": "Monuments to the Dhamma",
+    "visual": "../companion.html?id=MN89",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN89.mp4",
+    "original": "https://suttacentral.net/mn89/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN90",
+    "title": "MN 90 — Kaṇṇakatthala Sutta",
+    "subtitle": "At Kaṇṇakatthala",
+    "visual": "../companion.html?id=MN90",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN90.mp4",
+    "original": "https://suttacentral.net/mn90/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN91",
+    "title": "MN 91 — Brahmāyu Sutta",
+    "subtitle": "About Brahmāyu",
+    "visual": "../companion.html?id=MN91",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN91.mp4",
+    "original": "https://suttacentral.net/mn91/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN92",
+    "title": "MN 92 — Sela Sutta",
+    "subtitle": "About Sela",
+    "visual": "../companion.html?id=MN92",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN92.mp4",
+    "original": "https://suttacentral.net/mn92/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN93",
+    "title": "MN 93 — Assalāyana Sutta",
+    "subtitle": "With Assalāyana",
+    "visual": "../companion.html?id=MN93",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN93.mp4",
+    "original": "https://suttacentral.net/mn93/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN94",
+    "title": "MN 94 — Ghoṭamukha Sutta",
+    "subtitle": "With Ghoṭamukha",
+    "visual": "../companion.html?id=MN94",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN94.mp4",
+    "original": "https://suttacentral.net/mn94/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN95",
+    "title": "MN 95 — Caṅkī Sutta",
+    "subtitle": "With Caṅkī",
+    "visual": "../companion.html?id=MN95",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN95.mp4",
+    "original": "https://suttacentral.net/mn95/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN96",
+    "title": "MN 96 — Esukārī Sutta",
+    "subtitle": "With Esukārī",
+    "visual": "../companion.html?id=MN96",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN96.mp4",
+    "original": "https://suttacentral.net/mn96/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN97",
+    "title": "MN 97 — Dhānañjāni Sutta",
+    "subtitle": "With Dhānañjāni",
+    "visual": "../companion.html?id=MN97",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN97.mp4",
+    "original": "https://suttacentral.net/mn97/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN98",
+    "title": "MN 98 — Vāseṭṭha Sutta",
+    "subtitle": "With Vāseṭṭha",
+    "visual": "../companion.html?id=MN98",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN98.mp4",
+    "original": "https://suttacentral.net/mn98/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN99",
+    "title": "MN 99 — Subha Sutta",
+    "subtitle": "With Subha",
+    "visual": "../companion.html?id=MN99",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN99.mp4",
+    "original": "https://suttacentral.net/mn99/en/sujato",
+    "dhammaTalks": true
+  },
+  {
+    "id": "MN100",
+    "title": "MN 100 — Saṅgārava Sutta",
+    "subtitle": "With Saṅgārava",
+    "visual": "../companion.html?id=MN100",
+    "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN100.mp4",
+    "original": "https://suttacentral.net/mn100/en/sujato",
+    "dhammaTalks": true
+  }
 ]

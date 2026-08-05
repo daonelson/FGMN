@@ -3,7 +3,7 @@
     "title": "MN 1 — Mūlapariyāya Sutta",
     "subtitle": "The Root of All Things",
     "dhammaTalks": [
- {
+      {
         "source": "Ajahn Punnadhammo",
         "url": "https://www.youtube.com/watch?v=3o18vEY5RoU"
       },
@@ -21,6 +21,94 @@
       {
         "source": "Clear Mountain Monastery",
         "url": "https://www.youtube.com/watch?v=3sFneHhWYJA"
+      }
+    ]
+  },
+
+  "MN3": {
+    "title": "MN 3 — Dhammadāyāda Sutta",
+    "subtitle": "Heirs in Dhamma",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://youtu.be/6u6dv9huKw0"
+      }
+    ]
+  },
+
+  "MN4": {
+    "title": "MN 4 — Bhayabherava Sutta",
+    "subtitle": "Fear and Dread",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=KXKUFE1m9Xc"
+      }
+    ]
+  },
+
+  "MN5": {
+    "title": "MN 5 — Anaṅgaṇa Sutta",
+    "subtitle": "Without Blemishes",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=DUyThMcmrOE"
+      }
+    ]
+  },
+
+  "MN6": {
+    "title": "MN 6 — Ākaṅkheyya Sutta",
+    "subtitle": "If a Mendicant Should Wish",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=qTjh0i48bcU"
+      }
+    ]
+  },
+
+  "MN7": {
+    "title": "MN 7 — Vatthūpama Sutta",
+    "subtitle": "The Simile of the Cloth",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=F_OgLuE2Sgg"
+      }
+    ]
+  },
+
+  "MN8": {
+    "title": "MN 8 — Sallekha Sutta",
+    "subtitle": "Effacement",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=PP90mR2YjSk"
+      }
+    ]
+  },
+
+  "MN9": {
+    "title": "MN 9 — Sammādiṭṭhi Sutta",
+    "subtitle": "Right View",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=YiRjtGLukko"
+      }
+    ]
+  },
+
+  "MN10": {
+    "title": "MN 10 — Satipaṭṭhāna Sutta",
+    "subtitle": "Foundations of Mindfulness",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=npOsG_1C2vk"
       }
     ]
   }

@@ -6,7 +6,7 @@
   "visual": "../companion.html?id=MN1",
   "video": "../videos/MN1.mp4",
   "original": "https://suttacentral.net/mn1/en/sujato",
-  "external": "https://www.youtube.com/watch?v=3o18vEY5RoU"
+  "dhammaTalks": true
 },
   {
     "id": "MN2",
@@ -15,6 +15,7 @@
     "visual": "../companion.html?id=MN2",
     "video": "../videos/MN2.mp4",
     "original": "https://suttacentral.net/mn2/en/sujato"
+    "dhammaTalks": true
   },
   {
     "id": "MN3",
@@ -23,6 +24,7 @@
     "visual": "../companion.html?id=MN3",
     "video": "../videos/MN3.mp4",
     "original": "https://suttacentral.net/mn3/en/sujato"
+    "dhammaTalks": true
   },
   {
     "id": "MN4",

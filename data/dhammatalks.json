@@ -111,5 +111,115 @@
         "url": "https://www.youtube.com/watch?v=npOsG_1C2vk"
       }
     ]
-  }
+  },
+  
+  "MN11": {
+    "title": "MN 11 — Cūḷasīhanāda Sutta",
+    "subtitle": "The Shorter Discourse on the Lion’s Roar",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://youtu.be/v6-tQ4YMYfQ"
+      }
+    ]
+  },
+
+  "MN12": {
+    "title": "MN 12 — Mahāsīhanāda Sutta",
+    "subtitle": "The Greater Discourse on the Lion’s Roar",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=z4Fuhq-goPI"
+      }
+    ]
+  },
+
+  "MN13": {
+    "title": "MN 13 — Mahādukkhakkhandha Sutta",
+    "subtitle": "The Greater Discourse on the Mass of Suffering",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=oJYZZXfixRs"
+      }
+    ]
+  },
+
+  "MN14": {
+    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+    "subtitle": "The Shorter Discourse on the Mass of Suffering",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=ElDE3jxdpQc"
+      }
+    ]
+  },
+
+  "MN15": {
+    "title": "MN 15 — Anumāna Sutta",
+    "subtitle": "Inference",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=-ozEEdg3Zxs"
+      }
+    ]
+  },
+
+  "MN16": {
+    "title": "MN 16 — Cetokhila Sutta",
+    "subtitle": "The Wilderness in the Heart",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=toNTXc1vGGc"
+      }
+    ]
+  },
+
+  "MN17": {
+    "title": "MN 17 — Vanapattha Sutta",
+    "subtitle": "Forest Thickets",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=9ao_R-6hi8E"
+      }
+    ]
+  },
+
+  "MN18": {
+    "title": "MN 18 — Madhupiṇḍika Sutta",
+    "subtitle": "The Ball of Honey",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=hGXbFt15aDk"
+      }
+    ]
+  },
+
+  "MN19": {
+    "title": "MN 19 — Dvedhāvitakka Sutta",
+    "subtitle": "Two Kinds of Thought",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=z_jXIM_r4HQ"
+      }
+    ]
+  },
+
+  "MN20": {
+    "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+    "subtitle": "The Removal of Distracting Thoughts",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://www.youtube.com/watch?v=hg0lE84s_LQ"
+      }
+    ]
+  }  
 }

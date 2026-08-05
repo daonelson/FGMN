@@ -77,21 +77,19 @@ document.getElementById("original");
 original.href = "sutta.html?id=" + sutta.id;
 
 
+const dhammaTalk =
+document.getElementById("dhammaTalk");
 
-const external =
-document.getElementById("external");
+if(sutta.dhammaTalks){
 
-if(sutta.external){
-
-external.href = sutta.external;
-external.target = "_blank";
-external.rel = "noopener noreferrer";
+dhammaTalk.href =
+"../dhammatalk.html?id=" + sutta.id;
 
 }
 
 else{
 
-external.style.display = "none";
+dhammaTalk.style.display = "none";
 
 }
 

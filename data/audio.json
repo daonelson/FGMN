@@ -127,5 +127,135 @@
         "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e06aaf9619afa6ad20cf6/1511917423810/%5B2%5D+Satipatthana+sutta+-+MP3.mp3"
       }
     ]
+  },
+  
+    "MN11": {
+    "title": "MN 11 — Cūḷasīhanāda Sutta",
+    "subtitle": "The Shorter Discourse on the Lion's Roar",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22957c70a6ad50aab37208/1545770423849/MN+11+The+shorter+discourse+on+the+lion%27s+roar.mp3"
+      }
+    ]
+  },
+
+  "MN12": {
+    "title": "MN 12 — Mahāsīhanāda Sutta",
+    "subtitle": "The Longer Discourse on the Lion's Roar",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2297112b6a283c72a2e59e/1545771009872/MN+12+The+longer+discourse+on+the+lion%27s+roar.mp3"
+      }
+    ]
+  },
+
+  "MN13": {
+    "title": "MN 13 — Mahādukkhakkhandha Sutta",
+    "subtitle": "The Longer Discourse on the Mass of Suffering",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22982203ce64161cf43618/1545771155010/MN+13+The+longer+discourse+on+the+mass+of+suffering.mp3"
+      }
+    ]
+  },
+
+  "MN14": {
+    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+    "subtitle": "The Shorter Discourse on the Mass of Suffering",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22990bb8a045b33dd96e0e/1545771364572/MN+14+The+shorter+discourse+on+the+mass+of+suffering.mp3"
+      }
+    ]
+  },
+
+  "MN15": {
+    "title": "MN 15 — Anumāna Sutta",
+    "subtitle": "Measuring Up",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2299d4cd8366c2078d5b16/1545771574710/MN+15+Measuring+up.mp3"
+      }
+    ]
+  },
+
+  "MN16": {
+    "title": "MN 16 — Cetokhila Sutta",
+    "subtitle": "Emotional Barrenness",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229a638985837cb691ce15/1545771664854/MN+16+Emotional+barrenness.mp3"
+      }
+    ]
+  },
+
+  "MN17": {
+    "title": "MN 17 — Vanapattha Sutta",
+    "subtitle": "Jungle Thickets",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229ace4fa51a4c8984a8b8/1545771770682/MN+17+Jungle+thickets.mp3"
+      }
+    ]
+  },
+
+  "MN18": {
+    "title": "MN 18 — Madhupiṇḍika Sutta",
+    "subtitle": "The Honey Cake",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "I. B. Horner",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/609136b9f204ab4594a8825d/1620129628885/MN+18+Discourse+of+the+honey+ball%281%29.mp3"
+      }
+    ]
+  },
+
+  "MN19": {
+    "title": "MN 19 — Dvedhāvitakka Sutta",
+    "subtitle": "Two Kinds of Thought",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Bodhi",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f269fbe42d6a1672fd8d6/1502553870721/%5B38%5D+Two+kinds+of+thought+-+MP3.mp3"
+      }
+    ]
+  },
+
+  "MN20": {
+    "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+    "subtitle": "The Removal of Distracting Thoughts",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Rupert Gethin",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b6b256d352f538518a3a100/1533748651536/MN+20+Vitakkasanthana+sutta.mp3"
+      }
+    ]
   }
   }

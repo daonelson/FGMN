@@ -77,6 +77,34 @@ document.getElementById("original");
 original.href = "sutta.html?id=" + sutta.id;
 
 
+
+const audioReading =
+document.getElementById("audioReading");
+
+
+fetch("../data/audio.json")
+
+.then(response => response.json())
+
+.then(audioData => {
+
+if(audioData[sutta.id]){
+
+audioReading.href =
+"../audio.html?id=" + sutta.id;
+
+}
+
+else{
+
+audioReading.style.display = "none";
+
+}
+
+});
+
+
+
 const dhammaTalk =
 document.getElementById("dhammaTalk");
 
@@ -92,6 +120,7 @@ else{
 dhammaTalk.style.display = "none";
 
 }
+
 
 
 const returnLink =

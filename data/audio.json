@@ -387,5 +387,122 @@
         "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ae150ebbe88acf2fbda5/1545776751976/MN+30+The+shorter+simile+of+the+heartwood.mp3"
       }
     ]
+  },
+
+    "MN31": {
+    "title": "MN 31 — Cūḷagosiṅga Sutta",
+    "subtitle": "The Shorter Discourse at Gosiṅga",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22b2888a922d984e2af326/1545777860792/MN+31+The+shorter+discourse+at+Gosingha.mp3"
+      }
+    ]
+  },
+
+  "MN32": {
+    "title": "MN 32 — Mahāgosiṅga Sutta",
+    "subtitle": "The Longer Discourse at Gosiṅga",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234665032be47896831148/1545815720884/MN+32+The+longer+discourse+at+Gosingha.mp3"
+      }
+    ]
+  },
+
+  "MN33": {
+    "title": "MN 33 — Mahāgopālaka Sutta",
+    "subtitle": "The Longer Discourse on the Cowherd",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2346cc88251bcddc3d947b/1545815832890/MN+33+The+longer+discourse+on+the+cowherd.mp3"
+      }
+    ]
+  },
+
+  "MN35": {
+    "title": "MN 35 — Cūḷasaccaka Sutta",
+    "subtitle": "The Shorter Discourse with Saccaka",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234806cd8366c20791c38b/1545816232097/MN+35+The+shorter+discourse+with+Saccaka.mp3"
+      }
+    ]
+  },
+
+  "MN36": {
+    "title": "MN 36 — Mahāsaccaka Sutta",
+    "subtitle": "The Longer Discourse with Saccaka",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2349024fa51a4c8988f7e0/1545816559438/MN+36+The+longer+discourse+with+Saccaka.mp3"
+      }
+    ]
+  },
+
+  "MN37": {
+    "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
+    "subtitle": "The Shorter Discourse on the Destruction of Craving",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a0e758d46f466260c30/1545816651201/MN+37+The+shorter+discourse+on+the+ending+of+craving.mp3"
+      }
+    ]
+  },
+
+  "MN38": {
+    "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
+    "subtitle": "The Longer Discourse on the Destruction of Craving",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a68032be4789683234b/1545816949716/MN+38+The+longer+discourse+on+the+ending+of+craving.mp3"
+      }
+    ]
+  },
+
+  "MN39": {
+    "title": "MN 39 — Mahāassapura Sutta",
+    "subtitle": "The Longer Discourse at Assapura",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234b9bf950b7fc7a9cb60b/1545817133841/MN+39+The+longer+discourse+at+Assapura.mp3"
+      }
+    ]
+  },
+
+  "MN40": {
+    "title": "MN 40 — Cūḷaassapura Sutta",
+    "subtitle": "The Shorter Discourse at Assapura",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234cccf950b7fc7a9cbb41/1545817341924/MN+40+The+shorter+discourse+at+Assapura.mp3"
+      }
+    ]
   }
   }

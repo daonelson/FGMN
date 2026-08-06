@@ -889,7 +889,7 @@
   "audio": true,
   "dhammaTalks": true
 },
-{
+  {
   "id": "MN90",
   "title": "MN 90 — Kaṇṇakatthala Sutta",
   "subtitle": "At Kaṇṇakatthala",
@@ -902,7 +902,7 @@
 {
   "id": "MN91",
   "title": "MN 91 — Brahmāyu Sutta",
-  "subtitle": "Brahmāyu",
+  "subtitle": "About Brahmāyu",
   "visual": "../companion.html?id=MN91",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN91.mp4",
   "original": "https://suttacentral.net/mn91/en/sujato",
@@ -912,7 +912,7 @@
 {
   "id": "MN92",
   "title": "MN 92 — Sela Sutta",
-  "subtitle": "With Sela",
+  "subtitle": "About Sela",
   "visual": "../companion.html?id=MN92",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN92.mp4",
   "original": "https://suttacentral.net/mn92/en/sujato",
@@ -1022,7 +1022,7 @@
 {
   "id": "MN103",
   "title": "MN 103 — Kinti Sutta",
-  "subtitle": "What Do You Think About Me?",
+  "subtitle": "What Do You Think?",
   "visual": "../companion.html?id=MN103",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN103.mp4",
   "original": "https://suttacentral.net/mn103/en/sujato",
@@ -1062,7 +1062,7 @@
 {
   "id": "MN107",
   "title": "MN 107 — Gaṇakamoggallāna Sutta",
-  "subtitle": "With Gaṇaka Moggallāna",
+  "subtitle": "The Discourse to Gaṇaka Moggallāna",
   "visual": "../companion.html?id=MN107",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN107.mp4",
   "original": "https://suttacentral.net/mn107/en/sujato",
@@ -1082,7 +1082,7 @@
 {
   "id": "MN109",
   "title": "MN 109 — Mahāpuṇṇama Sutta",
-  "subtitle": "The Greater Discourse on the Full Moon Night",
+  "subtitle": "The Greater Full-Moon Night Discourse",
   "visual": "../companion.html?id=MN109",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN109.mp4",
   "original": "https://suttacentral.net/mn109/en/sujato",
@@ -1092,7 +1092,7 @@
 {
   "id": "MN110",
   "title": "MN 110 — Cūḷapuṇṇama Sutta",
-  "subtitle": "The Shorter Discourse on the Full Moon Night",
+  "subtitle": "The Shorter Full-Moon Night Discourse",
   "visual": "../companion.html?id=MN110",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN110.mp4",
   "original": "https://suttacentral.net/mn110/en/sujato",

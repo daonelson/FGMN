@@ -102,6 +102,14 @@ color:var(--ink-soft);
 
 }
 
+.audio-info{
+
+font-size:1.15rem;
+
+color:var(--ink-soft);
+
+}
+
 .audio-player{
 
 width:100%;
@@ -149,6 +157,12 @@ font-size:2rem;
 .subtitle{
 
 font-size:1.25rem;
+
+}
+
+.audio-info{
+
+font-size:1rem;
 
 }
 
@@ -287,7 +301,7 @@ let source =
 document.createElement("p");
 
 
-source.className="subtitle";
+source.className="audio-info";
 
 
 source.textContent =
@@ -303,7 +317,7 @@ if(reading.translator){
 let translator =
 document.createElement("p");
 
-translator.className="subtitle";
+translator.className="audio-info";
 
 translator.textContent =
 "Translation: " + reading.translator;
@@ -317,7 +331,7 @@ container.appendChild(translator);
 let copyright =
 document.createElement("p");
 
-copyright.className="subtitle";
+copyright.className="audio-info";
 
 copyright.textContent =
 "Copyright: Please refer to the Copyright section of the Preface for licensing information and attribution details.";

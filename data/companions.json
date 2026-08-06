@@ -2171,7 +2171,7 @@
     "15.webp"
   ]
 },
-
+  
 "MN90": {
   "title": "MN 90 — Kaṇṇakatthala Sutta",
   "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN090/",
@@ -2196,7 +2196,253 @@
     "18.webp",
     "19.webp",
     "20.webp"
+  ],
+  
+  "MN91": {
+  "title": "MN 91 — Brahmāyu Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN091/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp"
+  ]
+},
+  
+"MN92": {
+  "title": "MN 92 — Selā Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN092/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp",
+    "20.webp",
+    "21.webp",
+    "22.webp"
+  ]
+},
+  
+"MN93": {
+  "title": "MN 93 — Assalāyana Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN093/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp"
+  ]
+},
+  
+"MN94": {
+  "title": "MN 94 — Ghoṭamukha Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN094/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp"
+  ]
+},
+  
+"MN95": {
+  "title": "MN 95 — Caṅkī Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN095/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp",
+    "20.webp",
+    "21.webp"
+  ]
+},
+  
+"MN96": {
+  "title": "MN 96 — Esukārī Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN096/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp"
+  ]
+},
+  
+"MN97": {
+  "title": "MN 97 — Dhanañjāni Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN097/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp"
+  ]
+},
+  
+"MN98": {
+  "title": "MN 98 — Vāseṭṭha Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN098/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp"
+  ]
+},
+  
+"MN99": {
+  "title": "MN 99 — Subha Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN099/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp"
+  ]
+},
+  
+"MN100": {
+  "title": "MN 100 — Saṅgārava Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-02/visual-companions/MN100/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp"
   ]
 }
-
   }

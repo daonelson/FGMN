@@ -1,3 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Audio Reading
+</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+
+--ink:#f1d7a6;
+--ink-soft:#c9a878;
+--gold:#c6a15b;
+--gold-dark:#9b783b;
+
+}
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#3b2a1d 0%,
+#24170f 100%
+);
+
+color:var(--ink);
+
+font-family:"EB Garamond",serif;
+
+line-height:1.75;
+
+}
+
+.container{
+
+margin:auto;
+
+padding:50px 24px 80px;
+
+text-align:center;
+
+}
+
+.wheel{
+
+width:88px;
+
+margin-bottom:40px;
+
+opacity:.95;
+
+}
+
+.library-divider{
+
+width:170px;
+
+height:1px;
+
+background:var(--gold);
+
+margin:35px auto;
+
+}
+
+.page-title{
+
+font-size:2.4rem;
+
+font-weight:500;
+
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+font-size:1.5rem;
+
+color:var(--ink-soft);
+
+}
+
+.audio-player{
+
+width:100%;
+
+max-width:800px;
+
+margin:20px auto;
+
+display:block;
+
+}
+
+.return-link{
+
+margin-top:40px;
+
+}
+
+.return-link a{
+
+text-decoration:none;
+
+color:var(--ink-soft);
+
+letter-spacing:.08em;
+
+font-size:1.25rem;
+
+}
+
+.return-link a:hover{
+
+color:var(--gold-dark);
+
+}
+
+@media(max-width:600px){
+
+.page-title{
+
+font-size:2rem;
+
+}
+
+.subtitle{
+
+font-size:1.25rem;
+
+}
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<img
+src="dhammawheel.png"
+class="wheel"
+alt="Dhamma Wheel">
+
+
+<div class="library-divider"></div>
+
+
+<h1 class="page-title">
+
+Loading...
+
+</h1>
+
+
+<p class="subtitle">
+
+</p>
+
+
+<div class="library-divider"></div>
+
+
+<div id="talks">
+
+</div>
+
+
+<div class="library-divider"></div>
+
+
+<div class="return-link">
+
+<a id="return" href="prototype/viewer.html">
+
+Return
+
+</a>
+
+</div>
+
+
+</div>
+
+
 <script>
 
 const params =
@@ -6,14 +217,17 @@ new URLSearchParams(window.location.search);
 const id =
 params.get("id");
 
-fetch("data/dhammatalks.json")
+
+fetch("data/audio.json")
 
 .then(response => response.json())
 
 .then(data => {
 
+
 let sutta =
 data[id];
+
 
 if(!sutta){
 
@@ -27,90 +241,108 @@ return;
 
 }
 
+
 document.querySelector(".page-title").textContent =
 sutta.title;
+
 
 document.title =
 sutta.title;
 
+
 document.querySelector(".subtitle").textContent =
 sutta.subtitle;
+
 
 document.getElementById("return").href =
 "prototype/viewer.html?id=" + id;
 
+
 let container =
 document.getElementById("talks");
 
-sutta.dhammaTalks.forEach((talk,index)=>{
+
+
+sutta.audioReadings.forEach((reading,index)=>{
+
 
 let title =
 document.createElement("h2");
 
+
 title.className="subtitle";
+
 
 title.textContent =
 index === 0
 ? "Audio Reading"
 : "Audio Reading " + (index + 1);
 
+
 container.appendChild(title);
+
+
 
 let source =
 document.createElement("p");
 
+
 source.className="subtitle";
 
+
 source.textContent =
-"Read by " + talk.source;
+"Read by " + reading.source;
+
 
 container.appendChild(source);
 
-let iframe =
-document.createElement("iframe");
 
-let url =
-talk.url;
 
-if(url.includes("watch?v=")){
+let audio =
+document.createElement("audio");
 
-url =
-url.replace("watch?v=","embed/");
 
-}
+audio.controls = true;
 
-if(url.includes("youtu.be/")){
 
-url =
-url.replace("youtu.be/","www.youtube.com/embed/");
+audio.src =
+reading.url;
 
-}
 
-iframe.src =
-url;
+audio.className =
+"audio-player";
 
-iframe.className =
-"video-frame";
 
-iframe.allowFullscreen =
-true;
+container.appendChild(audio);
 
-container.appendChild(iframe);
 
-if(index < sutta.dhammaTalks.length - 1){
+
+if(index < sutta.audioReadings.length - 1){
+
 
 let divider =
 document.createElement("div");
 
+
 divider.className =
 "library-divider";
 
+
 container.appendChild(divider);
+
 
 }
 
-});
 
 });
+
+
+});
+
 
 </script>
+
+
+</body>
+
+</html>

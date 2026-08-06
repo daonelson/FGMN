@@ -415,32 +415,32 @@
     ]
   },
 
-  "MN33": {
-    "title": "MN 33 — Mahāgopālaka Sutta",
-    "subtitle": "The Longer Discourse on the Cowherd",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://daonelson.github.io/FGMN-Media-02/audio/MN033.mp3"
-      }
-    ]
-  },
+"MN33": {
+  "title": "MN 33 — Mahāgopālaka Sutta",
+  "subtitle": "The Longer Discourse on the Cowherd",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2346cc88251bcddc3d947b/1545815832890/MN+33+The+longer+discourse+on+the+cowherd.mp3"
+    }
+  ]
+},
 
-    "MN34": {
-    "title": "MN 34 — Cūḷagopālaka Sutta",
-    "subtitle": "The Shorter Discourse on the Cowherd",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://daonelson.github.io/FGMN-Media-02/audio/MN034.mp3"
-      }
-    ]
-  },
-
+"MN34": {
+  "title": "MN 34 — Cūḷagopālaka Sutta",
+  "subtitle": "The Shorter Discourse on the Cowherd",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5d06a4803a73260001403a3f/1545815923815/MN+34+The+shorter+discourse+on+the+cowherd.mp3"
+    }
+  ]
+},
+  
   "MN35": {
     "title": "MN 35 — Cūḷasaccaka Sutta",
     "subtitle": "The Shorter Discourse with Saccaka",

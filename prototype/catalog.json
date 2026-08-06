@@ -1027,7 +1027,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN103.mp4",
   "original": "https://suttacentral.net/mn103/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN104",
@@ -1037,7 +1036,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN104.mp4",
   "original": "https://suttacentral.net/mn104/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN105",
@@ -1047,7 +1045,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN105.mp4",
   "original": "https://suttacentral.net/mn105/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN106",
@@ -1057,7 +1054,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN106.mp4",
   "original": "https://suttacentral.net/mn106/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN107",
@@ -1067,7 +1063,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN107.mp4",
   "original": "https://suttacentral.net/mn107/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN108",
@@ -1077,7 +1072,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN108.mp4",
   "original": "https://suttacentral.net/mn108/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN109",
@@ -1087,7 +1081,6 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN109.mp4",
   "original": "https://suttacentral.net/mn109/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 },
 {
   "id": "MN110",
@@ -1097,6 +1090,5 @@
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN110.mp4",
   "original": "https://suttacentral.net/mn110/en/sujato",
   "audio": true,
-  "dhammaTalks": true
 }
 ]

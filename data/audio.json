@@ -257,5 +257,135 @@
         "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b6b256d352f538518a3a100/1533748651536/MN+20+Vitakkasanthana+sutta.mp3"
       }
     ]
+  },
+  
+    "MN21": {
+    "title": "MN 21 — Kakacūpama Sutta",
+    "subtitle": "The Simile of the Saw",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229b65032be478967ea150/1545772021948/MN+21+The+simile+of+the+saw.mp3"
+      }
+    ]
+  },
+
+  "MN22": {
+    "title": "MN 22 — Alagaddūpama Sutta",
+    "subtitle": "The Simile of the Snake",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Rupert Gethin",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/597772629f7456c8f360d07d/1526547742808/%5B4%5D+Alagaddupama+sutta+-+MP3.mp3"
+      }
+    ]
+  },
+
+  "MN23": {
+    "title": "MN 23 — Vammika Sutta",
+    "subtitle": "The Anthill",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c14352f53dd5f81dea9/1545772097564/MN+23+The+Anthill.mp3"
+      }
+    ]
+  },
+
+  "MN24": {
+    "title": "MN 24 — Rathavinīta Sutta",
+    "subtitle": "The Relay of Chariots",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "I. B. Horner",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b752b49c2241bdac555d423/1558459325731/MN+24+Discourse+on+the+relays+of+chariots.mp3"
+      }
+    ]
+  },
+
+  "MN25": {
+    "title": "MN 25 — Nivāpa Sutta",
+    "subtitle": "The Bait",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c8b8a922d984e2a4b8f/1545772256241/MN+25+Fodder.mp3"
+      }
+    ]
+  },
+
+  "MN26": {
+    "title": "MN 26 — Ariyapariyesanā Sutta",
+    "subtitle": "The Noble Search",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229d4bb8a045b33dd992bc/1545772567663/MN+26+The+Noble+search.mp3"
+      }
+    ]
+  },
+
+  "MN27": {
+    "title": "MN 27 — Cūḷahatthipadopama Sutta",
+    "subtitle": "The Shorter Simile of the Elephant’s Footprint",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5fafe68b54d7bd32ba0663cb/1605363475995/MN+27+The+shorter+simile+of+the+elephant_s+footprint%281%29.mp3"
+      }
+    ]
+  },
+
+  "MN28": {
+    "title": "MN 28 — Mahāhatthipadopama Sutta",
+    "subtitle": "The Greater Simile of the Elephant’s Footprint",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22a1eb8a922d984e2a76c4/1545773641618/MN+28+The+longer+simile+of+the+elephant%27s+footprint.mp3"
+      }
+    ]
+  },
+
+  "MN29": {
+    "title": "MN 29 — Mahāsāropama Sutta",
+    "subtitle": "The Greater Simile of the Heartwood",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ad3c032be478967f2b58/1545776507139/MN+29+The+longer+simile+of+the+heartwood.mp3"
+      }
+    ]
+  },
+
+  "MN30": {
+    "title": "MN 30 — Cūḷasāropama Sutta",
+    "subtitle": "The Shorter Simile of the Heartwood",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ae150ebbe88acf2fbda5/1545776751976/MN+30+The+shorter+simile+of+the+heartwood.mp3"
+      }
+    ]
   }
   }

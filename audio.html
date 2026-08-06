@@ -291,10 +291,38 @@ source.className="subtitle";
 
 
 source.textContent =
-"Read by " + reading.source;
+"Read by: " + reading.source;
 
 
 container.appendChild(source);
+
+
+
+if(reading.translator){
+
+let translator =
+document.createElement("p");
+
+translator.className="subtitle";
+
+translator.textContent =
+"Translation: " + reading.translator;
+
+container.appendChild(translator);
+
+}
+
+
+
+let copyright =
+document.createElement("p");
+
+copyright.className="subtitle";
+
+copyright.textContent =
+"Copyright: Please refer to the Copyright section of the Preface for licensing information and attribution details.";
+
+container.appendChild(copyright);
 
 
 

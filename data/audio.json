@@ -23,5 +23,109 @@
         "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f1041a803bb5b7c766a96/1504721595966/%5B40%5D+All+the+taints+-+MP3+normalised.mp3"
       }
     ]
+  },
+
+    "MN3": {
+    "title": "MN 3 — Dhammadāyāda Sutta",
+    "subtitle": "Heirs in the Dhamma",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22928e4fa51a4c8984687d/1545769697867/MN+3+Heirs+in+the+teaching.mp3"
+      }
+    ]
+  },
+
+  "MN4": {
+    "title": "MN 4 — Bhayabherava Sutta",
+    "subtitle": "Fear and Dread",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Bodhi",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f25dd3e00bea41cfbfdb0/1502553709526/%5B37%5D+Fear+and+dread+-+MP3.mp3"
+      }
+    ]
+  },
+
+  "MN5": {
+    "title": "MN 5 — Anaṅgaṇa Sutta",
+    "subtitle": "Without Blemishes",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22935a6d2a7362341e90f2/1545769929766/MN+5+Unblemished.mp3"
+      }
+    ]
+  },
+
+  "MN6": {
+    "title": "MN 6 — Ākaṅkheyya Sutta",
+    "subtitle": "If a Bhikkhu Should Wish",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Bodhi",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e05ede2c483f5ad79bc12/1511917102190/%5B41%5D+If+a+bhikku+should+wish+-+MP3.mp3"
+      }
+    ]
+  },
+
+  "MN7": {
+    "title": "MN 7 — Vatthūpama Sutta",
+    "subtitle": "The Simile of the Cloth",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2293e56d2a7362341e951b/1545770025558/MN+7+The+simile+of+the+cloth.mp3"
+      }
+    ]
+  },
+
+  "MN8": {
+    "title": "MN 8 — Sallekha Sutta",
+    "subtitle": "Effacement",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Sujato",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2294456d2a7362341e980f/1545770220709/MN+8+Self-effacement.mp3"
+      }
+    ]
+  },
+
+  "MN9": {
+    "title": "MN 9 — Sammādiṭṭhi Sutta",
+    "subtitle": "Right View",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Bhikkhu Bodhi",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/59776fb61b631b76e5211550/1500999851797/%5B35%5D+Right+view+-+MP3.mp3"
+      }
+    ]
+  },
+
+  "MN10": {
+    "title": "MN 10 — Satipaṭṭhāna Sutta",
+    "subtitle": "The Foundations of Mindfulness",
+    "audioReadings": [
+      {
+        "source": "Roland Kitchen",
+        "translator": "Rupert Gethin",
+        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e06aaf9619afa6ad20cf6/1511917423810/%5B2%5D+Satipatthana+sutta+-+MP3.mp3"
+      }
+    ]
   }
   }

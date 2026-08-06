@@ -998,5 +998,105 @@
   "original": "https://suttacentral.net/mn100/en/sujato",
   "audio": true,
   "dhammaTalks": true
+},
+  {
+  "id": "MN101",
+  "title": "MN 101 — Devadaha Sutta",
+  "subtitle": "At Devadaha",
+  "visual": "../companion.html?id=MN101",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN101.mp4",
+  "original": "https://suttacentral.net/mn101/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN102",
+  "title": "MN 102 — Pañcattaya Sutta",
+  "subtitle": "The Five and Three",
+  "visual": "../companion.html?id=MN102",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN102.mp4",
+  "original": "https://suttacentral.net/mn102/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN103",
+  "title": "MN 103 — Kinti Sutta",
+  "subtitle": "What Do You Think About Me?",
+  "visual": "../companion.html?id=MN103",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN103.mp4",
+  "original": "https://suttacentral.net/mn103/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN104",
+  "title": "MN 104 — Sāmagāma Sutta",
+  "subtitle": "At Sāmagāma",
+  "visual": "../companion.html?id=MN104",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN104.mp4",
+  "original": "https://suttacentral.net/mn104/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN105",
+  "title": "MN 105 — Sunakkhatta Sutta",
+  "subtitle": "To Sunakkhatta",
+  "visual": "../companion.html?id=MN105",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN105.mp4",
+  "original": "https://suttacentral.net/mn105/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN106",
+  "title": "MN 106 — Āneñjasappāya Sutta",
+  "subtitle": "The Way to the Imperturbable",
+  "visual": "../companion.html?id=MN106",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN106.mp4",
+  "original": "https://suttacentral.net/mn106/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN107",
+  "title": "MN 107 — Gaṇakamoggallāna Sutta",
+  "subtitle": "With Gaṇaka Moggallāna",
+  "visual": "../companion.html?id=MN107",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN107.mp4",
+  "original": "https://suttacentral.net/mn107/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN108",
+  "title": "MN 108 — Gopakamoggallāna Sutta",
+  "subtitle": "With Gopaka Moggallāna",
+  "visual": "../companion.html?id=MN108",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN108.mp4",
+  "original": "https://suttacentral.net/mn108/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN109",
+  "title": "MN 109 — Mahāpuṇṇama Sutta",
+  "subtitle": "The Greater Discourse on the Full Moon Night",
+  "visual": "../companion.html?id=MN109",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN109.mp4",
+  "original": "https://suttacentral.net/mn109/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
+},
+{
+  "id": "MN110",
+  "title": "MN 110 — Cūḷapuṇṇama Sutta",
+  "subtitle": "The Shorter Discourse on the Full Moon Night",
+  "visual": "../companion.html?id=MN110",
+  "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN110.mp4",
+  "original": "https://suttacentral.net/mn110/en/sujato",
+  "audio": true,
+  "dhammaTalks": true
 }
 ]

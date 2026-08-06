@@ -7,7 +7,7 @@
   "video": "../videos/MN1.mp4",
   "original": "https://suttacentral.net/mn1/en/sujato",
   "audio": true,
-  "dhammatalk": "../dhammatalk.html?id=MN1"
+  "dhammaTalks": true
 },
 {
   "id": "MN2",

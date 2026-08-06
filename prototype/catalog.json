@@ -299,12 +299,12 @@
   "audio": true,
   "dhammaTalks": true
 },
-{
+  {
   "id": "MN31",
   "title": "MN 31 — Cūḷagosiṅga Sutta",
   "subtitle": "The Shorter Discourse at Gosiṅga",
   "visual": "../companion.html?id=MN31",
-  "video": "../videos/MN31.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN31.mp4",
   "original": "https://suttacentral.net/mn31/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -314,7 +314,7 @@
   "title": "MN 32 — Mahāgosiṅga Sutta",
   "subtitle": "The Greater Discourse at Gosiṅga",
   "visual": "../companion.html?id=MN32",
-  "video": "../videos/MN32.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN32.mp4",
   "original": "https://suttacentral.net/mn32/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -324,7 +324,7 @@
   "title": "MN 33 — Mahāgopālaka Sutta",
   "subtitle": "The Greater Discourse to the Cowherd",
   "visual": "../companion.html?id=MN33",
-  "video": "../videos/MN33.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN33.mp4",
   "original": "https://suttacentral.net/mn33/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -334,7 +334,7 @@
   "title": "MN 34 — Cūḷagopālaka Sutta",
   "subtitle": "The Shorter Discourse to the Cowherd",
   "visual": "../companion.html?id=MN34",
-  "video": "../videos/MN34.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN34.mp4",
   "original": "https://suttacentral.net/mn34/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -344,7 +344,7 @@
   "title": "MN 35 — Cūḷasaccaka Sutta",
   "subtitle": "The Shorter Discourse to Saccaka",
   "visual": "../companion.html?id=MN35",
-  "video": "../videos/MN35.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN35.mp4",
   "original": "https://suttacentral.net/mn35/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -354,7 +354,7 @@
   "title": "MN 36 — Mahāsaccaka Sutta",
   "subtitle": "The Greater Discourse to Saccaka",
   "visual": "../companion.html?id=MN36",
-  "video": "../videos/MN36.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN36.mp4",
   "original": "https://suttacentral.net/mn36/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -362,9 +362,9 @@
 {
   "id": "MN37",
   "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
-  "subtitle": "The Shorter Discourse on the Ending of Craving",
+  "subtitle": "The Shorter Discourse on the Destruction of Craving",
   "visual": "../companion.html?id=MN37",
-  "video": "../videos/MN37.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN37.mp4",
   "original": "https://suttacentral.net/mn37/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -372,9 +372,9 @@
 {
   "id": "MN38",
   "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
-  "subtitle": "The Greater Discourse on the Ending of Craving",
+  "subtitle": "The Greater Discourse on the Destruction of Craving",
   "visual": "../companion.html?id=MN38",
-  "video": "../videos/MN38.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN38.mp4",
   "original": "https://suttacentral.net/mn38/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -384,7 +384,7 @@
   "title": "MN 39 — Mahāassapura Sutta",
   "subtitle": "The Greater Discourse at Assapura",
   "visual": "../companion.html?id=MN39",
-  "video": "../videos/MN39.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN39.mp4",
   "original": "https://suttacentral.net/mn39/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -394,17 +394,17 @@
   "title": "MN 40 — Cūḷaassapura Sutta",
   "subtitle": "The Shorter Discourse at Assapura",
   "visual": "../companion.html?id=MN40",
-  "video": "../videos/MN40.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN40.mp4",
   "original": "https://suttacentral.net/mn40/en/sujato",
   "audio": true,
   "dhammaTalks": true
 },
-{
+  {
   "id": "MN41",
   "title": "MN 41 — Sāleyyaka Sutta",
   "subtitle": "The Brahmins of Sālā",
   "visual": "../companion.html?id=MN41",
-  "video": "../videos/MN41.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN41.mp4",
   "original": "https://suttacentral.net/mn41/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -414,7 +414,7 @@
   "title": "MN 42 — Verañjaka Sutta",
   "subtitle": "The Brahmins of Verañjā",
   "visual": "../companion.html?id=MN42",
-  "video": "../videos/MN42.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN42.mp4",
   "original": "https://suttacentral.net/mn42/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -422,9 +422,9 @@
 {
   "id": "MN43",
   "title": "MN 43 — Mahāvedalla Sutta",
-  "subtitle": "The Greater Series of Questions and Answers",
+  "subtitle": "The Greater Set of Questions and Answers",
   "visual": "../companion.html?id=MN43",
-  "video": "../videos/MN43.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN43.mp4",
   "original": "https://suttacentral.net/mn43/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -432,9 +432,9 @@
 {
   "id": "MN44",
   "title": "MN 44 — Cūḷavedalla Sutta",
-  "subtitle": "The Shorter Series of Questions and Answers",
+  "subtitle": "The Shorter Set of Questions and Answers",
   "visual": "../companion.html?id=MN44",
-  "video": "../videos/MN44.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN44.mp4",
   "original": "https://suttacentral.net/mn44/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -444,7 +444,7 @@
   "title": "MN 45 — Cūḷadhammasamādāna Sutta",
   "subtitle": "The Shorter Discourse on Taking Up Practices",
   "visual": "../companion.html?id=MN45",
-  "video": "../videos/MN45.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN45.mp4",
   "original": "https://suttacentral.net/mn45/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -454,7 +454,7 @@
   "title": "MN 46 — Mahādhammasamādāna Sutta",
   "subtitle": "The Greater Discourse on Taking Up Practices",
   "visual": "../companion.html?id=MN46",
-  "video": "../videos/MN46.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN46.mp4",
   "original": "https://suttacentral.net/mn46/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -464,7 +464,7 @@
   "title": "MN 47 — Vīmaṃsaka Sutta",
   "subtitle": "The Inquirer",
   "visual": "../companion.html?id=MN47",
-  "video": "../videos/MN47.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN47.mp4",
   "original": "https://suttacentral.net/mn47/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -472,9 +472,9 @@
 {
   "id": "MN48",
   "title": "MN 48 — Kosambiya Sutta",
-  "subtitle": "The Kosambians",
+  "subtitle": "At Kosambī",
   "visual": "../companion.html?id=MN48",
-  "video": "../videos/MN48.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN48.mp4",
   "original": "https://suttacentral.net/mn48/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -484,7 +484,7 @@
   "title": "MN 49 — Brahmanimantanika Sutta",
   "subtitle": "The Brahmā Invitation",
   "visual": "../companion.html?id=MN49",
-  "video": "../videos/MN49.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN49.mp4",
   "original": "https://suttacentral.net/mn49/en/sujato",
   "audio": true,
   "dhammaTalks": true
@@ -494,7 +494,7 @@
   "title": "MN 50 — Māratajjanīya Sutta",
   "subtitle": "A Rebuke to Māra",
   "visual": "../companion.html?id=MN50",
-  "video": "../videos/MN50.mp4",
+  "video": "https://daonelson.github.io/FGMN-Media-01/videos/MN50.mp4",
   "original": "https://suttacentral.net/mn50/en/sujato",
   "audio": true,
   "dhammaTalks": true

@@ -333,15 +333,16 @@ index === 0
 
 box.appendChild(title);
 
-
-
 let info =
 document.createElement("p");
 
 
-info.textContent =
-"Source: " + reading.source +
-" | Translation: " + reading.translator;
+info.innerHTML =
+"Read by: " + reading.source +
+"<br>" +
+"Translator: " + reading.translator +
+"<br><br>" +
+"Copyright: Please refer to the Copyright section of the Preface for licensing information and attribution details.";
 
 
 box.appendChild(info);

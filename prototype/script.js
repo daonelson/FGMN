@@ -86,7 +86,7 @@ document.getElementById("audioReading");
 if(sutta.audio){
 
 audioReading.href =
-"../audio.html?id=" + sutta.id;
+"audio.html?id=" + sutta.id;
 
 }
 
@@ -105,7 +105,7 @@ document.getElementById("dhammaTalk");
 if(sutta.dhammaTalks){
 
 dhammaTalk.href =
-"../dhammatalk.html?id=" + sutta.id;
+"dhammatalk.html?id=" + sutta.id;
 
 }
 

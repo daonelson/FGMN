@@ -635,16 +635,15 @@
   ]
 },
 
-""MN050": {
-  "title": "MN 50 — Māratajjanīya Sutta",
-  "subtitle": "The Rebuke of Māra",
-  "audioReadings": [
-    {
-      "source": "Roland Kitchen",
-      "translator": "Bhikkhu Sujato",
-      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2355b040ec9a0a40027b2f/1545819636822/MN+50+The+rebuke+of+Mara.mp3"
-    }
-  ]
+"MN050": {
+"title": "MN 50 — Māratajjanīya Sutta",
+"subtitle": "The Rebuke of Māra",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2355b040ec9a0a40027b2f/1545819636822/MN+50+The+rebuke+of+Mara.mp3"
 }
+]
 }

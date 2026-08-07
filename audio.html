@@ -1,223 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>
-Audio Reading
-</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Audio Reading</title>
 
 <style>
 
-:root{
-
---ink:#f1d7a6;
---ink-soft:#c9a878;
---gold:#c6a15b;
---gold-dark:#9b783b;
-
-}
-
-*{
-
-margin:0;
-padding:0;
-box-sizing:border-box;
-
-}
-
 body{
-
-background:
-linear-gradient(
-180deg,
-#3b2a1d 0%,
-#24170f 100%
-);
-
-color:var(--ink);
-
-font-family:"EB Garamond",serif;
-
-line-height:1.75;
-
+font-family: "EB Garamond", serif;
+background:#111;
+color:#eee;
+padding:40px;
 }
 
-.container{
-
+.audio-box{
+max-width:700px;
 margin:auto;
-
-padding:50px 24px 80px;
-
-text-align:center;
-
 }
 
-.wheel{
-
-width:88px;
-
-margin-bottom:40px;
-
-opacity:.95;
-
-}
-
-.library-divider{
-
-width:170px;
-
-height:1px;
-
-background:var(--gold);
-
-margin:35px auto;
-
-}
-
-.page-title{
-
-font-size:2.4rem;
-
-font-weight:500;
-
-margin-bottom:10px;
-
-}
-
-.subtitle{
-
-font-size:1.5rem;
-
-color:var(--ink-soft);
-
-}
-
-.audio-info{
-
-font-size:1.15rem;
-
-color:var(--ink-soft);
-
-}
-
-.audio-player{
-
+audio{
 width:100%;
-
-max-width:800px;
-
-margin:20px auto;
-
-display:block;
-
-}
-
-.return-link{
-
-margin-top:40px;
-
-}
-
-.return-link a{
-
-text-decoration:none;
-
-color:var(--ink-soft);
-
-letter-spacing:.08em;
-
-font-size:1.25rem;
-
-}
-
-.return-link a:hover{
-
-color:var(--gold-dark);
-
-}
-
-@media(max-width:600px){
-
-.page-title{
-
-font-size:2rem;
-
-}
-
-.subtitle{
-
-font-size:1.25rem;
-
-}
-
-.audio-info{
-
-font-size:1rem;
-
-}
-
+margin-top:20px;
 }
 
 </style>
 
 </head>
 
-
 <body>
 
-<div class="container">
 
-<img
-src="dhammawheel.png"
-class="wheel"
-alt="Dhamma Wheel">
+<div class="audio-box">
 
+<h1 id="title">Loading...</h1>
 
-<div class="library-divider"></div>
+<h2 id="subtitle"></h2>
 
-
-<h1 class="page-title">
-
-Loading...
-
-</h1>
-
-
-<p class="subtitle">
-
-</p>
-
-
-<div class="library-divider"></div>
-
-
-<div id="talks">
-
-</div>
-
-
-<div class="library-divider"></div>
-
-
-<div class="return-link">
-
-<a id="return" href="prototype/viewer.html">
-
-Return
-
-</a>
-
-</div>
+<div id="player"></div>
 
 
 </div>
@@ -225,8 +44,10 @@ Return
 
 <script>
 
+
 const params =
 new URLSearchParams(window.location.search);
+
 
 const id =
 params.get("id");
@@ -234,150 +55,65 @@ params.get("id");
 
 fetch("data/audio.json")
 
-.then(response => response.json())
+.then(response=>response.json())
 
-.then(data => {
+.then(data=>{
 
 
-let sutta =
-data[id];
+const sutta=data[id];
 
 
 if(!sutta){
 
-document.querySelector(".page-title").textContent =
-"Audio Reading Not Found";
-
-document.querySelector(".subtitle").textContent =
-"";
+document.getElementById("title").textContent=
+"Audio not found";
 
 return;
 
 }
 
 
-document.querySelector(".page-title").textContent =
+document.getElementById("title").textContent=
 sutta.title;
 
 
-document.title =
-sutta.title;
-
-
-document.querySelector(".subtitle").textContent =
+document.getElementById("subtitle").textContent=
 sutta.subtitle;
 
 
-document.getElementById("return").href =
-"prototype/viewer.html?id=" + id;
+
+const reading =
+sutta.audioReadings[0];
 
 
-let container =
-document.getElementById("talks");
+document.getElementById("player").innerHTML =
+
+`
+
+<p>
+Source: ${reading.source}
+<br>
+Translation: ${reading.translator}
+</p>
 
 
+<audio controls>
 
-sutta.audioReadings.forEach((reading,index)=>{
+<source src="${reading.url}" type="audio/mpeg">
 
+Your browser does not support audio.
 
-let title =
-document.createElement("h2");
+</audio>
 
-
-title.className="subtitle";
-
-
-title.textContent =
-index === 0
-? "Audio Reading"
-: "Audio Reading " + (index + 1);
+`;
 
 
-container.appendChild(title);
+})
 
 
+.catch(error=>{
 
-let source =
-document.createElement("p");
-
-
-source.className="audio-info";
-
-
-source.textContent =
-"Read by: " + reading.source;
-
-
-container.appendChild(source);
-
-
-
-if(reading.translator){
-
-let translator =
-document.createElement("p");
-
-translator.className="audio-info";
-
-translator.textContent =
-"Translation: " + reading.translator;
-
-container.appendChild(translator);
-
-}
-
-
-
-let copyright =
-document.createElement("p");
-
-copyright.className="audio-info";
-
-copyright.textContent =
-"Copyright: Please refer to the Copyright section of the Preface for licensing information and attribution details.";
-
-container.appendChild(copyright);
-
-
-
-let audio =
-document.createElement("audio");
-
-
-audio.controls = true;
-
-
-audio.src =
-reading.url;
-
-
-audio.className =
-"audio-player";
-
-
-container.appendChild(audio);
-
-
-
-if(index < sutta.audioReadings.length - 1){
-
-
-let divider =
-document.createElement("div");
-
-
-divider.className =
-"library-divider";
-
-
-container.appendChild(divider);
-
-
-}
-
-
-});
-
+console.log(error);
 
 });
 

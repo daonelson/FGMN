@@ -1188,5 +1188,245 @@
 "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5db3f213d615063f708d088c/1572074174557/MN+100+With+Sangarava.mp3"
    }
   ]
+ },
+  
+  "MN101": {
+"title": "MN 101 — Devadaha Sutta",
+"subtitle": "At Devadaha",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Thanissaro Bhikkhu",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/60ec25f1854c1d3b34a73cdd/1626089081120/MN+101+At+Devadaha+%281%29.mp3"
+}
+]
+},
+
+"MN102": {
+"title": "MN 102 — Pañcattaya Sutta",
+"subtitle": "The Five and Three",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5dcfd27cb9f8cf5cdf606bec/1573901003620/MN+102a+The+five+and+three.mp3"
+}
+]
+},
+
+"MN103": {
+"title": "MN 103 — Kinti Sutta",
+"subtitle": "What Do You Think of Me?",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5eb1513a48591c0bd6b43c66/1588679087294/MN+103+Is+this+what+you+think+of+me.mp3"
+}
+]
+},
+
+"MN104": {
+"title": "MN 104 — Sāmagāma Sutta",
+"subtitle": "At Sāmagāma",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5dcfd3b94149017c673c0cb1/1573901348423/MN+104+At+Samagama.mp3"
+}
+]
+},
+
+"MN105": {
+"title": "MN 105 — Sunakkhatta Sutta",
+"subtitle": "With Sunakkhatta",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f4701ae6cf8fb9286a44/1545991337275/MN+105+With+Sunakkhatta.mp3"
+}
+]
+},
+
+"MN106": {
+"title": "MN 106 — Āneñjasappāya Sutta",
+"subtitle": "The Way to the Imperturbable",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5dcfd45d39d8ba0c2384ab53/1573901454884/MN+106+Conducive+to+the+imperturbable.mp3"
+}
+]
+},
+
+"MN107": {
+"title": "MN 107 — Gaṇakamoggallāna Sutta",
+"subtitle": "With Moggallāna the Accountant",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ddceb048ef405035ca90a29/1574759241562/MN+107+With+Moggallana+the+accountant.mp3"
+}
+]
+},
+
+"MN108": {
+"title": "MN 108 — Gopakamoggallāna Sutta",
+"subtitle": "With Gopaka Moggallāna",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5de24d425043fe7ceb210dcf/1579002624204/MN+108+With+Gopaka+Moggallana.mp3"
+}
+]
+},
+
+"MN109": {
+"title": "MN 109 — Mahāpuṇṇama Sutta",
+"subtitle": "The Greater Full-Moon Night Discourse",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5de24e9c5043fe7ceb21212b/1575112462759/MN+109+Moon+night.mp3"
+}
+]
+},
+
+"MN110": {
+"title": "MN 110 — Cūḷapuṇṇama Sutta",
+"subtitle": "The Shorter Full-Moon Night Discourse",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5de62955c10a1a142deee21e/1575365010010/MN+110+Shorter+discourse+on+the+full-moon+night.mp3"
+}
+]
+},
+  
+"MN111": {
+"title": "MN 111 — Anupada Sutta",
+"subtitle": "One by One",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e00367d4328177cde555141/1577072415773/MN+111+One+by+one.mp3"
+}
+]
+},
+
+"MN112": {
+"title": "MN 112 — Chabbisodhana Sutta",
+"subtitle": "The Sixfold Purification",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e00377f4c1de744ec91afd3/1577072789898/MN+112+The+sixfold+purification.mp3"
+}
+]
+},
+
+"MN113": {
+"title": "MN 113 — Sappurisa Sutta",
+"subtitle": "A True Person",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f4d7758d464030026362/1577072010062/MN+113+A+good+person%281%29.mp3"
+}
+]
+},
+
+"MN114": {
+"title": "MN 114 — Sevitabbāsevitabba Sutta",
+"subtitle": "What Should and Should Not Be Cultivated",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e1da50bc551b3461b578d32/1580036934505/MN+114+What+should+and+should+not+be+cultivated.mp3"
+}
+]
+},
+
+"MN115": {
+"title": "MN 115 — Bahudhātuka Sutta",
+"subtitle": "Many Elements",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e003c75a8e07744a1986cb3/1577073938446/MN+115+Many+elements.mp3"
+}
+]
+},
+
+"MN116": {
+"title": "MN 116 — Isigili Sutta",
+"subtitle": "At Isigili",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e0216957645b07c06109948/1577195461585/MN+116+At+Isigili.mp3"
+}
+]
+},
+
+"MN117": {
+"title": "MN 117 — Mahācattārīsaka Sutta",
+"subtitle": "The Great Forty",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e2d6e67f56f3a54b4cf28ce/1588189604330/MN+117+The+great+forty.mp3"
+}
+]
+},
+
+"MN118": {
+"title": "MN 118 — Ānāpānasati Sutta",
+"subtitle": "Mindfulness of Breathing",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e2d73fb8ae9853306eca178/1580642167109/MN+118+Mindfulness+of+breathing.mp3"
+}
+]
+},
+
+"MN119": {
+"title": "MN 119 — Kāyagatāsati Sutta",
+"subtitle": "Mindfulness of the Body",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "I. B. Horner",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e36a7768d7df649e7a55283/1582100814522/MN+119+Discourse+on+mindfulness+of+body.mp3"
+}
+]
+},
+
+"MN120": {
+"title": "MN 120 — Saṅkhārupapatti Sutta",
+"subtitle": "Rebirth by Choice",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e36b032216623779679928e/1580642512141/MN+120+Rebirth+by+choice.mp3"
+   }
+  ]
  }
 }

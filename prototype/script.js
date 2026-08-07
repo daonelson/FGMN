@@ -77,8 +77,7 @@ document.getElementById("original");
 original.href =
 "sutta.html?id=" + sutta.id;
 
-
-
+  
 const audioReading =
 document.getElementById("audioReading");
 
@@ -95,7 +94,6 @@ else{
 audioReading.style.display = "none";
 
 }
-
 
 
 const dhammaTalk =

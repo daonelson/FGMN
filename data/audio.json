@@ -577,6 +577,7 @@
     }
   ]
 },
+  
 "MN50": {
   "title": "MN 50 — Māratajjanīya Sutta",
   "subtitle": "The Rebuke of Māra",
@@ -589,6 +590,7 @@
      }
    ]
  },
+  
   "MN51": {
 "title": "MN 51 — Kandaraka Sutta",
 "subtitle": "Kandaraka",
@@ -706,6 +708,125 @@
 "translator": "Bhikkhu Bodhi",
 "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c1d83d9c2241bdf9278fe40/1550146902600/MN+60+The+incontrovertible+teaching.mp3"
     }
+  ]
+ },
+  "MN61": {
+"title": "MN 61 — Ambalaṭṭhikārāhulovāda Sutta",
+"subtitle": "Advice to Rāhula at Ambalaṭṭhika",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5cd2dee8a4222f6c9bb665ef/1557323632851/MN+61+Advice+to+Rahula+at+Amballattika.mp3"
+}
+]
+},
+
+"MN62": {
+"title": "MN 62 — Mahārāhulovāda Sutta",
+"subtitle": "The Longer Advice to Rāhula",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5cd2e01dee6eb0126a8fb84a/1560615286546/MN+62+The+longer+advice+to+Rahula.mp3"
+}
+]
+},
+
+"MN63": {
+"title": "MN 63 — Cūḷamāluṅkya Sutta",
+"subtitle": "The Shorter Discourse to Māluṅkyaputta",
+"audioReadings": [
+{
+"source": "Rupert Gethin",
+"translator": "Rupert Gethin",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5977739429687fa9649c0190/1501000667819/%5B6%5D+Cula+Malunkya+sutta+-+MP3.mp3"
+}
+]
+},
+
+"MN64": {
+"title": "MN 64 — Mahāmāluṅkya Sutta",
+"subtitle": "The Greater Discourse to Māluṅkyaputta",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5cd2e2749140b77e6249a4fb/1558458733934/MN+64+The+greater+discourse+to+Malunkyaputta.mp3"
+}
+]
+},
+
+"MN65": {
+"title": "MN 65 — Bhaddāli Sutta",
+"subtitle": "To Bhaddāli",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ce431f7e820c8000172db26/1558459018045/MN+65+To+Bhaddali.mp3"
+}
+]
+},
+
+"MN66": {
+"title": "MN 66 — Laṭukikopama Sutta",
+"subtitle": "The Simile of the Quail",
+"audioReadings": [
+{
+"source": "I. B. Horner",
+"translator": "I. B. Horner",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5cf36f61b72cdf0001b12511/1559457775209/MN+66+Discourse+on+the+simile+of+the+quail.mp3"
+}
+]
+},
+
+"MN67": {
+"title": "MN 67 — Cātumā Sutta",
+"subtitle": "At Cātumā",
+"audioReadings": [
+{
+"source": "I. B. Horner",
+"translator": "I. B. Horner",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5cf36ec2692cdd0001d8faae/1560779154161/MN+67+Discourse+at+Catuma.mp3"
+}
+]
+},
+
+"MN68": {
+"title": "MN 68 — Naḷakapāna Sutta",
+"subtitle": "At Naḷakapāna",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5d051a3dd83145000173ba0d/1560615565055/MN+68+At+Nalakapana.mp3"
+}
+]
+},
+
+"MN69": {
+"title": "MN 69 — Gulissāni Sutta",
+"subtitle": "Gulissāni",
+"audioReadings": [
+{
+"source": "I. B. Horner",
+"translator": "I. B. Horner",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5d0a781f2005830001c08d9c/1560975218825/MN+69+Discourse+on+Gulissani.mp3"
+}
+]
+},
+
+"MN70": {
+"title": "MN 70 — Kīṭāgiri Sutta",
+"subtitle": "At Kīṭāgiri",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ce246a8d2960000014f03b6/1558333190966/MN+70+At+Kitagiri.mp3"
+   }
   ]
  }
 }

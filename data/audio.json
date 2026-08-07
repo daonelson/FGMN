@@ -1,5 +1,5 @@
 {
-"MN001": {
+"MN1": {
   "title": "MN 1 — Mūlapariyāya Sutta",
   "subtitle": "The Discourse on the Root of All Things",
   "audioReadings": [
@@ -10,7 +10,7 @@
     }
   ]
 },
-"MN002": {
+"MN2": {
   "title": "MN 2 — Sabbāsava Sutta",
   "subtitle": "All the Taints",
   "audioReadings": [
@@ -21,7 +21,7 @@
     }
   ]
 },
-"MN003": {
+"MN3": {
   "title": "MN 3 — Dhammadāyāda Sutta",
   "subtitle": "Heirs in the Dhamma",
   "audioReadings": [
@@ -32,7 +32,7 @@
     }
   ]
 },
-"MN004": {
+"MN4": {
   "title": "MN 4 — Bhayabherava Sutta",
   "subtitle": "Fear and Dread",
   "audioReadings": [
@@ -43,7 +43,7 @@
     }
   ]
 },
-"MN005": {
+"MN5": {
   "title": "MN 5 — Anaṅgaṇa Sutta",
   "subtitle": "Without Blemishes",
   "audioReadings": [
@@ -54,7 +54,7 @@
     }
   ]
 },
-"MN006": {
+"MN6": {
   "title": "MN 6 — Ākaṅkheyya Sutta",
   "subtitle": "If a Bhikkhu Should Wish",
   "audioReadings": [
@@ -65,7 +65,7 @@
     }
   ]
 },
-"MN007": {
+"MN7": {
   "title": "MN 7 — Vatthūpama Sutta",
   "subtitle": "The Simile of the Cloth",
   "audioReadings": [
@@ -76,7 +76,7 @@
     }
   ]
 },
-"MN008": {
+"MN8": {
   "title": "MN 8 — Sallekha Sutta",
   "subtitle": "Effacement",
   "audioReadings": [
@@ -87,7 +87,7 @@
     }
   ]
 },
-"MN009": {
+"MN9": {
   "title": "MN 9 — Sammādiṭṭhi Sutta",
   "subtitle": "Right View",
   "audioReadings": [
@@ -98,7 +98,7 @@
     }
   ]
 },
-"MN010": {
+"MN10": {
   "title": "MN 10 — Satipaṭṭhāna Sutta",
   "subtitle": "The Foundations of Mindfulness",
   "audioReadings": [
@@ -109,7 +109,7 @@
     }
   ]
 },
-"MN011": {
+"MN11": {
   "title": "MN 11 — Cūḷasīhanāda Sutta",
   "subtitle": "The Shorter Discourse on the Lion's Roar",
   "audioReadings": [
@@ -121,7 +121,7 @@
     }
   ]
 },
-"MN012": {
+"MN12": {
   "title": "MN 12 — Mahāsīhanāda Sutta",
   "subtitle": "The Longer Discourse on the Lion's Roar",
   "audioReadings": [
@@ -133,7 +133,7 @@
     }
   ]
 },
-"MN013": {
+"MN13": {
   "title": "MN 13 — Mahādukkhakkhandha Sutta",
   "subtitle": "The Longer Discourse on the Mass of Suffering",
   "audioReadings": [
@@ -145,7 +145,7 @@
     }
   ]
 },
-"MN014": {
+"MN14": {
   "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
   "subtitle": "The Shorter Discourse on the Mass of Suffering",
   "audioReadings": [
@@ -157,7 +157,7 @@
     }
   ]
 },
-"MN015": {
+"MN15": {
   "title": "MN 15 — Anumāna Sutta",
   "subtitle": "Measuring Up",
   "audioReadings": [
@@ -169,7 +169,7 @@
     }
   ]
 },
-"MN016": {
+"MN16": {
   "title": "MN 16 — Cetokhila Sutta",
   "subtitle": "Emotional Barrenness",
   "audioReadings": [
@@ -181,7 +181,7 @@
     }
   ]
 },
-"MN017": {
+"MN17": {
   "title": "MN 17 — Vanapattha Sutta",
   "subtitle": "Jungle Thickets",
   "audioReadings": [
@@ -193,7 +193,7 @@
     }
   ]
 },
-"MN018": {
+"MN18": {
   "title": "MN 18 — Madhupiṇḍika Sutta",
   "subtitle": "The Honey Cake",
   "audioReadings": [
@@ -205,7 +205,7 @@
     }
   ]
 },
-"MN019": {
+"MN19": {
   "title": "MN 19 — Dvedhāvitakka Sutta",
   "subtitle": "Two Kinds of Thought",
   "audioReadings": [
@@ -217,7 +217,7 @@
     }
   ]
 },
-"MN020": {
+"MN20": {
   "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
   "subtitle": "The Removal of Distracting Thoughts",
   "audioReadings": [
@@ -229,7 +229,7 @@
     }
   ]
 },
-"MN021": {
+"MN21": {
   "title": "MN 21 — Kakacūpama Sutta",
   "subtitle": "The Simile of the Saw",
   "audioReadings": [
@@ -241,7 +241,7 @@
     }
   ]
 },
-"MN022": {
+"MN22": {
   "title": "MN 22 — Alagaddūpama Sutta",
   "subtitle": "The Simile of the Snake",
   "audioReadings": [
@@ -253,7 +253,7 @@
     }
   ]
 },
-"MN023": {
+"MN23": {
   "title": "MN 23 — Vammika Sutta",
   "subtitle": "The Anthill",
   "audioReadings": [
@@ -265,7 +265,7 @@
     }
   ]
 },
-"MN024": {
+"MN24": {
   "title": "MN 24 — Rathavinīta Sutta",
   "subtitle": "The Relay of Chariots",
   "audioReadings": [
@@ -277,7 +277,7 @@
     }
   ]
 },
-"MN025": {
+"MN25": {
   "title": "MN 25 — Nivāpa Sutta",
   "subtitle": "The Bait",
   "audioReadings": [
@@ -289,7 +289,7 @@
     }
   ]
 },
-"MN026": {
+"MN26": {
   "title": "MN 26 — Ariyapariyesanā Sutta",
   "subtitle": "The Noble Search",
   "audioReadings": [
@@ -301,7 +301,7 @@
     }
   ]
 },
-"MN027": {
+"MN27": {
   "title": "MN 27 — Cūḷahatthipadopama Sutta",
   "subtitle": "The Shorter Simile of the Elephant’s Footprint",
   "audioReadings": [
@@ -313,7 +313,7 @@
     }
   ]
 },
-"MN028": {
+"MN28": {
   "title": "MN 28 — Mahāhatthipadopama Sutta",
   "subtitle": "The Greater Simile of the Elephant’s Footprint",
   "audioReadings": [
@@ -325,7 +325,7 @@
     }
   ]
 },
-"MN029": {
+"MN29": {
   "title": "MN 29 — Mahāsāropama Sutta",
   "subtitle": "The Greater Simile of the Heartwood",
   "audioReadings": [
@@ -337,7 +337,7 @@
     }
   ]
 },
-"MN030": {
+"MN30": {
   "title": "MN 30 — Cūḷasāropama Sutta",
   "subtitle": "The Shorter Simile of the Heartwood",
   "audioReadings": [
@@ -349,7 +349,7 @@
     }
   ]
 },
-"MN031": {
+"MN31": {
   "title": "MN 31 — Cūḷagosiṅga Sutta",
   "subtitle": "The Shorter Discourse at Gosiṅga",
   "audioReadings": [
@@ -361,7 +361,7 @@
     }
   ]
 },
-"MN032": {
+"MN32": {
   "title": "MN 32 — Mahāgosiṅga Sutta",
   "subtitle": "The Longer Discourse at Gosiṅga",
   "audioReadings": [
@@ -373,7 +373,7 @@
     }
   ]
 },
-"MN033": {
+"MN33": {
   "title": "MN 33 — Mahāgopālaka Sutta",
   "subtitle": "The Longer Discourse on the Cowherd",
   "audioReadings": [
@@ -385,7 +385,7 @@
     }
   ]
 },
-"MN034": {
+"MN34": {
   "title": "MN 34 — Cūḷagopālaka Sutta",
   "subtitle": "The Shorter Discourse on the Cowherd",
   "audioReadings": [
@@ -397,7 +397,7 @@
     }
   ]
 },
-"MN035": {
+"MN35": {
   "title": "MN 35 — Cūḷasaccaka Sutta",
   "subtitle": "The Shorter Discourse with Saccaka",
   "audioReadings": [
@@ -409,7 +409,7 @@
     }
   ]
 },
-"MN036": {
+"MN36": {
   "title": "MN 36 — Mahāsaccaka Sutta",
   "subtitle": "The Longer Discourse with Saccaka",
   "audioReadings": [
@@ -421,7 +421,7 @@
     }
   ]
 },
-"MN037": {
+"MN37": {
   "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
   "subtitle": "The Shorter Discourse on the Destruction of Craving",
   "audioReadings": [
@@ -433,7 +433,7 @@
     }
   ]
 },
-"MN038": {
+"MN38": {
   "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
   "subtitle": "The Longer Discourse on the Destruction of Craving",
   "audioReadings": [
@@ -445,7 +445,7 @@
     }
   ]
 },
-"MN039": {
+"MN39": {
   "title": "MN 39 — Mahāassapura Sutta",
   "subtitle": "The Longer Discourse at Assapura",
   "audioReadings": [
@@ -457,7 +457,7 @@
     }
   ]
 },
-"MN040": {
+"MN40": {
   "title": "MN 40 — Cūḷaassapura Sutta",
   "subtitle": "The Shorter Discourse at Assapura",
   "audioReadings": [
@@ -468,7 +468,8 @@
       "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234cccf950b7fc7a9cbb41/1545817341924/MN+40+The+shorter+discourse+at+Assapura.mp3"
     }
   ]
-},"MN041": {
+},
+"MN41": {
   "title": "MN 41 — Sāleyyaka Sutta",
   "subtitle": "The Brahmins of Sālā",
   "audioReadings": [
@@ -480,7 +481,7 @@
     }
   ]
 },
-"MN042": {
+"MN42": {
   "title": "MN 42 — Verañjaka Sutta",
   "subtitle": "The Discourse to the People of Verañjā",
   "audioReadings": [
@@ -504,7 +505,7 @@
     }
   ]
 },
-"MN044": {
+"MN44": {
   "title": "MN 44 — Cūḷavedalla Sutta",
   "subtitle": "The Shorter Series of Questions and Answers",
   "audioReadings": [
@@ -516,7 +517,7 @@
     }
   ]
 },
-"MN045": {
+"MN45": {
   "title": "MN 45 — Cūḷadhammasamādāna Sutta",
   "subtitle": "The Shorter Discourse on Taking Up Practices",
   "audioReadings": [
@@ -528,7 +529,7 @@
     }
   ]
 },
-"MN046": {
+"MN46": {
   "title": "MN 46 — Mahādhammasamādāna Sutta",
   "subtitle": "The Greater Discourse on Taking Up Practices",
   "audioReadings": [
@@ -540,7 +541,7 @@
     }
   ]
 },
-"MN047": {
+"MN47": {
   "title": "MN 47 — Vīmaṁsaka Sutta",
   "subtitle": "The Inquirer",
   "audioReadings": [
@@ -552,7 +553,7 @@
     }
   ]
 },
-"MN048": {
+"MN48": {
   "title": "MN 48 — Kosambiya Sutta",
   "subtitle": "The Mendicants of Kosambi",
   "audioReadings": [
@@ -564,7 +565,7 @@
     }
   ]
 },
-"MN049": {
+"MN49": {
   "title": "MN 49 — Brahmanimantanika Sutta",
   "subtitle": "The Invitation of Brahmā",
   "audioReadings": [
@@ -576,7 +577,7 @@
     }
   ]
 },
-"MN050": {
+"MN50": {
   "title": "MN 50 — Māratajjanīya Sutta",
   "subtitle": "The Rebuke of Māra",
   "audioReadings": [

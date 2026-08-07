@@ -74,7 +74,27 @@ const original =
 document.getElementById("original");
 
 
-original.href = "sutta.html?id=" + sutta.id;
+original.href =
+"sutta.html?id=" + sutta.id;
+
+
+
+const audioReading =
+document.getElementById("audioReading");
+
+
+if(sutta.audio){
+
+audioReading.href =
+"../audio.html?id=" + sutta.id;
+
+}
+
+else{
+
+audioReading.style.display = "none";
+
+}
 
 
 

@@ -381,7 +381,7 @@
       "source": "Roland Kitchen",
       "translator": "Bhikkhu Sujato",
       "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-      "url": "https://daonelson.github.io/FGMN-Media-02/audio/MN033.mp3"
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2346cc88251bcddc3d947b/1545815832890/MN+33+The+longer+discourse+on+the+cowherd.mp3"
     }
   ]
 },
@@ -393,7 +393,7 @@
       "source": "Roland Kitchen",
       "translator": "Bhikkhu Sujato",
       "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-      "url": "https://daonelson.github.io/FGMN-Media-02/audio/MN034.mp3"
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5d06a4803a73260001403a3f/1545815923815/MN+34+The+shorter+discourse+on+the+cowherd.mp3"
     }
   ]
 },
@@ -588,5 +588,124 @@
       "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2355b040ec9a0a40027b2f/1545819636822/MN+50+The+rebuke+of+Mara.mp3"
      }
    ]
+ },
+  "MN51": {
+"title": "MN 51 — Kandaraka Sutta",
+"subtitle": "Kandaraka",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5fafe74c54d7bd32ba06759c/1605363725412/MN+51+With+Kandaraka%281%29.mp3"
+}
+]
+},
+
+"MN52": {
+"title": "MN 52 — Aṭṭhakanāgara Sutta",
+"subtitle": "The Man from Aṭṭhakanāgara",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5bdde3ba4ae2373920df4658/1542438807870/MN+52+The+man+from+Atthakanagara%281%29.mp3"
+}
+]
+},
+
+"MN53": {
+"title": "MN 53 — Sekha Sutta",
+"subtitle": "The Trainee",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25ef724fa51ab6a286d5ec/1545990043304/MN+53+A+trainee%281%29.mp3"
+}
+]
+},
+
+"MN54": {
+"title": "MN 54 — Potaliya Sutta",
+"subtitle": "To Potaliya",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25efcc21c67cd709b83087/1545990155513/MN+54+With+Potaliya+the+wanderer%281%29.mp3"
+}
+]
+},
+
+"MN55": {
+"title": "MN 55 — Jīvaka Sutta",
+"subtitle": "To Jīvaka",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f051b8a045349b60ca8a/1545990253373/MN+55+With+Jivaka%281%29.mp3"
+}
+]
+},
+
+"MN56": {
+"title": "MN 56 — Upāli Sutta",
+"subtitle": "To Upāli",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f0f54ae237637f8676f7/1545990483121/MN+56+With+Upali%281%29.mp3"
+}
+]
+},
+
+"MN57": {
+"title": "MN 57 — Kukkuravatika Sutta",
+"subtitle": "The Dog-Duty Ascetic",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f1a088251b3b0c3a89bd/1545990592087/MN+57+The+ascetic+who+behaved+like+a+dog%281%29.mp3"
+}
+]
+},
+
+"MN58": {
+"title": "MN 58 — Abhayarājakumāra Sutta",
+"subtitle": "Prince Abhaya",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f20f03ce647e50783da8/1545990691211/MN+58+With+Prince+Abhaya%281%29.mp3"
+}
+]
+},
+
+"MN59": {
+"title": "MN 59 — Bahuvedanīya Sutta",
+"subtitle": "The Many Kinds of Feeling",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Sujato",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f274f950b73faffcf41e/1550872312495/MN+59+The+many+kinds+of+feeling%281%29.mp3"
+}
+]
+},
+
+"MN60": {
+"title": "MN 60 — Apaṇṇaka Sutta",
+"subtitle": "The Incontrovertible Teaching",
+"audioReadings": [
+{
+"source": "Roland Kitchen",
+"translator": "Bhikkhu Bodhi",
+"url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c1d83d9c2241bdf9278fe40/1550146902600/MN+60+The+incontrovertible+teaching.mp3"
+    }
+  ]
  }
 }

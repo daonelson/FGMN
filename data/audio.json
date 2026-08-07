@@ -1,3 +1,4 @@
+{
 "MN001": {
   "title": "MN 1 — Mūlapariyāya Sutta",
   "subtitle": "The Discourse on the Root of All Things",
@@ -17,17 +18,6 @@
       "source": "Roland Kitchen",
       "translator": "Bhikkhu Bodhi",
       "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f1041a803bb5b7c766a96/1504721595966/%5B40%5D+All+the+taints+-+MP3+normalised.mp3"
-    }
-  ]
-},
-"MN003": {
-  "title": "MN 3 — Dhammadāyāda Sutta",
-  "subtitle": "Heirs in the Dhamma",
-  "audioReadings": [
-    {
-      "source": "Roland Kitchen",
-      "translator": "Bhikkhu Sujato",
-      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22928e4fa51a4c8984687d/1545769697867/MN+3+Heirs+in+the+teaching.mp3"
     }
   ]
 },

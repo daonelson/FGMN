@@ -1,126 +1,58 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Audio Reading</title>
-
-<style>
-
-body{
-font-family: "EB Garamond", serif;
-background:#111;
-color:#eee;
-padding:40px;
-}
-
-.audio-box{
-max-width:700px;
-margin:auto;
-}
-
-audio{
-width:100%;
-margin-top:20px;
-}
-
-</style>
-
-</head>
-
-<body>
-
-
-<div class="audio-box">
-
-<h1 id="title">Loading...</h1>
-
-<h2 id="subtitle"></h2>
-
-<div id="player"></div>
-
-
-</div>
-
-
 <script>
 
+const params = new URLSearchParams(window.location.search);
 
-const params =
-new URLSearchParams(window.location.search);
+const id = params.get("id");
 
+alert(id);
 
-const id =
-params.get("id");
+fetch("data/audio.json")
 
+.then(response => response.json())
 
-fetch("FGMN/data/audio.json")
+.then(data => {
 
-.then(response=>response.json())
-
-.then(data=>{
-
-
-const sutta=data[id];
-
+const sutta = data[id];
 
 if(!sutta){
 
-document.getElementById("title").textContent=
+document.getElementById("title").textContent =
 "Audio not found";
 
 return;
 
 }
 
-
-document.getElementById("title").textContent=
+document.getElementById("title").textContent =
 sutta.title;
 
-
-document.getElementById("subtitle").textContent=
+document.getElementById("subtitle").textContent =
 sutta.subtitle;
 
+const reading = sutta.audioReadings[0];
 
-
-const reading =
-sutta.audioReadings[0];
-
-
-document.getElementById("player").innerHTML =
-
-`
+document.getElementById("player").innerHTML = `
 
 <p>
-Source: ${reading.source}
-<br>
+Source: ${reading.source}<br>
 Translation: ${reading.translator}
 </p>
 
-
 <audio controls>
-
 <source src="${reading.url}" type="audio/mpeg">
-
 Your browser does not support audio.
-
 </audio>
 
 `;
 
-
 })
 
-
-.catch(error=>{
+.catch(error => {
 
 console.log(error);
 
+alert(error);
+
 });
 
-
 </script>
-
-
-</body>
-
-</html>

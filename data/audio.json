@@ -1,421 +1,420 @@
-{
-  "MN1": {
-    "title": "MN 1 — Mūlapariyāya Sutta",
-    "subtitle": "The Discourse on the Root of All Things",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e0430085229dccc36e1ea/1558332876675/%5B45%5D+Mulapariyaya+sutta+-+the+root+of+all+things+-+MP3.mp3"
-      }
-    ]
-  },
-  
-  "MN2": {
-    "title": "MN 2 — Sabbāsava Sutta",
-    "subtitle": "All the Taints",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f1041a803bb5b7c766a96/1504721595966/%5B40%5D+All+the+taints+-+MP3+normalised.mp3"
-      }
-    ]
-  },
+"MN001": {
+  "title": "MN 1 — Mūlapariyāya Sutta",
+  "subtitle": "The Discourse on the Root of All Things",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e0430085229dccc36e1ea/1558332876675/%5B45%5D+Mulapariyaya+sutta+-+the+root+of+all+things+-+MP3.mp3"
+    }
+  ]
+},
 
-    "MN3": {
-    "title": "MN 3 — Dhammadāyāda Sutta",
-    "subtitle": "Heirs in the Dhamma",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22928e4fa51a4c8984687d/1545769697867/MN+3+Heirs+in+the+teaching.mp3"
-      }
-    ]
-  },
+"MN002": {
+  "title": "MN 2 — Sabbāsava Sutta",
+  "subtitle": "All the Taints",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f1041a803bb5b7c766a96/1504721595966/%5B40%5D+All+the+taints+-+MP3+normalised.mp3"
+    }
+  ]
+},
 
-  "MN4": {
-    "title": "MN 4 — Bhayabherava Sutta",
-    "subtitle": "Fear and Dread",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f25dd3e00bea41cfbfdb0/1502553709526/%5B37%5D+Fear+and+dread+-+MP3.mp3"
-      }
-    ]
-  },
+"MN003": {
+  "title": "MN 3 — Dhammadāyāda Sutta",
+  "subtitle": "Heirs in the Dhamma",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22928e4fa51a4c8984687d/1545769697867/MN+3+Heirs+in+the+teaching.mp3"
+    }
+  ]
+},
 
-  "MN5": {
-    "title": "MN 5 — Anaṅgaṇa Sutta",
-    "subtitle": "Without Blemishes",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22935a6d2a7362341e90f2/1545769929766/MN+5+Unblemished.mp3"
-      }
-    ]
-  },
+"MN004": {
+  "title": "MN 4 — Bhayabherava Sutta",
+  "subtitle": "Fear and Dread",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f25dd3e00bea41cfbfdb0/1502553709526/%5B37%5D+Fear+and+dread+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN6": {
-    "title": "MN 6 — Ākaṅkheyya Sutta",
-    "subtitle": "If a Bhikkhu Should Wish",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e05ede2c483f5ad79bc12/1511917102190/%5B41%5D+If+a+bhikku+should+wish+-+MP3.mp3"
-      }
-    ]
-  },
+"MN005": {
+  "title": "MN 5 — Anaṅgaṇa Sutta",
+  "subtitle": "Without Blemishes",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22935a6d2a7362341e90f2/1545769929766/MN+5+Unblemished.mp3"
+    }
+  ]
+},
 
-  "MN7": {
-    "title": "MN 7 — Vatthūpama Sutta",
-    "subtitle": "The Simile of the Cloth",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2293e56d2a7362341e951b/1545770025558/MN+7+The+simile+of+the+cloth.mp3"
-      }
-    ]
-  },
+"MN006": {
+  "title": "MN 6 — Ākaṅkheyya Sutta",
+  "subtitle": "If a Bhikkhu Should Wish",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e05ede2c483f5ad79bc12/1511917102190/%5B41%5D+If+a+bhikku+should+wish+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN8": {
-    "title": "MN 8 — Sallekha Sutta",
-    "subtitle": "Effacement",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2294456d2a7362341e980f/1545770220709/MN+8+Self-effacement.mp3"
-      }
-    ]
-  },
+"MN007": {
+  "title": "MN 7 — Vatthūpama Sutta",
+  "subtitle": "The Simile of the Cloth",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2293e56d2a7362341e951b/1545770025558/MN+7+The+simile+of+the+cloth.mp3"
+    }
+  ]
+},
 
-  "MN9": {
-    "title": "MN 9 — Sammādiṭṭhi Sutta",
-    "subtitle": "Right View",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/59776fb61b631b76e5211550/1500999851797/%5B35%5D+Right+view+-+MP3.mp3"
-      }
-    ]
-  },
+"MN008": {
+  "title": "MN 8 — Sallekha Sutta",
+  "subtitle": "Effacement",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2294456d2a7362341e980f/1545770220709/MN+8+Self-effacement.mp3"
+    }
+  ]
+},
 
-  "MN10": {
-    "title": "MN 10 — Satipaṭṭhāna Sutta",
-    "subtitle": "The Foundations of Mindfulness",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Rupert Gethin",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e06aaf9619afa6ad20cf6/1511917423810/%5B2%5D+Satipatthana+sutta+-+MP3.mp3"
-      }
-    ]
-  },
-  
-    "MN11": {
-    "title": "MN 11 — Cūḷasīhanāda Sutta",
-    "subtitle": "The Shorter Discourse on the Lion's Roar",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22957c70a6ad50aab37208/1545770423849/MN+11+The+shorter+discourse+on+the+lion%27s+roar.mp3"
-      }
-    ]
-  },
+"MN009": {
+  "title": "MN 9 — Sammādiṭṭhi Sutta",
+  "subtitle": "Right View",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/59776fb61b631b76e5211550/1500999851797/%5B35%5D+Right+view+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN12": {
-    "title": "MN 12 — Mahāsīhanāda Sutta",
-    "subtitle": "The Longer Discourse on the Lion's Roar",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2297112b6a283c72a2e59e/1545771009872/MN+12+The+longer+discourse+on+the+lion%27s+roar.mp3"
-      }
-    ]
-  },
+"MN010": {
+  "title": "MN 10 — Satipaṭṭhāna Sutta",
+  "subtitle": "The Foundations of Mindfulness",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Rupert Gethin",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5a1e06aaf9619afa6ad20cf6/1511917423810/%5B2%5D+Satipatthana+sutta+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN13": {
-    "title": "MN 13 — Mahādukkhakkhandha Sutta",
-    "subtitle": "The Longer Discourse on the Mass of Suffering",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22982203ce64161cf43618/1545771155010/MN+13+The+longer+discourse+on+the+mass+of+suffering.mp3"
-      }
-    ]
-  },
+"MN011": {
+  "title": "MN 11 — Cūḷasīhanāda Sutta",
+  "subtitle": "The Shorter Discourse on the Lion's Roar",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22957c70a6ad50aab37208/1545770423849/MN+11+The+shorter+discourse+on+the+lion%27s+roar.mp3"
+    }
+  ]
+},
 
-  "MN14": {
-    "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
-    "subtitle": "The Shorter Discourse on the Mass of Suffering",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22990bb8a045b33dd96e0e/1545771364572/MN+14+The+shorter+discourse+on+the+mass+of+suffering.mp3"
-      }
-    ]
-  },
+"MN012": {
+  "title": "MN 12 — Mahāsīhanāda Sutta",
+  "subtitle": "The Longer Discourse on the Lion's Roar",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2297112b6a283c72a2e59e/1545771009872/MN+12+The+longer+discourse+on+the+lion%27s+roar.mp3"
+    }
+  ]
+},
 
-  "MN15": {
-    "title": "MN 15 — Anumāna Sutta",
-    "subtitle": "Measuring Up",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2299d4cd8366c2078d5b16/1545771574710/MN+15+Measuring+up.mp3"
-      }
-    ]
-  },
+"MN013": {
+  "title": "MN 13 — Mahādukkhakkhandha Sutta",
+  "subtitle": "The Longer Discourse on the Mass of Suffering",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22982203ce64161cf43618/1545771155010/MN+13+The+longer+discourse+on+the+mass+of+suffering.mp3"
+    }
+  ]
+},
 
-  "MN16": {
-    "title": "MN 16 — Cetokhila Sutta",
-    "subtitle": "Emotional Barrenness",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229a638985837cb691ce15/1545771664854/MN+16+Emotional+barrenness.mp3"
-      }
-    ]
-  },
+"MN014": {
+  "title": "MN 14 — Cūḷadukkhakkhandha Sutta",
+  "subtitle": "The Shorter Discourse on the Mass of Suffering",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22990bb8a045b33dd96e0e/1545771364572/MN+14+The+shorter+discourse+on+the+mass+of+suffering.mp3"
+    }
+  ]
+},
 
-  "MN17": {
-    "title": "MN 17 — Vanapattha Sutta",
-    "subtitle": "Jungle Thickets",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229ace4fa51a4c8984a8b8/1545771770682/MN+17+Jungle+thickets.mp3"
-      }
-    ]
-  },
+"MN015": {
+  "title": "MN 15 — Anumāna Sutta",
+  "subtitle": "Measuring Up",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2299d4cd8366c2078d5b16/1545771574710/MN+15+Measuring+up.mp3"
+    }
+  ]
+},
 
-  "MN18": {
-    "title": "MN 18 — Madhupiṇḍika Sutta",
-    "subtitle": "The Honey Cake",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "I. B. Horner",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/609136b9f204ab4594a8825d/1620129628885/MN+18+Discourse+of+the+honey+ball%281%29.mp3"
-      }
-    ]
-  },
+"MN016": {
+  "title": "MN 16 — Cetokhila Sutta",
+  "subtitle": "Emotional Barrenness",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229a638985837cb691ce15/1545771664854/MN+16+Emotional+barrenness.mp3"
+    }
+  ]
+},
 
-  "MN19": {
-    "title": "MN 19 — Dvedhāvitakka Sutta",
-    "subtitle": "Two Kinds of Thought",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Bodhi",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f269fbe42d6a1672fd8d6/1502553870721/%5B38%5D+Two+kinds+of+thought+-+MP3.mp3"
-      }
-    ]
-  },
+"MN017": {
+  "title": "MN 17 — Vanapattha Sutta",
+  "subtitle": "Jungle Thickets",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229ace4fa51a4c8984a8b8/1545771770682/MN+17+Jungle+thickets.mp3"
+    }
+  ]
+},
 
-  "MN20": {
-    "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
-    "subtitle": "The Removal of Distracting Thoughts",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Rupert Gethin",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b6b256d352f538518a3a100/1533748651536/MN+20+Vitakkasanthana+sutta.mp3"
-      }
-    ]
-  },
-  
-    "MN21": {
-    "title": "MN 21 — Kakacūpama Sutta",
-    "subtitle": "The Simile of the Saw",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229b65032be478967ea150/1545772021948/MN+21+The+simile+of+the+saw.mp3"
-      }
-    ]
-  },
+"MN018": {
+  "title": "MN 18 — Madhupiṇḍika Sutta",
+  "subtitle": "The Honey Cake",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/609136b9f204ab4594a8825d/1620129628885/MN+18+Discourse+of+the+honey+ball%281%29.mp3"
+    }
+  ]
+},
 
-  "MN22": {
-    "title": "MN 22 — Alagaddūpama Sutta",
-    "subtitle": "The Simile of the Snake",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Rupert Gethin",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/597772629f7456c8f360d07d/1526547742808/%5B4%5D+Alagaddupama+sutta+-+MP3.mp3"
-      }
-    ]
-  },
+"MN019": {
+  "title": "MN 19 — Dvedhāvitakka Sutta",
+  "subtitle": "Two Kinds of Thought",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/598f269fbe42d6a1672fd8d6/1502553870721/%5B38%5D+Two+kinds+of+thought+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN23": {
-    "title": "MN 23 — Vammika Sutta",
-    "subtitle": "The Anthill",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c14352f53dd5f81dea9/1545772097564/MN+23+The+Anthill.mp3"
-      }
-    ]
-  },
+"MN020": {
+  "title": "MN 20 — Vitakkasaṇṭhāna Sutta",
+  "subtitle": "The Removal of Distracting Thoughts",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Rupert Gethin",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b6b256d352f538518a3a100/1533748651536/MN+20+Vitakkasanthana+sutta.mp3"
+    }
+  ]
+},
 
-  "MN24": {
-    "title": "MN 24 — Rathavinīta Sutta",
-    "subtitle": "The Relay of Chariots",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "I. B. Horner",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b752b49c2241bdac555d423/1558459325731/MN+24+Discourse+on+the+relays+of+chariots.mp3"
-      }
-    ]
-  },
+"MN021": {
+  "title": "MN 21 — Kakacūpama Sutta",
+  "subtitle": "The Simile of the Saw",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229b65032be478967ea150/1545772021948/MN+21+The+simile+of+the+saw.mp3"
+    }
+  ]
+},
 
-  "MN25": {
-    "title": "MN 25 — Nivāpa Sutta",
-    "subtitle": "The Bait",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c8b8a922d984e2a4b8f/1545772256241/MN+25+Fodder.mp3"
-      }
-    ]
-  },
+"MN022": {
+  "title": "MN 22 — Alagaddūpama Sutta",
+  "subtitle": "The Simile of the Snake",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Rupert Gethin",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/597772629f7456c8f360d07d/1526547742808/%5B4%5D+Alagaddupama+sutta+-+MP3.mp3"
+    }
+  ]
+},
 
-  "MN26": {
-    "title": "MN 26 — Ariyapariyesanā Sutta",
-    "subtitle": "The Noble Search",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229d4bb8a045b33dd992bc/1545772567663/MN+26+The+Noble+search.mp3"
-      }
-    ]
-  },
+"MN023": {
+  "title": "MN 23 — Vammika Sutta",
+  "subtitle": "The Anthill",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c14352f53dd5f81dea9/1545772097564/MN+23+The+Anthill.mp3"
+    }
+  ]
+},
 
-  "MN27": {
-    "title": "MN 27 — Cūḷahatthipadopama Sutta",
-    "subtitle": "The Shorter Simile of the Elephant’s Footprint",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5fafe68b54d7bd32ba0663cb/1605363475995/MN+27+The+shorter+simile+of+the+elephant_s+footprint%281%29.mp3"
-      }
-    ]
-  },
+"MN024": {
+  "title": "MN 24 — Rathavinīta Sutta",
+  "subtitle": "The Relay of Chariots",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5b752b49c2241bdac555d423/1558459325731/MN+24+Discourse+on+the+relays+of+chariots.mp3"
+    }
+  ]
+},
 
-  "MN28": {
-    "title": "MN 28 — Mahāhatthipadopama Sutta",
-    "subtitle": "The Greater Simile of the Elephant’s Footprint",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22a1eb8a922d984e2a76c4/1545773641618/MN+28+The+longer+simile+of+the+elephant%27s+footprint.mp3"
-      }
-    ]
-  },
+"MN025": {
+  "title": "MN 25 — Nivāpa Sutta",
+  "subtitle": "The Bait",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229c8b8a922d984e2a4b8f/1545772256241/MN+25+Fodder.mp3"
+    }
+  ]
+},
 
-  "MN29": {
-    "title": "MN 29 — Mahāsāropama Sutta",
-    "subtitle": "The Greater Simile of the Heartwood",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ad3c032be478967f2b58/1545776507139/MN+29+The+longer+simile+of+the+heartwood.mp3"
-      }
-    ]
-  },
+"MN026": {
+  "title": "MN 26 — Ariyapariyesanā Sutta",
+  "subtitle": "The Noble Search",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c229d4bb8a045b33dd992bc/1545772567663/MN+26+The+Noble+search.mp3"
+    }
+  ]
+},
 
-  "MN30": {
-    "title": "MN 30 — Cūḷasāropama Sutta",
-    "subtitle": "The Shorter Simile of the Heartwood",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ae150ebbe88acf2fbda5/1545776751976/MN+30+The+shorter+simile+of+the+heartwood.mp3"
-      }
-    ]
-  },
+"MN027": {
+  "title": "MN 27 — Cūḷahatthipadopama Sutta",
+  "subtitle": "The Shorter Simile of the Elephant’s Footprint",
+  audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5fafe68b54d7bd32ba0663cb/1605363475995/MN+27+The+shorter+simile+of+the+elephant_s+footprint%281%29.mp3"
+    }
+  ]
+},
 
-    "MN31": {
-    "title": "MN 31 — Cūḷagosiṅga Sutta",
-    "subtitle": "The Shorter Discourse at Gosiṅga",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22b2888a922d984e2af326/1545777860792/MN+31+The+shorter+discourse+at+Gosingha.mp3"
-      }
-    ]
-  },
+"MN028": {
+  "title": "MN 28 — Mahāhatthipadopama Sutta",
+  "subtitle": "The Greater Simile of the Elephant’s Footprint",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22a1eb8a922d984e2a76c4/1545773641618/MN+28+The+longer+simile+of+the+elephant%27s+footprint.mp3"
+    }
+  ]
+},
 
-  "MN32": {
-    "title": "MN 32 — Mahāgosiṅga Sutta",
-    "subtitle": "The Longer Discourse at Gosiṅga",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234665032be47896831148/1545815720884/MN+32+The+longer+discourse+at+Gosingha.mp3"
-      }
-    ]
-  },
+"MN029": {
+  "title": "MN 29 — Mahāsāropama Sutta",
+  "subtitle": "The Greater Simile of the Heartwood",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ad3c032be478967f2b58/1545776507139/MN+29+The+longer+simile+of+the+heartwood.mp3"
+    }
+  ]
+},
 
-"MN33": {
+"MN030": {
+  "title": "MN 30 — Cūḷasāropama Sutta",
+  "subtitle": "The Shorter Simile of the Heartwood",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22ae150ebbe88acf2fbda5/1545776751976/MN+30+The+shorter+simile+of+the+heartwood.mp3"
+    }
+  ]
+},
+
+"MN031": {
+  "title": "MN 31 — Cūḷagosiṅga Sutta",
+  "subtitle": "The Shorter Discourse at Gosiṅga",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c22b2888a922d984e2af326/1545777860792/MN+31+The+shorter+discourse+at+Gosingha.mp3"
+    }
+  ]
+},
+
+"MN032": {
+  "title": "MN 32 — Mahāgosiṅga Sutta",
+  "subtitle": "The Longer Discourse at Gosiṅga",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234665032be47896831148/1545815720884/MN+32+The+longer+discourse+at+Gosingha.mp3"
+    }
+  ]
+},
+
+"MN033": {
   "title": "MN 33 — Mahāgopālaka Sutta",
   "subtitle": "The Longer Discourse on the Cowherd",
   "audioReadings": [
@@ -428,7 +427,7 @@
   ]
 },
 
-"MN34": {
+"MN034": {
   "title": "MN 34 — Cūḷagopālaka Sutta",
   "subtitle": "The Shorter Discourse on the Cowherd",
   "audioReadings": [
@@ -440,85 +439,84 @@
     }
   ]
 },
-  
-  "MN35": {
-    "title": "MN 35 — Cūḷasaccaka Sutta",
-    "subtitle": "The Shorter Discourse with Saccaka",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234806cd8366c20791c38b/1545816232097/MN+35+The+shorter+discourse+with+Saccaka.mp3"
-      }
-    ]
-  },
 
-  "MN36": {
-    "title": "MN 36 — Mahāsaccaka Sutta",
-    "subtitle": "The Longer Discourse with Saccaka",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2349024fa51a4c8988f7e0/1545816559438/MN+36+The+longer+discourse+with+Saccaka.mp3"
-      }
-    ]
-  },
+"MN035": {
+  "title": "MN 35 — Cūḷasaccaka Sutta",
+  "subtitle": "The Shorter Discourse with Saccaka",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234806cd8366c20791c38b/1545816232097/MN+35+The+shorter+discourse+with+Saccaka.mp3"
+    }
+  ]
+},
 
-  "MN37": {
-    "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
-    "subtitle": "The Shorter Discourse on the Destruction of Craving",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a0e758d46f466260c30/1545816651201/MN+37+The+shorter+discourse+on+the+ending+of+craving.mp3"
-      }
-    ]
-  },
+"MN036": {
+  "title": "MN 36 — Mahāsaccaka Sutta",
+  "subtitle": "The Longer Discourse with Saccaka",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c2349024fa51a4c8988f7e0/1545816559438/MN+36+The+longer+discourse+with+Saccaka.mp3"
+    }
+  ]
+},
 
-  "MN38": {
-    "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
-    "subtitle": "The Longer Discourse on the Destruction of Craving",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a68032be4789683234b/1545816949716/MN+38+The+longer+discourse+on+the+ending+of+craving.mp3"
-      }
-    ]
-  },
+"MN037": {
+  "title": "MN 37 — Cūḷataṇhāsaṅkhaya Sutta",
+  "subtitle": "The Shorter Discourse on the Destruction of Craving",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a0e758d46f466260c30/1545816651201/MN+37+The+shorter+discourse+on+the+ending+of+craving.mp3"
+    }
+  ]
+},
 
-  "MN39": {
-    "title": "MN 39 — Mahāassapura Sutta",
-    "subtitle": "The Longer Discourse at Assapura",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234b9bf950b7fc7a9cb60b/1545817133841/MN+39+The+longer+discourse+at+Assapura.mp3"
-      }
-    ]
-  },
+"MN038": {
+  "title": "MN 38 — Mahātaṇhāsaṅkhaya Sutta",
+  "subtitle": "The Longer Discourse on the Destruction of Craving",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234a68032be4789683234b/1545816949716/MN+38+The+longer+discourse+on+the+ending+of+craving.mp3"
+    }
+  ]
+},
 
-  "MN40": {
-    "title": "MN 40 — Cūḷaassapura Sutta",
-    "subtitle": "The Shorter Discourse at Assapura",
-    "audioReadings": [
-      {
-        "source": "Roland Kitchen",
-        "translator": "Bhikkhu Sujato",
-        "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
-        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234cccf950b7fc7a9cbb41/1545817341924/MN+40+The+shorter+discourse+at+Assapura.mp3"
-      }
-    ]
-  }
-  },
+"MN039": {
+  "title": "MN 39 — Mahāassapura Sutta",
+  "subtitle": "The Longer Discourse at Assapura",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234b9bf950b7fc7a9cb60b/1545817133841/MN+39+The+longer+discourse+at+Assapura.mp3"
+    }
+  ]
+},
+
+"MN040": {
+  "title": "MN 40 — Cūḷaassapura Sutta",
+  "subtitle": "The Shorter Discourse at Assapura",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "copyright": "Please refer to the Copyright section of the Preface for licensing information and attribution details.",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c234cccf950b7fc7a9cbb41/1545817341924/MN+40+The+shorter+discourse+at+Assapura.mp3"
+    }
+  ]
+},
 
 "MN041": {
   "title": "MN 41 — Sāleyyaka Sutta",
@@ -637,7 +635,7 @@
   ]
 },
 
-"MN050": {
+""MN050": {
   "title": "MN 50 — Māratajjanīya Sutta",
   "subtitle": "The Rebuke of Māra",
   "audioReadings": [

@@ -103,7 +103,7 @@ document.getElementById("dhammaTalk");
 if(sutta.dhammaTalks){
 
 dhammaTalk.href =
-"../data/dhammatalk.html?id=" + sutta.id;
+"../dhammatalk.html?id=" + sutta.id;
 
 }
 

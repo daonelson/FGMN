@@ -2904,7 +2904,8 @@
 "19.webp",
 "20.webp",
 "21.webp",
-"22.webp"
+"22.webp",
+"23.webp"
 ]
 },
   
@@ -2958,6 +2959,129 @@
 "20.webp",
 "21.webp",
 "22.webp"
+]
+},
+  
+  "MN121": {
+  "title": "MN 121 — Cūḷasuññata Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-03/visual-companions/MN121/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp",
+    "20.webp"
+  ]
+},
+  
+"MN122": {
+  "title": "MN 122 — Mahāsuññata Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-03/visual-companions/MN122/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp"
+  ]
+},
+  
+"MN123": {
+  "title": "MN 123 — Acchariyaabbhuta Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-03/visual-companions/MN123/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp"
+  ]
+},
+  
+"MN124": {
+  "title": "MN 124 — Bakkula Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-03/visual-companions/MN124/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp",
+    "18.webp",
+    "19.webp",
+    "20.webp"
+  ]
+},
+  
+"MN125": {
+  "title": "MN 125 — Dantabhūmi Sutta",
+  "folder": "https://daonelson.github.io/FGMN-Media-03/visual-companions/MN125/",
+  "pages": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp",
+    "13.webp",
+    "14.webp",
+    "15.webp",
+    "16.webp",
+    "17.webp"
 ]
 }
 }

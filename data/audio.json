@@ -1692,5 +1692,125 @@
       "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ec3a6bc97a7f826d9897d9c/1593273271570/MN+142+The+analysis+of+religious+donations.mp3"
    }
   ]
+ },
+  
+  "MN143": {
+  "title": "MN 143 — Anāthapiṇḍikovāda Sutta",
+  "subtitle": "Advice to Anāthapiṇḍika",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef76c74f6302b5d71c5e8b6/1593273677297/MN+143+Advice+to+Anathapindika.mp3"
+    }
+  ]
+},
+  
+"MN144": {
+  "title": "MN 144 — Channovāda Sutta",
+  "subtitle": "Advice to Channa",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef76ddf3895911144ae2289/1593273881575/MN+144+Advice+to+Channa.mp3"
+    }
+  ]
+},
+  
+"MN145": {
+  "title": "MN 145 — Puṇṇovāda Sutta",
+  "subtitle": "Advice to Puṇṇa",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef76ea667d0746239682496/1593274069446/MN+145+Advice+to+Punna.mp3"
+    }
+  ]
+},
+  
+"MN146": {
+  "title": "MN 146 — Nandakovāda Sutta",
+  "subtitle": "Advice from Nandaka",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef77445dfbc365ada9283a7/1593275746040/MN+146+Advice+from+Nandaka.mp3"
+    }
+  ]
+},
+  
+"MN147": {
+  "title": "MN 147 — Cūḷarāhulovāda Sutta",
+  "subtitle": "The Shorter Discourse of Advice to Rāhula",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Bodhi",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef776137097fa7586672ebd/1593276016835/MN+147+The+shorter+discourse+of+advice+to+Rahula.mp3"
+    }
+  ]
+},
+  
+"MN148": {
+  "title": "MN 148 — Chachakka Sutta",
+  "subtitle": "Six by Six",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef76fe95708dc5cb9b20889/1593274557697/MN+148+Six+by+six.mp3"
+    }
+  ]
+},
+  
+"MN149": {
+  "title": "MN 149 — Mahāsaḷāyatanika Sutta",
+  "subtitle": "The Great Discourse on the Six Sense Fields",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f64e575d1fe24b9738d1/1545991829850/MN+149+The+great+discourse+on+the+six+sense+fields.mp3"
+    }
+  ]
+},
+  
+"MN150": {
+  "title": "MN 150 — Nagaravindeyya Sutta",
+  "subtitle": "With the People of Nagaravinda",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef7719a7097fa7586669b32/1593274862850/MN+150+With+the+people+of+Nagaravinda.mp3"
+    }
+  ]
+},
+  
+"MN151": {
+  "title": "MN 151 — Piṇḍapātapārisuddhi Sutta",
+  "subtitle": "The Purification of Alms",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef772e71ea2ed3906cb0e3b/1593275175614/MN+151+The+purification+of+alms.mp3"
+    }
+  ]
+},
+  
+"MN152": {
+  "title": "MN 152 — Indriyabhāvanā Sutta",
+  "subtitle": "The Development of the Faculties",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5c25f6b9758d464030029549/1545991918202/MN+152+The+development+of+the+faculties.mp3"
+   }
+  ]
  }
 }

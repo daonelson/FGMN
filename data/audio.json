@@ -1428,5 +1428,125 @@
 "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e36b032216623779679928e/1580642512141/MN+120+Rebirth+by+choice.mp3"
    }
   ]
+ },
+  
+"MN121": {
+  "title": "MN 121 — Cūḷasuññata Sutta",
+  "subtitle": "The Shorter Discourse on Emptiness",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e4cf1e63fd69d649195493a/1582101087050/MN+121+The+shorter+discourse+on+emptiness.mp3"
+    }
+  ]
+},
+  
+"MN122": {
+  "title": "MN 122 — Mahāsuññata Sutta",
+  "subtitle": "The Longer Discourse on Emptiness",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e4cf349ff57fc0e9ba2fcdc/1582101487023/MN+122+The+longer+discourse+on+emptiness.mp3"
+    }
+  ]
+},
+  
+"MN123": {
+  "title": "MN 123 — Acchariyaabbhuta Sutta",
+  "subtitle": "Incredible and Amazing",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e36b16d12c5156ca62f139a/1580642759663/MN+123+Incredible+and+amazing.mp3"
+    }
+  ]
+},
+  
+"MN124": {
+  "title": "MN 124 — Bakkula Sutta",
+  "subtitle": "With Bakkula",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e4cf4511bd2e109d60da4af/1583741307719/MN+124++With+Bakkula.mp3"
+    }
+  ]
+},
+  
+"MN125": {
+  "title": "MN 125 — Dantabhūmi Sutta",
+  "subtitle": "The Discourse on the Tamed Stage",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5ef73a297959787220f56f72/1593275300024/MN+125+The+discourse+on+the+tamed+stage.mp3"
+    }
+  ]
+},
+  
+"MN126": {
+  "title": "MN 126 — Bhūmija Sutta",
+  "subtitle": "With Bhūmija",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e65fe29f244c97e61a74478/1583743127446/MN+126+With+Bhumija.mp3"
+    }
+  ]
+},
+  
+"MN127": {
+  "title": "MN 127 — Anuruddha Sutta",
+  "subtitle": "With Anuruddha",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e6600f0190266288c79971f/1585660596038/MN+127+With+Anuruddha.mp3"
+    }
+  ]
+},
+  
+"MN128": {
+  "title": "MN 128 — Upakkilesa Sutta",
+  "subtitle": "The Discourse on Defilements",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "I. B. Horner",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e8340e51fc850317c0790fa/1587832700283/MN+128+The+discourse+on+defilements.mp3"
+    }
+  ]
+},
+  
+"MN129": {
+  "title": "MN 129 — Bālapaṇḍita Sutta",
+  "subtitle": "The Foolish and the Astute",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e8342f9fb3992356a7562cb/1585735931104/MN+129+The+foolish+and+the+astute.mp3"
+    }
+  ]
+},
+  
+"MN130": {
+  "title": "MN 130 — Devadūta Sutta",
+  "subtitle": "Messengers of the Gods",
+  "audioReadings": [
+    {
+      "source": "Roland Kitchen",
+      "translator": "Bhikkhu Sujato",
+      "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e86f0ac03fdc32984e3da5b/1587751883176/MN+130+Messengers+of+the+Gods.mp3"
+   }
+  ]
  }
 }

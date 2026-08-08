@@ -530,11 +530,15 @@
       }
     ]
   },
-
+  
   "MN49": {
     "title": "MN 49 — Brahmanimantanika Sutta",
     "subtitle": "The Invitation of Brahmā",
     "dhammaTalks": [
+        {
+        "source": "Ajahn Punnadhammo",
+        "url": "https://www.youtube.com/watch?v=u30y_8HIHo0"
+      },
       {
         "source": "Clear Mountain Monastery",
         "url": "https://www.youtube.com/watch?v=BsCpvdRT-bo"

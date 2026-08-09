@@ -131,7 +131,18 @@ let end =
 start + 9;
 
 
-if(number >= 151){
+if(number >= 131 && number <= 142){
+
+start = 131;
+
+end = 142;
+
+}
+
+
+if(number >= 143 && number <= 152){
+
+start = 143;
 
 end = 152;
 

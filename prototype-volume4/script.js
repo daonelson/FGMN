@@ -2,161 +2,163 @@ const params = new URLSearchParams(window.location.search);
 
 const id = params.get("id");
 
-
 fetch("catalog.json")
 
 .then(response => response.json())
 
 .then(data => {
 
+const item = data.find(entry => entry.id === id);
 
-const sutta = data.find(item => item.id === id);
-
-
-if(!sutta){
+if (!item) {
 
 document.getElementById("title").textContent =
-"Sutta not found";
+"Selection not found";
 
 return;
 
 }
 
 
+/* TITLE */
 
 document.getElementById("title").textContent =
-sutta.title;
+item.title;
 
 
+/* SUBTITLE */
 
 document.getElementById("subtitle").textContent =
-sutta.subtitle;
+item.subtitle;
 
 
+/* VISUAL COMPANION */
 
 const visual =
 document.getElementById("visual");
 
+if (item.visual) {
 
-if(sutta.visual){
-
-visual.href = sutta.visual;
+visual.href = item.visual;
 
 }
 
-else{
+else {
 
 visual.style.display = "none";
 
 }
 
 
+/* VIDEO SUMMARY */
 
 const video =
 document.getElementById("video");
 
+if (item.video) {
 
-if(sutta.video){
-
-video.href = "video.html?id=" + sutta.id;
+video.href = "video.html?id=" + item.id;
 
 }
 
-else{
+else {
 
 video.style.display = "none";
 
 }
 
 
+/* ORIGINAL TEXT */
 
 const original =
 document.getElementById("original");
 
+if (item.original) {
 
-original.href =
-"sutta.html?id=" + sutta.id;
+original.textContent = "Original Text";
 
-  
-const audioReading =
-document.getElementById("audioReading");
-
-
-if(sutta.audio){
-
-audioReading.href =
-"../audio.html?id=" + sutta.id;
+original.href = item.original;
 
 }
 
-else{
+else {
+
+original.style.display = "none";
+
+}
+
+
+/* AUDIO */
+
+const audioReading =
+document.getElementById("audioReading");
+
+if (item.audio) {
+
+audioReading.href =
+"../audio.html?id=" + item.id;
+
+}
+
+else {
 
 audioReading.style.display = "none";
 
 }
 
 
+/* DHAMMA TALK */
+
 const dhammaTalk =
 document.getElementById("dhammaTalk");
 
-
-if(sutta.dhammaTalks){
+if (item.dhammaTalks) {
 
 dhammaTalk.href =
-"../dhammatalk.html?id=" + sutta.id;
+"../dhammatalk.html?id=" + item.id;
 
 }
 
-else{
+else {
 
 dhammaTalk.style.display = "none";
 
 }
 
 
+/* RETURN LINK */
 
 const returnLink =
 document.getElementById("return");
 
 
-const number =
-parseInt(id.replace("MN",""));
+/*
+Volume IV navigation.
+For now, IV1–20 is the first
+Volume IV listing page.
+*/
 
-
-let start =
-Math.floor((number - 1) / 10) * 10 + 1;
-
-
-let end =
-start + 9;
-
-
-if(number >= 131 && number <= 142){
-
-start = 131;
-
-end = 142;
-
-}
-
-
-if(number >= 143 && number <= 152){
-
-start = 143;
-
-end = 152;
-
-}
-
+if (id === "IV-TOC" || (id && id.startsWith("IV"))) {
 
 returnLink.href =
-"MN" + start + "-" + end + ".html";
+"IV1-20.html";
 
+}
+
+else {
+
+returnLink.href =
+"IV1-20.html";
+
+}
 
 })
 
 .catch(error => {
 
-console.log("Error loading catalog:", error);
+console.log(
+"Error loading Volume IV catalog:",
+error
+);
 
 });

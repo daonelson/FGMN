@@ -1131,5 +1131,16 @@
         "url": "https://www.youtube.com/watch?v=NXfvhLY-158"
       }
     ]
-  } 
+  },
+  
+  "MN103": {
+    "title": "MN 103 — Kinti Sutta",
+    "subtitle": "What Do You Think About Me?",
+    "dhammaTalks": [
+      {
+        "source": "Clear Mountain Monastery",
+        "url": "https://youtu.be/aWZQC-5Hoc8"
+      }
+    ]
+  }
 }

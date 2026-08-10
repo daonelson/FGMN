@@ -999,7 +999,7 @@
   "audio": true,
   "dhammaTalks": true
 },
-  {
+{
   "id": "MN101",
   "title": "MN 101 — Devadaha Sutta",
   "subtitle": "At Devadaha",
@@ -1018,14 +1018,15 @@
   "original": "https://suttacentral.net/mn102/en/sujato",
   "audio": true,
   "dhammaTalks": true
-},{
+},
+{
   "id": "MN103",
   "title": "MN 103 — Kinti Sutta",
   "subtitle": "What Do You Think About Me?",
   "visual": "../companion.html?id=MN103",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN103.mp4",
   "original": "https://suttacentral.net/mn103/en/sujato",
-  "audio": true
+  "dhammaTalks": true
 },
 {
   "id": "MN104",

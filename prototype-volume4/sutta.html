@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -8,9 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>
-Field Guide — Original Sutta
+Field Guide — Original Text
 </title>
-
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,21 +21,16 @@ Field Guide — Original Sutta
 
 </head>
 
-
 <body>
 
-
 <div class="container">
-
 
 <img
 src="../dhammawheel.png"
 class="wheel"
 alt="Dhamma Wheel">
 
-
 <div class="library-divider"></div>
-
 
 <h1 class="page-title">
 
@@ -43,14 +38,11 @@ Loading...
 
 </h1>
 
-
 <p class="subtitle">
 
 </p>
 
-
 <div class="library-divider"></div>
-
 
 <div class="sutta-text">
 
@@ -58,10 +50,7 @@ Loading...
 
 </div>
 
-
-
 <div class="library-divider"></div>
-
 
 <div class="return-link">
 
@@ -73,14 +62,15 @@ Return
 
 </div>
 
-
 </div>
 
 <script>
 
-const params = new URLSearchParams(window.location.search);
+const params =
+new URLSearchParams(window.location.search);
 
-const id = params.get("id");
+const id =
+params.get("id");
 
 
 fetch("catalog.json")
@@ -89,13 +79,14 @@ fetch("catalog.json")
 
 .then(data => {
 
-const sutta = data.find(item => item.id === id);
+const sutta =
+data.find(item => item.id === id);
 
 
 if(!sutta){
 
 document.querySelector(".page-title").textContent =
-"Sutta not found";
+"Selection not found";
 
 return;
 
@@ -109,42 +100,28 @@ sutta.title;
 document.querySelector(".subtitle").textContent =
 sutta.subtitle;
 
+
 document.querySelector("#return-link").href =
 "./viewer.html?id=" + sutta.id;
 
 
-const number = sutta.id.replace("MN", "").toLowerCase();
 
-fetch(
-"https://raw.githubusercontent.com/suttacentral/bilara-data/master/translation/en/sujato/sutta/mn/mn" 
-+ number +
-"_translation-en-sujato.json"
-)
+/* IV-1 — AN 5.57 — Bhikkhu Sujato */
 
-.then(response => response.json())
+if(sutta.id === "IV-1"){
 
-.then(data => {
-
-let text = "";
-
-Object.values(data).forEach(segment => {
-
-text += "<p>" + segment + "</p>";
-
-});
-
-text += "<p class='translation-credit'>Translation by Bhikkhu Sujato.</p>";
+const source =
+"https://suttacentral.net/an5.57/en/sujato";
 
 
-document.querySelector(".sutta-text").innerHTML = text;
+window.location.href = source;
 
-});
-
+}
 
 });
 
 </script>
-  
+
 </body>
 
 </html>

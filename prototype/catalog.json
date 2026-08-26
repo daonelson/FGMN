@@ -1046,7 +1046,8 @@
   "visual": "../companion.html?id=MN105",
   "video": "https://daonelson.github.io/FGMN-Media-02/videos/MN105.mp4",
   "original": "https://suttacentral.net/mn105/en/sujato",
-  "audio": true
+  "audio": true,
+  "dhammaTalks": true
 },
 {
   "id": "MN106",

@@ -11,6 +11,10 @@
         "source": "Ven Dhammavuddho (Vihara Buddha Gotama)",
         "url": "https://youtu.be/4v9WX_0J6Jo"
       },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/i5teUsZUSk0"
+},
       {
         "source": "Clear Mountain Monastery",
         "url": "https://www.youtube.com/watch?v=E5DuqCGz3qE"
@@ -22,13 +26,13 @@
     "title": "MN 2 — Sabbāsava Sutta",
     "subtitle": "All the Taints",
     "dhammaTalks": [
-      {
-        "source": "Nyanamoli Thero (Hillside Hermitage)",
-        "url": "https://www.youtube.com/watch?v=UiaSmfyHcEg"
-      },
-      {
+     {
         "source": "Ven Dhammavuddho (Vihara Buddha Gotama)",
         "url": "https://youtu.be/4v9WX_0J6Jo"
+      },
+{
+        "source": "Nyanamoli Thero (Hillside Hermitage)",
+        "url": "https://www.youtube.com/watch?v=UiaSmfyHcEg"
       },
       {
         "source": "Clear Mountain Monastery",
@@ -120,6 +124,10 @@
         "source": "Ven Dhammavuddho (Vihara Buddha Gotama)",
         "url": "https://youtu.be/6rqICkiyBQE"
       },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/MX6VxHsixdA"
+},
       {
         "source": "Clear Mountain Monastery",
         "url": "https://www.youtube.com/watch?v=PP90mR2YjSk"
@@ -222,12 +230,12 @@
     "subtitle": "Inference",
     "dhammaTalks": [
       {
-        "source": "Nyanamoli Thero (Hillside Hermitage)",
-        "url": "https://www.youtube.com/watch?v=uHHwl42ZTVc"
-      },
-      {
         "source": "Ven Dhammavuddho (Vihara Buddha Gotama)",
         "url": "https://youtu.be/5zGjXl56h3o"
+      },
+{
+        "source": "Nyanamoli Thero (Hillside Hermitage)",
+        "url": "https://www.youtube.com/watch?v=uHHwl42ZTVc"
       },
       {
         "source": "Clear Mountain Monastery",
@@ -942,6 +950,10 @@
         "source": "Ven Dhammavuddho (Vihara Buddha Gotama)",
         "url": "https://youtu.be/M1y7ayGRUaA"
       },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/20eD-7zdylQ"
+},
       {
         "source": "Clear Mountain Monastery",
         "url": "https://www.youtube.com/watch?v=BwArc1RxcaQ"
@@ -1879,6 +1891,10 @@
       }
     ]
   },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/IPvoyIJTX98"
+},
 
   "MN132": {
     "title": "MN 132 — Ānandabhaddekaratta Sutta",
@@ -1890,6 +1906,10 @@
       }
     ]
   },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/IPvoyIJTX98"
+},
 
   "MN133": {
     "title": "MN 133 — Mahākaccānabhaddekaratta Sutta",
@@ -1901,6 +1921,10 @@
       }
     ]
   },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/IPvoyIJTX98"
+},
 
   "MN134": {
     "title": "MN 134 — Lomasakaṅgiyabhaddekaratta Sutta",
@@ -1912,6 +1936,10 @@
       }
     ]
   },
+{
+  "source": "Nyanamoli Thero (Hillside Hermitage)",
+  "url": "https://youtu.be/IPvoyIJTX98"
+},
 
   "MN135": {
     "title": "MN 135 — Cūḷakammavibhaṅga Sutta",
